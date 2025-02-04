@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Footer = () => {
@@ -25,13 +26,32 @@ const Footer = () => {
         <div className="space-y-4 border-t pt-6">
           <nav>
             <ul className="flex space-x-6 font-semibold">
-              <li>Services</li>
-              <li>Projects</li>
-              <li>Partners</li>
-              <li>Company</li>
+              <li>
+                <Link href="/services" aria-label="Go to Services page">
+                  Services
+                </Link>
+              </li>
+              <li>
+                <Link href="/projects" aria-label="Go to Services page">
+                  Projects
+                </Link>
+              </li>
+              <li>
+                <Link href="/clients" aria-label="Go to Services page">
+                  Clients
+                </Link>
+              </li>
+              <li>
+                <Link href="/about" aria-label="Go to Services page">
+                  Company
+                </Link>
+              </li>
             </ul>
           </nav>
-          <h6 className="text-sm">© Copyright 2022 TIMCO</h6>
+          <h6 className="text-sm">
+            © Copyright 2025 TOPSURE INDUSTRIAL MACHINERIES AND CONTROLS
+            CORPORATION
+          </h6>
         </div>
       </div>
     </footer>

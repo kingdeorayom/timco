@@ -10,14 +10,17 @@ export default function AboutPage() {
           style={{ backgroundImage: "url('/mission.jpg')" }}
         />
         <div className="absolute inset-0 bg-slate-900 bg-opacity-75" />
-        <div className="relative z-10 text-center px-5">
+        <div className="relative z-10 text-center px-5 space-y-8">
           <h2 className="text-5xl font-bold">20 Years of Advancements</h2>
-          <p className="mt-4 max-w-2xl mx-auto">
+          <p className="max-w-2xl mx-auto">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
             repudiandae velit saepe aut assumenda? Molestias optio debitis,
             magnam minus magni similique quidem animi sunt? Quis quisquam nulla
             pariatur doloremque tempora!
           </p>
+          <button className="bg-[#ff7920] text-white font-bold py-2 px-4 rounded-full">
+            Check our services
+          </button>
         </div>
       </div>
 
@@ -41,7 +44,7 @@ export default function AboutPage() {
             aperiam ipsum vitae eveniet.
           </p>
         </div>
-
+        <div className="bg-[#1D3546] h-9" />
         <div className="grid md:grid-cols-3 gap-8">
           <div className="bg-white border p-6 transition-all duration-300 ease-in-out space-y-4">
             <div className="h-12 w-12 bg-slate-200 rounded-md" />
@@ -162,6 +165,8 @@ export default function AboutPage() {
         </div>
       </div>
 
+      <div className="bg-[#1D3546] h-9" />
+
       <div className="space-y-10">
         <h2 className="text-3xl font-bold">Company Contacts</h2>
         <div className="space-y-8">
@@ -179,12 +184,17 @@ export default function AboutPage() {
               9015 AQUINO COMPOUND ALMA MANZO SUBDIVISION, SAN ANTONIO BINAN
               LAGUNA
             </p>
-            <button>Call us</button>
+            <button className="bg-[#ff7920] text-white font-bold py-2 px-4 rounded-full">
+              Visit us
+            </button>
           </div>
           <div className="border p-6 space-y-4">
             <div className="h-12 w-12 bg-slate-200 rounded-md" />
             <h3 className="font-semibold text-lg">LANDLINE NUMBER</h3>
             <p>775-34-92</p>
+            <button className="bg-[#ff7920] text-white font-bold py-2 px-4 rounded-full">
+              Visit us
+            </button>
           </div>
           <div className="border p-6 space-y-4">
             <div className="h-12 w-12 bg-slate-200 rounded-md" />
@@ -193,16 +203,25 @@ export default function AboutPage() {
               +63 917 870 675 <br />
               +63 915 891 8418
             </p>
+            <button className="bg-[#ff7920] text-white font-bold py-2 px-4 rounded-full">
+              Visit us
+            </button>
           </div>
           <div className="border p-6 space-y-4">
             <div className="h-12 w-12 bg-slate-200 rounded-md" />
             <h3 className="font-semibold text-lg">E-MAIL ADDRESS</h3>
             <p>sales@timcoph.com</p>
+            <button className="bg-[#ff7920] text-white font-bold py-2 px-4 rounded-full">
+              Visit us
+            </button>
           </div>
           <div className="border p-6 space-y-4">
             <div className="h-12 w-12 bg-slate-200 rounded-md" />
             <h3 className="font-semibold text-lg">SOCIAL MEDIA</h3>
             <p>@timcocorp</p>
+            <button className="bg-[#ff7920] text-white font-bold py-2 px-4 rounded-full">
+              Visit us
+            </button>
           </div>
         </div>
       </div>

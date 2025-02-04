@@ -165,7 +165,7 @@ export default function AboutPage() {
         </div>
       </div>
 
-      <div className="bg-[#1D3546] h-9" />
+      <div className="bg-[#1D3546] h-9" id="contact-us" />
 
       <div className="space-y-10">
         <h2 className="text-3xl font-bold">Company Contacts</h2>

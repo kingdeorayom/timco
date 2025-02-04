@@ -3,8 +3,8 @@ import Image from "next/image";
 export default function ProjectsPage() {
   return (
     <section className="max-w-screen-xl px-5 py-12 mx-auto space-y-16">
-      <h1 className="text-4xl font-bold">
-        Our Projects: Excellence in Engineering & Innovation
+      <h1 className="text-5xl font-bold">
+        Excellence in Engineering & Innovation
       </h1>
       <p>
         At TIMCO, we take pride in delivering high-quality engineering solutions
@@ -18,6 +18,7 @@ export default function ProjectsPage() {
       </p>
 
       <div className="bg-[#1D3546] h-6 md:h-9" />
+      <h2 className="text-3xl font-bold">Our Projects</h2>
 
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         {Array.from({ length: 30 }).map((_, index) => (

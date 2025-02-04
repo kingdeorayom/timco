@@ -41,7 +41,7 @@ export default function ClientsPage() {
       </div>
 
       <div className="bg-[#1D3546] h-9" />
-      <h2 className="text-4xl font-bold">Our Clients</h2>
+      <h2 className="text-3xl font-bold">Our Clients</h2>
 
       <div className="space-y-16 px-10">
         <div className="grid md:grid-cols-2 gap-8">

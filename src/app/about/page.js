@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function AboutPage() {
   return (
     <section className="max-w-screen-xl px-5 py-12 mx-auto space-y-16">
@@ -44,7 +46,8 @@ export default function AboutPage() {
             aperiam ipsum vitae eveniet.
           </p>
         </div>
-        <div className="bg-[#1D3546] h-9" />
+        <div className="bg-[#1D3546] h-6 md:h-7" />
+
         <div className="grid md:grid-cols-3 gap-8">
           <div className="bg-white border p-6 transition-all duration-300 ease-in-out space-y-4">
             <div className="h-12 w-12 bg-slate-200 rounded-md" />
@@ -165,7 +168,7 @@ export default function AboutPage() {
         </div>
       </div>
 
-      <div className="bg-[#1D3546] h-9" id="contact-us" />
+      <div className="bg-[#1D3546] h-6 md:h-7" id="contact-us" />
 
       <div className="space-y-10">
         <h2 className="text-3xl font-bold">Company Contacts</h2>
@@ -223,6 +226,39 @@ export default function AboutPage() {
               Visit us
             </button>
           </div>
+        </div>
+      </div>
+
+      <div className="grid lg:grid-cols-2 gap-10 bg-[#F8F9FA] p-12 rounded-lg">
+        <div>
+          <Image
+            src="/mission.jpg"
+            alt="Test"
+            width={1920}
+            height={1080}
+            className="object-fit"
+          />
+        </div>
+        <div className="space-y-4">
+          <h2 className="text-3xl font-bold">TIMCO History</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit
+            consectetur aut, nemo beatae quam fugit ut dolorem voluptatibus
+            neque, esse ad. Quod facere, ipsam odio aperiam beatae debitis ea
+            quasi. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Itaque, quis nesciunt aut eligendi quisquam blanditiis ad molestiae
+            quas magnam. Hic voluptatum accusantium nesciunt totam voluptates
+            voluptatibus, velit voluptate possimus ducimus?
+          </p>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima
+            aliquam cumque ut cum explicabo, rem dignissimos sit laudantium
+            neque fugiat optio, aut aliquid. Nobis suscipit repudiandae odio
+            enim sequi eos.
+          </p>
+          <button className="bg-[#ff7920] text-white font-bold py-2 px-4 rounded-full">
+            Check our services
+          </button>
         </div>
       </div>
     </section>

@@ -17,7 +17,7 @@ export default function ProjectsPage() {
         with cutting-edge solutions and exceptional service.
       </p>
 
-      <div className="bg-[#1D3546] h-6 md:h-9" />
+      <div className="bg-[#1D3546] h-6 md:h-7" />
       <h2 className="text-3xl font-bold">Our Projects</h2>
 
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">

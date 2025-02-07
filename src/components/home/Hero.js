@@ -7,7 +7,7 @@ const Hero = () => {
       style={{ backgroundImage: "url('/mission.jpg')" }}
     >
       <div className="bg-slate-900 bg-opacity-75">
-        <div className="px-5 md:px-10 pt-16 md:pt-28 lg:pt-36 pb-16 md:pb-28 lg:pb-36 space-y-8 md:space-y-16 max-w-screen-2xl mx-auto ">
+        <div className="px-5 md:px-10 pt-16 md:pt-28 lg:pt-28 pb-16 md:pb-28 lg:pb-28 space-y-8 md:space-y-16 max-w-screen-2xl mx-auto ">
           <div className="space-y-6 max-w-4xl text-center md:text-start text-primary-foreground">
             <div className="space-y-10">
               <div className="space-y-6">

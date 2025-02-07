@@ -5,25 +5,25 @@ import React from "react";
 const Header = () => {
   return (
     <header className="sticky top-0 z-50">
-      {/* <div className="bg-[#1D3546]">
+      {/* <div className="bg-[#ff7920]">
         <p className="text-white text-center">
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
         </p>
       </div> */}
       <div className="bg-[#1D3546] py-3">
         <div className="max-w-screen-2xl px-5 mx-auto flex justify-between text-white">
+          <Link href="/" className="hover:opacity-90">
+            <div className="bg-white px-1 rounded-sm">
+              <Image
+                src={"/timco.png"}
+                width={720}
+                height={1080}
+                alt="Timco"
+                className="w-36"
+              />
+            </div>
+          </Link>
           <div className="flex items-center space-x-8">
-            <Link href="/" className="hover:opacity-90">
-              <div className="bg-white px-1 rounded-sm">
-                <Image
-                  src={"/timco.png"}
-                  width={720}
-                  height={1080}
-                  alt="Timco"
-                  className="w-36"
-                />
-              </div>
-            </Link>
             <nav>
               <ul className="flex space-x-6 font-semibold">
                 <li>
@@ -64,14 +64,14 @@ const Header = () => {
                 </li>
               </ul>
             </nav>
-          </div>
-          <div className="flex justify-center items-center">
-            <Link
-              href="/about#contact-us"
-              className="bg-[#ff7920] hover:bg-white border border-[#1d3456] text-white hover:text-[#1d3456] font-bold px-4 rounded-full transition-all duration-300 ease-in-out flex items-center h-10"
-            >
-              Contact Us
-            </Link>
+            <div className="flex justify-center items-center">
+              <Link
+                href="/about#contact-us"
+                className="bg-[#ff7920] hover:bg-white border border-[#1d3456] text-white hover:text-[#1d3456] font-bold px-4 rounded-full transition-all duration-300 ease-in-out flex items-center h-10"
+              >
+                Contact Us
+              </Link>
+            </div>
           </div>
         </div>
       </div>

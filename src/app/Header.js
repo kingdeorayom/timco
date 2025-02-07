@@ -6,16 +6,16 @@ const Header = () => {
   return (
     <header className="bg-[#1D3546] py-4 sticky top-0 z-50">
       <div className="max-w-screen-2xl px-5 mx-auto flex justify-between text-white">
-        <Link href="/">
-          <Image
-            src={"/logo.svg"}
-            width={720}
-            height={1080}
-            alt="Timco"
-            className="w-40"
-          />
-        </Link>
-        <div className="flex items-center space-x-6">
+        <div className="flex items-center space-x-8">
+          <Link href="/">
+            <Image
+              src={"/logo.svg"}
+              width={720}
+              height={1080}
+              alt="Timco"
+              className="w-40"
+            />
+          </Link>
           <nav>
             <ul className="flex space-x-6 font-semibold">
               <li>
@@ -56,10 +56,10 @@ const Header = () => {
               </li>
             </ul>
           </nav>
-          <button className="bg-[#ff7920] text-white font-bold py-1 px-4 rounded-full">
-            Contact Us
-          </button>
         </div>
+        <button className="bg-[#ff7920] hover:bg-white border border-[#1d3456] text-white hover:text-[#1d3456] font-bold py-1 px-4 rounded-full transition-all duration-300 ease-in-out">
+          Contact Us
+        </button>
       </div>
     </header>
   );

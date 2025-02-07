@@ -24,11 +24,11 @@ export default function HomePage() {
                     ratione officia.
                   </p>
                 </div>
-                <div className="space-y-3 md:space-y-0 md:flex md:space-x-4">
-                  <button className="bg-[#ff7920] text-white font-bold py-2 px-4 rounded-full">
+                <div className="space-y-3 md:space-y-0 flex flex-col md:flex-row md:space-x-4">
+                  <button className="bg-[#ff7920] text-white font-bold py-2 px-4 rounded-md lg:rounded-full hover:opacity-90 transition-all duration-300 ease-in-out">
                     Check our services
                   </button>
-                  <button className="bg-[#ff7920] text-white font-bold py-2 px-4 rounded-full">
+                  <button className="bg-transparent border-white border text-white hover:bg-white hover:text-[#1d3456] font-semibold py-2 px-4 rounded-md lg:rounded-full transition-all duration-300 ease-in-out">
                     Learn more
                   </button>
                 </div>
@@ -65,8 +65,8 @@ export default function HomePage() {
               partners and see why companies continue to choose TIMCO as their
               trusted provider.
             </p>
-            <button className="bg-[#ff7920] text-white font-bold py-2 px-4 rounded-full">
-              Check our services
+            <button className="bg-[#ff7920] hover:bg-white border border-[#ff7920] hover:border-[#ff7920] text-white hover:text-[#1d3456] font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out">
+              See our clients
             </button>
           </div>
         </div>

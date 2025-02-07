@@ -52,7 +52,7 @@ const Footer = () => {
           <div className="col-span-10 lg:border-l lg:px-12 pb-8">
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
               <div className="space-y-4">
-                <h4 className="text-[#ff7920] text-lg">Services</h4>
+                <h4 className="text-white font-semibold text-lg">Services</h4>
                 <div className="flex flex-col space-y-3">
                   <Link
                     href="/about"
@@ -87,7 +87,7 @@ const Footer = () => {
                 </div>
               </div>
               <div className="space-y-4">
-                <h4 className="text-[#ff7920] text-lg">Projects</h4>
+                <h4 className="text-white font-semibold text-lg">Projects</h4>
                 <div className="flex flex-col space-y-3">
                   <Link
                     href="/about"
@@ -123,7 +123,9 @@ const Footer = () => {
               </div>
 
               <div className="space-y-4">
-                <h4 className="text-[#ff7920] text-lg">About TIMCO</h4>
+                <h4 className="text-white font-semibold text-lg">
+                  About TIMCO
+                </h4>
                 <div className="flex flex-col space-y-3">
                   <Link
                     href="/about"
@@ -158,7 +160,7 @@ const Footer = () => {
                 </div>
               </div>
               <div className="space-y-4">
-                <h4 className="text-[#ff7920] text-lg">Contact Us</h4>
+                <h4 className="text-white font-semibold text-lg">Contact Us</h4>
                 <div className="flex flex-col space-y-3">
                   <Link
                     href="/about"

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function ProjectsPage() {
   return (
-    <section className="max-w-screen-xl px-5 py-12 mx-auto space-y-16">
+    <section className="max-w-screen-2xl px-5 py-12 mx-auto space-y-16">
       <h1 className="text-5xl font-bold">
         Excellence in Engineering & Innovation
       </h1>
@@ -17,7 +17,7 @@ export default function ProjectsPage() {
         with cutting-edge solutions and exceptional service.
       </p>
 
-      <div className="bg-[#1D3546] h-6 md:h-7" />
+      <div className="bg-[#1D3546] h-6" />
       <h2 className="text-3xl font-bold">Our Projects</h2>
 
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">

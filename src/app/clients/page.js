@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function ClientsPage() {
   return (
-    <section className="max-w-screen-xl px-5 py-12 mx-auto space-y-16">
+    <section className="max-w-screen-2xl px-5 py-12 mx-auto space-y-16">
       <div className="grid lg:grid-cols-2 gap-4 lg:gap-10 xl:gap-16">
         <div className="space-y-8  md:order-last order-first">
           <h1 className="text-5xl font-bold">Trusted by Industry Leaders</h1>
@@ -23,6 +23,7 @@ export default function ClientsPage() {
           <button className="bg-[#ff7920] text-white font-bold py-2 px-4 rounded-full">
             Check our services
           </button>
+          <div className="bg-[#1D3546] h-6 hidden md:block" />
         </div>
         <div className="md:order-first order-last">
           <Image
@@ -54,7 +55,7 @@ export default function ClientsPage() {
         </div> */}
       </div>
 
-      <div className="bg-[#1D3546] h-6 md:h-7" />
+      <div className="bg-[#1D3546] h-6 md:hidden" />
 
       <h2 className="text-3xl font-bold">Our Clients</h2>
 

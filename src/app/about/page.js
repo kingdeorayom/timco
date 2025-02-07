@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function AboutPage() {
   return (
-    <section className="max-w-screen-xl px-5 py-12 mx-auto space-y-16">
+    <section className="max-w-screen-2xl px-5 py-12 mx-auto space-y-16">
       <h1 className="text-4xl font-bold">
         TOPSURE INDUSTRIAL MACHINERIES AND CONTROLS CORPORATION
       </h1>
@@ -46,11 +46,17 @@ export default function AboutPage() {
             aperiam ipsum vitae eveniet.
           </p>
         </div>
-        <div className="bg-[#1D3546] h-6 md:h-7" />
+        <div className="bg-[#1D3546] h-6" />
 
         <div className="grid md:grid-cols-3 gap-8">
-          <div className="bg-white border p-6 transition-all duration-300 ease-in-out space-y-4">
-            <div className="h-12 w-12 bg-slate-200 rounded-md" />
+          <div className="bg-white border p-6 transition-all duration-300 ease-in-out space-y-4 rounded-xl shadow-lg hover:shadow-xl">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 448 512"
+              className="h-10 w-10 fill-[#1D3546]"
+            >
+              <path d="M152 24c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 40L64 64C28.7 64 0 92.7 0 128l0 16 0 48L0 448c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-256 0-48 0-16c0-35.3-28.7-64-64-64l-40 0 0-40c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 40L152 64l0-40zM48 192l352 0 0 256c0 8.8-7.2 16-16 16L64 464c-8.8 0-16-7.2-16-16l0-256z" />
+            </svg>
             <h3 className="font-semibold text-lg">2005 - Our Foundation</h3>
             <p>
               TIMCO was established by Mr. Ronnel Mendoza, a mechanical engineer
@@ -59,7 +65,7 @@ export default function AboutPage() {
               and precision.
             </p>
           </div>
-          <div className="bg-white border p-6 transition-all duration-300 ease-in-out space-y-4">
+          <div className="bg-white border p-6 transition-all duration-300 ease-in-out space-y-4 rounded-xl shadow-lg hover:shadow-xl">
             <div className="h-12 w-12 bg-slate-200 rounded-md" />
             <h3 className="font-semibold text-lg">2017 - Strategic Growth</h3>
             <p>
@@ -68,7 +74,7 @@ export default function AboutPage() {
               location for manufacturing and industrial growth.
             </p>
           </div>
-          <div className="bg-white border p-6 transition-all duration-300 ease-in-out space-y-4">
+          <div className="bg-white border p-6 transition-all duration-300 ease-in-out space-y-4 rounded-xl shadow-lg hover:shadow-xl">
             <div className="h-12 w-12 bg-slate-200 rounded-md" />
             <h3 className="font-semibold text-lg">2020 - Future Expansion</h3>
             <p>
@@ -168,7 +174,7 @@ export default function AboutPage() {
         </div>
       </div>
 
-      <div className="bg-[#1D3546] h-6 md:h-7" id="contact-us" />
+      <div className="bg-[#1D3546] h-6" id="contact-us" />
 
       <div className="space-y-10">
         <h2 className="text-3xl font-bold">Company Contacts</h2>
@@ -180,7 +186,7 @@ export default function AboutPage() {
           </p>
         </div>
         <div className="grid md:grid-cols-3 gap-8">
-          <div className="border p-6 space-y-4">
+          <div className="border p-6 space-y-4 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 ease-in-out">
             <div className="h-12 w-12 bg-slate-200 rounded-md" />
             <h3 className="font-semibold text-lg">BUSINESS ADDRESS</h3>
             <p>
@@ -191,7 +197,7 @@ export default function AboutPage() {
               Visit us
             </button>
           </div>
-          <div className="border p-6 space-y-4">
+          <div className="border p-6 space-y-4 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 ease-in-out">
             <div className="h-12 w-12 bg-slate-200 rounded-md" />
             <h3 className="font-semibold text-lg">LANDLINE NUMBER</h3>
             <p>775-34-92</p>
@@ -199,7 +205,7 @@ export default function AboutPage() {
               Visit us
             </button>
           </div>
-          <div className="border p-6 space-y-4">
+          <div className="border p-6 space-y-4 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 ease-in-out">
             <div className="h-12 w-12 bg-slate-200 rounded-md" />
             <h3 className="font-semibold text-lg">MOBILE NUMBERS</h3>
             <p>
@@ -210,7 +216,7 @@ export default function AboutPage() {
               Visit us
             </button>
           </div>
-          <div className="border p-6 space-y-4">
+          <div className="border p-6 space-y-4 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 ease-in-out">
             <div className="h-12 w-12 bg-slate-200 rounded-md" />
             <h3 className="font-semibold text-lg">E-MAIL ADDRESS</h3>
             <p>sales@timcoph.com</p>
@@ -218,7 +224,7 @@ export default function AboutPage() {
               Visit us
             </button>
           </div>
-          <div className="border p-6 space-y-4">
+          <div className="border p-6 space-y-4 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 ease-in-out">
             <div className="h-12 w-12 bg-slate-200 rounded-md" />
             <h3 className="font-semibold text-lg">SOCIAL MEDIA</h3>
             <p>@timcocorp</p>

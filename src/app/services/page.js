@@ -1,7 +1,6 @@
 import Image from "next/image";
-import Link from "next/link";
 
-export default function AboutPage() {
+export default function ServicesPage() {
   return (
     <section className="max-w-screen-2xl px-5 py-12 mx-auto space-y-16">
       <h1 className="text-4xl font-bold">
@@ -21,31 +20,33 @@ export default function AboutPage() {
             magnam minus magni similique quidem animi sunt? Quis quisquam nulla
             pariatur doloremque tempora!
           </p>
-          <div>
-            <Link
-              href="/services"
-              className="bg-[#ff7920] hover:bg-white border border-[#ff7920] hover:border-[#ff7920] text-white hover:text-[#1d3456] font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out"
-            >
-              Check our services
-            </Link>
-          </div>
+          <button className="bg-[#ff7920] hover:bg-white border border-[#ff7920] hover:border-[#ff7920] text-white hover:text-[#1d3456] font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out">
+            Check our services
+          </button>
         </div>
       </div>
-
-      <div className="bg-[#1D3546] h-6" />
 
       <div className="space-y-10">
         <h2 className="text-3xl font-bold">TIMCO History</h2>
         <div className="space-y-8">
           <p>
-            TIMCO has a rich history of serving the industrial sector with
-            high-quality machinery and metal fabrication services. From our
-            beginnings in 2005 to our current expansion, we've remained
-            committed to innovation, precision, and customer satisfaction. Our
-            growth reflects our dedication to meeting the evolving needs of our
-            clients.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+            aliquam iusto perferendis asperiores, perspiciatis quam, illum,
+            magni suscipit mollitia quod voluptate tenetur totam ipsum libero
+            dolorem? Perferendis totam in sequi. Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Ut dolorum, provident nulla assumenda
+            numquam sit accusantium facilis eligendi repellat dicta voluptates
+            officia neque voluptatibus odit, sed obcaecati dolore libero
+            inventore.
+          </p>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto quis
+            sunt dolorem beatae corrupti id! Sunt alias eligendi adipisci rerum
+            omnis. Laboriosam, quisquam. Dolore, praesentium necessitatibus
+            aperiam ipsum vitae eveniet.
           </p>
         </div>
+        <div className="bg-[#1D3546] h-6" />
 
         <div className="grid md:grid-cols-3 gap-8">
           <div className="bg-white border p-6 transition-all duration-300 ease-in-out space-y-4 rounded-xl shadow-lg hover:shadow-xl">
@@ -65,13 +66,7 @@ export default function AboutPage() {
             </p>
           </div>
           <div className="bg-white border p-6 transition-all duration-300 ease-in-out space-y-4 rounded-xl shadow-lg hover:shadow-xl">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 448 512"
-              className="h-10 w-10 fill-[#1D3546]"
-            >
-              <path d="M152 24c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 40L64 64C28.7 64 0 92.7 0 128l0 16 0 48L0 448c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-256 0-48 0-16c0-35.3-28.7-64-64-64l-40 0 0-40c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 40L152 64l0-40zM48 192l352 0 0 256c0 8.8-7.2 16-16 16L64 464c-8.8 0-16-7.2-16-16l0-256z" />
-            </svg>
+            <div className="h-12 w-12 bg-slate-200 rounded-md" />
             <h3 className="font-semibold text-lg">2017 - Strategic Growth</h3>
             <p>
               To better serve our clients, TIMCO has relocated and expanded its
@@ -80,13 +75,7 @@ export default function AboutPage() {
             </p>
           </div>
           <div className="bg-white border p-6 transition-all duration-300 ease-in-out space-y-4 rounded-xl shadow-lg hover:shadow-xl">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 448 512"
-              className="h-10 w-10 fill-[#1D3546]"
-            >
-              <path d="M152 24c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 40L64 64C28.7 64 0 92.7 0 128l0 16 0 48L0 448c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-256 0-48 0-16c0-35.3-28.7-64-64-64l-40 0 0-40c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 40L152 64l0-40zM48 192l352 0 0 256c0 8.8-7.2 16-16 16L64 464c-8.8 0-16-7.2-16-16l0-256z" />
-            </svg>
+            <div className="h-12 w-12 bg-slate-200 rounded-md" />
             <h3 className="font-semibold text-lg">2020 - Future Expansion</h3>
             <p>
               With increasing demand and a growing client base, TIMCO is set to
@@ -97,8 +86,6 @@ export default function AboutPage() {
           </div>
         </div>
       </div>
-
-      <div className="bg-[#1D3546] h-6" />
 
       <div className="grid md:grid-cols-2">
         <div className="relative w-full h-[350px] flex items-center justify-center text-white">

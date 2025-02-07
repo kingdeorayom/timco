@@ -20,9 +20,6 @@ export default function ClientsPage() {
             and see why companies continue to choose TIMCO as their trusted
             provider.
           </p>
-          <button className="bg-[#ff7920] text-white font-bold py-2 px-4 rounded-full">
-            Check our services
-          </button>
           <div className="bg-[#1D3546] h-6 hidden md:block" />
         </div>
         <div className="md:order-first order-last">
@@ -57,10 +54,25 @@ export default function ClientsPage() {
 
       <div className="bg-[#1D3546] h-6 md:hidden" />
 
-      <h2 className="text-3xl font-bold">Our Clients</h2>
+      <div className="space-y-4">
+        <h3 className="text-center text-[#ff7920] font-bold">
+          Trust and Worth
+        </h3>
+        <h2 className="text-3xl font-bold text-center">Our Clients</h2>
+      </div>
 
-      <div className="space-y-16 px-10">
-        <div className="grid md:grid-cols-2 gap-8">
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque, earum
+        atque perferendis fugiat porro vitae iste ullam voluptatibus tenetur sed
+        similique quaerat nam impedit enim excepturi? Similique nobis inventore
+        optio? Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+        Nesciunt dolor, voluptas, incidunt exercitationem cupiditate quas quos
+        voluptate modi accusantium, ipsum velit inventore? Obcaecati incidunt
+        molestiae molestias quo ipsum! Tempora, natus.
+      </p>
+
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10 justify-center items-center">
+        <div className="space-y-16">
           <div className="flex items-center justify-center">
             <Image
               src={`/clients/gardenia.png`}
@@ -90,294 +102,6 @@ export default function ClientsPage() {
               <li>Loader Conveyor</li>
               <li>Stainless Steel Cabinet and Tables</li>
             </ul>
-          </div>
-        </div>
-        <div className="grid md:grid-cols-2 gap-8">
-          <div className="space-y-8">
-            <h2 className="font-bold text-2xl text-[#1D3546]">
-              GARDENIA BAKERIES PHIL. INC.
-            </h2>
-            <ul className="list-disc pl-5 space-y-2">
-              <li>Fabrication of Conveyors</li>
-              <li>Perforated Lockers</li>
-              <li>Cooling Racks</li>
-              <li>Proofing Racks</li>
-              <li>Toastline Chimneys</li>
-              <li>Hydraulic Pusher</li>
-              <li>Container Vans</li>
-              <li>Stainless Steel Silo</li>
-              <li>Pipings</li>
-              <li>Humidifier and Spraying Systems</li>
-              <li>Dough Tub</li>
-              <li>Spiral Cooler</li>
-              <li>Loader Conveyor</li>
-              <li>Stainless Steel Cabinet and Tables</li>
-            </ul>
-          </div>
-          <div className="flex items-center justify-center">
-            <Image
-              src={`/clients/gardenia.png`}
-              width={1500}
-              height={1500}
-              alt="Gardenia"
-              className="border-4 border-white shadow-xl h-72 w-72"
-            />
-          </div>
-        </div>
-        <div className="grid md:grid-cols-2 gap-8">
-          <div className="flex items-center justify-center">
-            <Image
-              src={`/clients/gardenia.png`}
-              width={1500}
-              height={1500}
-              alt="Gardenia"
-              className="border-4 border-white shadow-xl h-72 w-72"
-            />
-          </div>
-          <div className="space-y-8">
-            <h2 className="font-bold text-2xl text-[#1D3546]">
-              GARDENIA BAKERIES PHIL. INC.
-            </h2>
-            <ul className="list-disc pl-5 space-y-2">
-              <li>Fabrication of Conveyors</li>
-              <li>Perforated Lockers</li>
-              <li>Cooling Racks</li>
-              <li>Proofing Racks</li>
-              <li>Toastline Chimneys</li>
-              <li>Hydraulic Pusher</li>
-              <li>Container Vans</li>
-              <li>Stainless Steel Silo</li>
-              <li>Pipings</li>
-              <li>Humidifier and Spraying Systems</li>
-              <li>Dough Tub</li>
-              <li>Spiral Cooler</li>
-              <li>Loader Conveyor</li>
-              <li>Stainless Steel Cabinet and Tables</li>
-            </ul>
-          </div>
-        </div>
-        <div className="grid md:grid-cols-2 gap-8">
-          <div className="space-y-8">
-            <h2 className="font-bold text-2xl text-[#1D3546]">
-              GARDENIA BAKERIES PHIL. INC.
-            </h2>
-            <ul className="list-disc pl-5 space-y-2">
-              <li>Fabrication of Conveyors</li>
-              <li>Perforated Lockers</li>
-              <li>Cooling Racks</li>
-              <li>Proofing Racks</li>
-              <li>Toastline Chimneys</li>
-              <li>Hydraulic Pusher</li>
-              <li>Container Vans</li>
-              <li>Stainless Steel Silo</li>
-              <li>Pipings</li>
-              <li>Humidifier and Spraying Systems</li>
-              <li>Dough Tub</li>
-              <li>Spiral Cooler</li>
-              <li>Loader Conveyor</li>
-              <li>Stainless Steel Cabinet and Tables</li>
-            </ul>
-          </div>
-          <div className="flex items-center justify-center">
-            <Image
-              src={`/clients/gardenia.png`}
-              width={1500}
-              height={1500}
-              alt="Gardenia"
-              className="border-4 border-white shadow-xl h-72 w-72"
-            />
-          </div>
-        </div>
-        <div className="grid md:grid-cols-2 gap-8">
-          <div className="flex items-center justify-center">
-            <Image
-              src={`/clients/gardenia.png`}
-              width={1500}
-              height={1500}
-              alt="Gardenia"
-              className="border-4 border-white shadow-xl h-72 w-72"
-            />
-          </div>
-          <div className="space-y-8">
-            <h2 className="font-bold text-2xl text-[#1D3546]">
-              GARDENIA BAKERIES PHIL. INC.
-            </h2>
-            <ul className="list-disc pl-5 space-y-2">
-              <li>Fabrication of Conveyors</li>
-              <li>Perforated Lockers</li>
-              <li>Cooling Racks</li>
-              <li>Proofing Racks</li>
-              <li>Toastline Chimneys</li>
-              <li>Hydraulic Pusher</li>
-              <li>Container Vans</li>
-              <li>Stainless Steel Silo</li>
-              <li>Pipings</li>
-              <li>Humidifier and Spraying Systems</li>
-              <li>Dough Tub</li>
-              <li>Spiral Cooler</li>
-              <li>Loader Conveyor</li>
-              <li>Stainless Steel Cabinet and Tables</li>
-            </ul>
-          </div>
-        </div>
-        <div className="grid md:grid-cols-2 gap-8">
-          <div className="space-y-8">
-            <h2 className="font-bold text-2xl text-[#1D3546]">
-              GARDENIA BAKERIES PHIL. INC.
-            </h2>
-            <ul className="list-disc pl-5 space-y-2">
-              <li>Fabrication of Conveyors</li>
-              <li>Perforated Lockers</li>
-              <li>Cooling Racks</li>
-              <li>Proofing Racks</li>
-              <li>Toastline Chimneys</li>
-              <li>Hydraulic Pusher</li>
-              <li>Container Vans</li>
-              <li>Stainless Steel Silo</li>
-              <li>Pipings</li>
-              <li>Humidifier and Spraying Systems</li>
-              <li>Dough Tub</li>
-              <li>Spiral Cooler</li>
-              <li>Loader Conveyor</li>
-              <li>Stainless Steel Cabinet and Tables</li>
-            </ul>
-          </div>
-          <div className="flex items-center justify-center">
-            <Image
-              src={`/clients/gardenia.png`}
-              width={1500}
-              height={1500}
-              alt="Gardenia"
-              className="border-4 border-white shadow-xl h-72 w-72"
-            />
-          </div>
-        </div>
-        <div className="grid md:grid-cols-2 gap-8">
-          <div className="flex items-center justify-center">
-            <Image
-              src={`/clients/gardenia.png`}
-              width={1500}
-              height={1500}
-              alt="Gardenia"
-              className="border-4 border-white shadow-xl h-72 w-72"
-            />
-          </div>
-          <div className="space-y-8">
-            <h2 className="font-bold text-2xl text-[#1D3546]">
-              GARDENIA BAKERIES PHIL. INC.
-            </h2>
-            <ul className="list-disc pl-5 space-y-2">
-              <li>Fabrication of Conveyors</li>
-              <li>Perforated Lockers</li>
-              <li>Cooling Racks</li>
-              <li>Proofing Racks</li>
-              <li>Toastline Chimneys</li>
-              <li>Hydraulic Pusher</li>
-              <li>Container Vans</li>
-              <li>Stainless Steel Silo</li>
-              <li>Pipings</li>
-              <li>Humidifier and Spraying Systems</li>
-              <li>Dough Tub</li>
-              <li>Spiral Cooler</li>
-              <li>Loader Conveyor</li>
-              <li>Stainless Steel Cabinet and Tables</li>
-            </ul>
-          </div>
-        </div>
-        <div className="grid md:grid-cols-2 gap-8">
-          <div className="space-y-8">
-            <h2 className="font-bold text-2xl text-[#1D3546]">
-              GARDENIA BAKERIES PHIL. INC.
-            </h2>
-            <ul className="list-disc pl-5 space-y-2">
-              <li>Fabrication of Conveyors</li>
-              <li>Perforated Lockers</li>
-              <li>Cooling Racks</li>
-              <li>Proofing Racks</li>
-              <li>Toastline Chimneys</li>
-              <li>Hydraulic Pusher</li>
-              <li>Container Vans</li>
-              <li>Stainless Steel Silo</li>
-              <li>Pipings</li>
-              <li>Humidifier and Spraying Systems</li>
-              <li>Dough Tub</li>
-              <li>Spiral Cooler</li>
-              <li>Loader Conveyor</li>
-              <li>Stainless Steel Cabinet and Tables</li>
-            </ul>
-          </div>
-          <div className="flex items-center justify-center">
-            <Image
-              src={`/clients/gardenia.png`}
-              width={1500}
-              height={1500}
-              alt="Gardenia"
-              className="border-4 border-white shadow-xl h-72 w-72"
-            />
-          </div>
-        </div>
-        <div className="grid md:grid-cols-2 gap-8">
-          <div className="flex items-center justify-center">
-            <Image
-              src={`/clients/gardenia.png`}
-              width={1500}
-              height={1500}
-              alt="Gardenia"
-              className="border-4 border-white shadow-xl h-72 w-72"
-            />
-          </div>
-          <div className="space-y-8">
-            <h2 className="font-bold text-2xl text-[#1D3546]">
-              GARDENIA BAKERIES PHIL. INC.
-            </h2>
-            <ul className="list-disc pl-5 space-y-2">
-              <li>Fabrication of Conveyors</li>
-              <li>Perforated Lockers</li>
-              <li>Cooling Racks</li>
-              <li>Proofing Racks</li>
-              <li>Toastline Chimneys</li>
-              <li>Hydraulic Pusher</li>
-              <li>Container Vans</li>
-              <li>Stainless Steel Silo</li>
-              <li>Pipings</li>
-              <li>Humidifier and Spraying Systems</li>
-              <li>Dough Tub</li>
-              <li>Spiral Cooler</li>
-              <li>Loader Conveyor</li>
-              <li>Stainless Steel Cabinet and Tables</li>
-            </ul>
-          </div>
-        </div>
-        <div className="grid md:grid-cols-2 gap-8">
-          <div className="space-y-8">
-            <h2 className="font-bold text-2xl text-[#1D3546]">
-              GARDENIA BAKERIES PHIL. INC.
-            </h2>
-            <ul className="list-disc pl-5 space-y-2">
-              <li>Fabrication of Conveyors</li>
-              <li>Perforated Lockers</li>
-              <li>Cooling Racks</li>
-              <li>Proofing Racks</li>
-              <li>Toastline Chimneys</li>
-              <li>Hydraulic Pusher</li>
-              <li>Container Vans</li>
-              <li>Stainless Steel Silo</li>
-              <li>Pipings</li>
-              <li>Humidifier and Spraying Systems</li>
-              <li>Dough Tub</li>
-              <li>Spiral Cooler</li>
-              <li>Loader Conveyor</li>
-              <li>Stainless Steel Cabinet and Tables</li>
-            </ul>
-          </div>
-          <div className="flex items-center justify-center">
-            <Image
-              src={`/clients/gardenia.png`}
-              width={1500}
-              height={1500}
-              alt="Gardenia"
-              className="border-4 border-white shadow-xl h-72 w-72"
-            />
           </div>
         </div>
       </div>

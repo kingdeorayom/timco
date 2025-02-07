@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const MachinesEquipment = () => {
@@ -15,7 +16,7 @@ const MachinesEquipment = () => {
         </div>
 
         <ul className="grid grid-flow-col text-center border-b border-gray-200 text-gray-500">
-          <li className="flex justify-center border-b-4 border-transparent hover:text-[#ff7920] hover:border-[#ff7920] py-4 cursor-pointer transition-all duration-200 ease-in-out">
+          <li className="flex justify-center border-b-4 text-[#ff7920] border-[#ff7920] py-4 cursor-pointer transition-all duration-200 ease-in-out font-bold">
             Lathe Machine
           </li>
           <li className="flex justify-center border-b-4 border-transparent hover:text-[#ff7920] hover:border-[#ff7920] py-4 cursor-pointer transition-all duration-200 ease-in-out">
@@ -60,9 +61,14 @@ const MachinesEquipment = () => {
                 systems, they ensure consistent results and minimize downtime,
                 making them a valuable asset in any manufacturing environment.
               </p>
-              <button className="bg-[#ff7920] hover:bg-white border border-[#ff7920] hover:border-[#ff7920] text-white hover:text-[#1d3456] font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out">
-                See our clients
-              </button>
+              <div className="py-2">
+                <Link
+                  href="/clients"
+                  className="bg-[#ff7920] hover:bg-white border border-[#ff7920] hover:border-[#ff7920] text-white hover:text-[#1d3456] font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out"
+                >
+                  See our clients
+                </Link>
+              </div>
             </div>
           </div>
         </div>

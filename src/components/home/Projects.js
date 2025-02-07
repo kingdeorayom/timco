@@ -10,7 +10,7 @@ const Projects = () => {
           <h3 className="text-center text-[#ff7920] font-bold">
             Featured Projects
           </h3>
-          <h2 className="text-3xl font-bold text-center">Our Recent Works</h2>
+          <h2 className="text-3xl font-bold text-center">Our Works</h2>
         </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-16">
           {Array.from({ length: 6 }).map((_, index) => (

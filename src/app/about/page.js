@@ -16,15 +16,18 @@ export default function AboutPage() {
         <div className="relative z-10 text-center px-5 space-y-8">
           <h2 className="text-5xl font-bold">20 Years of Advancements</h2>
           <p className="max-w-2xl mx-auto">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
-            repudiandae velit saepe aut assumenda? Molestias optio debitis,
-            magnam minus magni similique quidem animi sunt? Quis quisquam nulla
-            pariatur doloremque tempora!
+            For 20 years, <strong>TIMCO</strong> has been a trusted partner for
+            businesses seeking top-tier industrial machinery and metal
+            fabrication. We've built long-lasting relationships with our
+            clients, understanding their unique challenges and developing
+            tailored solutions that drive their success. Our two decades of
+            experience have honed our expertise, strengthened our commitment,
+            and solidified our position as a leader in the industry.
           </p>
           <div>
             <Link
               href="/services"
-              className="bg-[#ff7920] hover:bg-white border border-[#ff7920] hover:border-[#ff7920] text-white hover:text-[#1d3456] font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out"
+              className="bg-[#ff7920] hover:bg-white border border-[#ff7920] hover:border-white text-white hover:text-[#1d3456] font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out"
             >
               Check our services
             </Link>
@@ -48,15 +51,17 @@ export default function AboutPage() {
         </div>
 
         <div className="grid md:grid-cols-3 gap-8">
-          <div className="bg-white border p-6 transition-all duration-300 ease-in-out space-y-4 rounded-xl shadow-lg hover:shadow-xl">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 448 512"
-              className="h-10 w-10 fill-[#1D3546]"
-            >
-              <path d="M152 24c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 40L64 64C28.7 64 0 92.7 0 128l0 16 0 48L0 448c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-256 0-48 0-16c0-35.3-28.7-64-64-64l-40 0 0-40c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 40L152 64l0-40zM48 192l352 0 0 256c0 8.8-7.2 16-16 16L64 464c-8.8 0-16-7.2-16-16l0-256z" />
-            </svg>
-            <h3 className="font-semibold text-lg">2005 - Our Foundation</h3>
+          <div className="bg-white border p-6 transition-all duration-300 ease-in-out space-y-4 rounded-2xl shadow-lg hover:shadow-xl">
+            <div className="bg-[#F8F9FA] border h-14 w-14 rounded-full overflow-hidden flex items-center justify-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512"
+                className="h-7 w-7 fill-green-700"
+              >
+                <path d="M512 32c0 113.6-84.6 207.5-194.2 222c-7.1-53.4-30.6-101.6-65.3-139.3C290.8 46.3 364 0 448 0l32 0c17.7 0 32 14.3 32 32zM0 96C0 78.3 14.3 64 32 64l32 0c123.7 0 224 100.3 224 224l0 32 0 160c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-160C100.3 320 0 219.7 0 96z" />
+              </svg>
+            </div>
+            <h3 className="font-semibold text-xl">2005 - Our Foundation</h3>
             <p>
               TIMCO was established by Mr. Ronnel Mendoza, a mechanical engineer
               who pioneered in the metal industry since the early 90s. With
@@ -64,30 +69,34 @@ export default function AboutPage() {
               and precision.
             </p>
           </div>
-          <div className="bg-white border p-6 transition-all duration-300 ease-in-out space-y-4 rounded-xl shadow-lg hover:shadow-xl">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 448 512"
-              className="h-10 w-10 fill-[#1D3546]"
-            >
-              <path d="M152 24c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 40L64 64C28.7 64 0 92.7 0 128l0 16 0 48L0 448c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-256 0-48 0-16c0-35.3-28.7-64-64-64l-40 0 0-40c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 40L152 64l0-40zM48 192l352 0 0 256c0 8.8-7.2 16-16 16L64 464c-8.8 0-16-7.2-16-16l0-256z" />
-            </svg>
-            <h3 className="font-semibold text-lg">2017 - Strategic Growth</h3>
+          <div className="bg-white border p-6 transition-all duration-300 ease-in-out space-y-4 rounded-2xl shadow-lg hover:shadow-xl">
+            <div className="bg-[#F8F9FA] border h-14 w-14 rounded-full overflow-hidden flex items-center justify-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512"
+                className="h-7 w-7 fill-green-700"
+              >
+                <path d="M64 64c0-17.7-14.3-32-32-32S0 46.3 0 64L0 400c0 44.2 35.8 80 80 80l400 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L80 416c-8.8 0-16-7.2-16-16L64 64zm406.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L320 210.7l-57.4-57.4c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L240 221.3l57.4 57.4c12.5 12.5 32.8 12.5 45.3 0l128-128z" />
+              </svg>
+            </div>
+            <h3 className="font-semibold text-xl">2017 - Strategic Growth</h3>
             <p>
               To better serve our clients, TIMCO has relocated and expanded its
               operations in Binan City, Laguna—positioning itself in a strategic
               location for manufacturing and industrial growth.
             </p>
           </div>
-          <div className="bg-white border p-6 transition-all duration-300 ease-in-out space-y-4 rounded-xl shadow-lg hover:shadow-xl">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 448 512"
-              className="h-10 w-10 fill-[#1D3546]"
-            >
-              <path d="M152 24c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 40L64 64C28.7 64 0 92.7 0 128l0 16 0 48L0 448c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-256 0-48 0-16c0-35.3-28.7-64-64-64l-40 0 0-40c0-13.3-10.7-24-24-24s-24 10.7-24 24l0 40L152 64l0-40zM48 192l352 0 0 256c0 8.8-7.2 16-16 16L64 464c-8.8 0-16-7.2-16-16l0-256z" />
-            </svg>
-            <h3 className="font-semibold text-lg">2020 - Future Expansion</h3>
+          <div className="bg-white border p-6 transition-all duration-300 ease-in-out space-y-4 rounded-2xl shadow-lg hover:shadow-xl">
+            <div className="bg-[#F8F9FA] border h-14 w-14 rounded-full overflow-hidden flex items-center justify-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512"
+                className="h-7 w-7 fill-green-700"
+              >
+                <path d="M278.6 9.4c-12.5-12.5-32.8-12.5-45.3 0l-64 64c-9.2 9.2-11.9 22.9-6.9 34.9s16.6 19.8 29.6 19.8l32 0 0 96-96 0 0-32c0-12.9-7.8-24.6-19.8-29.6s-25.7-2.2-34.9 6.9l-64 64c-12.5 12.5-12.5 32.8 0 45.3l64 64c9.2 9.2 22.9 11.9 34.9 6.9s19.8-16.6 19.8-29.6l0-32 96 0 0 96-32 0c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l64 64c12.5 12.5 32.8 12.5 45.3 0l64-64c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8l-32 0 0-96 96 0 0 32c0 12.9 7.8 24.6 19.8 29.6s25.7 2.2 34.9-6.9l64-64c12.5-12.5 12.5-32.8 0-45.3l-64-64c-9.2-9.2-22.9-11.9-34.9-6.9s-19.8 16.6-19.8 29.6l0 32-96 0 0-96 32 0c12.9 0 24.6-7.8 29.6-19.8s2.2-25.7-6.9-34.9l-64-64z" />
+              </svg>
+            </div>
+            <h3 className="font-semibold text-xl">2020 - Future Expansion</h3>
             <p>
               With increasing demand and a growing client base, TIMCO is set to
               expand this year. Our new plant and office will enhance our
@@ -147,7 +156,7 @@ export default function AboutPage() {
 
       <div className="space-y-8">
         <h2 className="text-3xl font-bold">Visionaries Behind Our Success</h2>
-        <div className="space-y-12 bg-[#F8F9FA] p-10 rounded-lg">
+        <div className="space-y-12 bg-[#F8F9FA] p-10 rounded-2xl">
           <div className="space-y-4">
             <p>
               Driven by innovation and excellence, our founders have built a
@@ -193,57 +202,128 @@ export default function AboutPage() {
         <h2 className="text-3xl font-bold">Company Contacts</h2>
         <div className="space-y-8">
           <p>
-            We’re here to help! <strong>TIMCO</strong> offers a variety of ways
+            We're here to help! <strong>TIMCO</strong> offers a variety of ways
             to contact support for your convenience. Please reach out to us
             using any of the support options below.
           </p>
         </div>
         <div className="grid md:grid-cols-3 gap-8">
-          <div className="border p-6 space-y-4 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 ease-in-out">
-            <div className="h-12 w-12 bg-slate-200 rounded-md" />
+          <div className="border p-6 space-y-4 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 ease-in-out group">
+            <div className="bg-[#F8F9FA] border h-14 w-14 rounded-full overflow-hidden flex items-center justify-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 384 512"
+                className="h-7 w-7 fill-[#ff7920]"
+              >
+                <path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z" />
+              </svg>
+            </div>
             <h3 className="font-semibold text-lg">BUSINESS ADDRESS</h3>
             <p>
               9015 AQUINO COMPOUND ALMA MANZO SUBDIVISION, SAN ANTONIO BINAN
               LAGUNA
             </p>
-            <button className="bg-[#ff7920] hover:bg-white border border-[#ff7920] hover:border-[#ff7920] text-white hover:text-[#1d3456] font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out">
-              Visit Us
-            </button>
+            <hr />
+            <div className="pt-2 pb-1">
+              <Link
+                href="https://maps.app.goo.gl/aXckmT7CCNyUxVCPA"
+                target="_blank"
+                className="hover:bg-[#ff7920] bg-white border hover:border-[#ff7920] border-slate-500 hover:text-white text-[#1d3456] font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out"
+              >
+                Visit our site
+              </Link>
+            </div>
           </div>
-          <div className="border p-6 space-y-4 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 ease-in-out">
-            <div className="h-12 w-12 bg-slate-200 rounded-md" />
+          <div className="border p-6 space-y-4 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 ease-in-out group">
+            <div className="bg-[#F8F9FA] border h-14 w-14 rounded-full overflow-hidden flex items-center justify-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512"
+                className="h-7 w-7 fill-[#ff7920]"
+              >
+                <path d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z" />
+              </svg>
+            </div>
             <h3 className="font-semibold text-lg">LANDLINE NUMBER</h3>
             <p>775-34-92</p>
-            <button className="bg-[#ff7920] hover:bg-white border border-[#ff7920] hover:border-[#ff7920] text-white hover:text-[#1d3456] font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out">
-              Check our services
-            </button>
+            <hr />
+            <div className="pt-2 pb-1">
+              <Link
+                href="tel:7753492"
+                className="hover:bg-[#ff7920] bg-white border hover:border-[#ff7920] border-slate-500 hover:text-white text-[#1d3456] font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out"
+              >
+                Call Us
+              </Link>
+            </div>
           </div>
-          <div className="border p-6 space-y-4 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 ease-in-out">
-            <div className="h-12 w-12 bg-slate-200 rounded-md" />
+          <div className="border p-6 space-y-4 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 ease-in-out group">
+            <div className="bg-[#F8F9FA] border h-14 w-14 rounded-full overflow-hidden flex items-center justify-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 384 512"
+                className="h-7 w-7 fill-[#ff7920]"
+              >
+                <path d="M16 64C16 28.7 44.7 0 80 0L304 0c35.3 0 64 28.7 64 64l0 384c0 35.3-28.7 64-64 64L80 512c-35.3 0-64-28.7-64-64L16 64zM144 448c0 8.8 7.2 16 16 16l64 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-64 0c-8.8 0-16 7.2-16 16zM304 64L80 64l0 320 224 0 0-320z" />
+              </svg>
+            </div>
             <h3 className="font-semibold text-lg">MOBILE NUMBERS</h3>
             <p>
               +63 917 870 675 <br />
               +63 915 891 8418
             </p>
-            <button className="bg-[#ff7920] hover:bg-white border border-[#ff7920] hover:border-[#ff7920] text-white hover:text-[#1d3456] font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out">
-              Check our services
-            </button>
+            <hr />
+            <div className="pt-2 pb-1">
+              <Link
+                href="tel:0917870675"
+                className="hover:bg-[#ff7920] bg-white border hover:border-[#ff7920] border-slate-500 hover:text-white text-[#1d3456] font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out"
+              >
+                Send us a message
+              </Link>
+            </div>
           </div>
-          <div className="border p-6 space-y-4 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 ease-in-out">
-            <div className="h-12 w-12 bg-slate-200 rounded-md" />
+          <div className="border p-6 space-y-4 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 ease-in-out group">
+            <div className="bg-[#F8F9FA] border h-14 w-14 rounded-full overflow-hidden flex items-center justify-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512"
+                className="h-7 w-7 fill-[#ff7920]"
+              >
+                <path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48L48 64zM0 176L0 384c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-208L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z" />
+              </svg>
+            </div>
             <h3 className="font-semibold text-lg">E-MAIL ADDRESS</h3>
             <p>sales@timcoph.com</p>
-            <button className="bg-[#ff7920] hover:bg-white border border-[#ff7920] hover:border-[#ff7920] text-white hover:text-[#1d3456] font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out">
-              Check our services
-            </button>
+            <hr />
+            <div className="pt-2 pb-1">
+              <Link
+                href="mailto:sales@timcoph.com"
+                className="hover:bg-[#ff7920] bg-white border hover:border-[#ff7920] border-slate-500 hover:text-white text-[#1d3456] font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out"
+              >
+                Send us an e-mail
+              </Link>
+            </div>
           </div>
-          <div className="border p-6 space-y-4 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 ease-in-out">
-            <div className="h-12 w-12 bg-slate-200 rounded-md" />
+          <div className="border p-6 space-y-4 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 ease-in-out group">
+            <div className="bg-[#F8F9FA] border h-14 w-14 rounded-full overflow-hidden flex items-center justify-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512"
+                className="h-7 w-7 fill-[#ff7920]"
+              >
+                <path d="M256 64C150 64 64 150 64 256s86 192 192 192c17.7 0 32 14.3 32 32s-14.3 32-32 32C114.6 512 0 397.4 0 256S114.6 0 256 0S512 114.6 512 256l0 32c0 53-43 96-96 96c-29.3 0-55.6-13.2-73.2-33.9C320 371.1 289.5 384 256 384c-70.7 0-128-57.3-128-128s57.3-128 128-128c27.9 0 53.7 8.9 74.7 24.1c5.7-5 13.1-8.1 21.3-8.1c17.7 0 32 14.3 32 32l0 80 0 32c0 17.7 14.3 32 32 32s32-14.3 32-32l0-32c0-106-86-192-192-192zm64 192a64 64 0 1 0 -128 0 64 64 0 1 0 128 0z" />
+              </svg>
+            </div>
             <h3 className="font-semibold text-lg">SOCIAL MEDIA</h3>
             <p>@timcocorp</p>
-            <button className="bg-[#ff7920] hover:bg-white border border-[#ff7920] hover:border-[#ff7920] text-white hover:text-[#1d3456] font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out">
-              Check our services
-            </button>
+            <hr />
+            <div className="pt-2 pb-1">
+              <Link
+                href="#"
+                className="hover:bg-[#ff7920] bg-white border hover:border-[#ff7920] border-slate-500 hover:text-white text-[#1d3456] font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out"
+              >
+                Follow Us
+              </Link>
+            </div>
           </div>
         </div>
       </div>
@@ -255,29 +335,31 @@ export default function AboutPage() {
             alt="Test"
             width={1920}
             height={1080}
-            className="object-fit"
+            className="object-cover h-80"
           />
         </div>
         <div className="space-y-4">
-          <h2 className="text-3xl font-bold">TIMCO History</h2>
+          <h2 className="text-3xl font-bold">
+            Interested in learning more about products and solutions from TIMCO?
+          </h2>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit
-            consectetur aut, nemo beatae quam fugit ut dolorem voluptatibus
-            neque, esse ad. Quod facere, ipsam odio aperiam beatae debitis ea
-            quasi. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Itaque, quis nesciunt aut eligendi quisquam blanditiis ad molestiae
-            quas magnam. Hic voluptatum accusantium nesciunt totam voluptates
-            voluptatibus, velit voluptate possimus ducimus?
+            We offer a wide range of industrial machinery and metal fabrication
+            solutions tailored to meet your specific needs. From standard
+            equipment to custom designs, we have the expertise and capabilities
+            to deliver exceptional results.
           </p>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima
-            aliquam cumque ut cum explicabo, rem dignissimos sit laudantium
-            neque fugiat optio, aut aliquid. Nobis suscipit repudiandae odio
-            enim sequi eos.
+            Contact us today to explore our comprehensive product offerings and
+            discover how we can contribute to your success.
           </p>
-          <button className="bg-[#ff7920] hover:bg-white border border-[#ff7920] hover:border-[#ff7920] text-white hover:text-[#1d3456] font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out">
-            Check our services
-          </button>
+          <div className="py-2">
+            <Link
+              href="/services"
+              className="hover:bg-[#ff7920] bg-white border hover:border-[#ff7920] border-slate-500 hover:text-white text-[#1d3456] font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out"
+            >
+              Check our services
+            </Link>
+          </div>
         </div>
       </div>
     </section>

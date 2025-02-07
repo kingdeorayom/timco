@@ -21,7 +21,7 @@ const Footer = () => {
             </Link>
             <div className="flex space-x-6">
               <Link
-                href="#"
+                href="https://www.facebook.com/timco.corp"
                 target="_blank"
                 className="hover:opacity-75 transition-all duration-300 ease-in-out"
               >
@@ -34,7 +34,7 @@ const Footer = () => {
                 </svg>
               </Link>
               <Link
-                href="#"
+                href="https://www.instagram.com/timco.corp"
                 target="_blank"
                 className="hover:opacity-75 transition-all duration-300 ease-in-out"
               >
@@ -47,7 +47,7 @@ const Footer = () => {
                 </svg>
               </Link>
               <Link
-                href="#"
+                href="https://www.youtube.com/@timcocorp"
                 target="_blank"
                 className="hover:opacity-75 transition-all duration-300 ease-in-out"
               >
@@ -60,7 +60,7 @@ const Footer = () => {
                 </svg>
               </Link>
               <Link
-                href="#"
+                href="https://www.x.com/timco.corp"
                 target="_blank"
                 className="hover:opacity-75 transition-all duration-300 ease-in-out"
               >
@@ -258,7 +258,7 @@ const Footer = () => {
             </ul>
           </nav>
           <h6 className="text-sm">
-            © Copyright 2025 TOPSURE INDUSTRIAL MACHINERIES AND CONTROLS
+            &copy; Copyright 2025 TOPSURE INDUSTRIAL MACHINERIES AND CONTROLS
             CORPORATION
           </h6>
         </div>

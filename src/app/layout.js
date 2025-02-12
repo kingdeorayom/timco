@@ -1,10 +1,15 @@
-import { Inter } from "next/font/google";
+import { Inter, Lexend_Deca } from "next/font/google";
 import "./globals.css";
 import Header from "./Header";
 import Footer from "./Footer";
 
 const inter = Inter({
   variable: "--font-inter",
+  subsets: ["latin"],
+});
+
+const lexendDeca = Lexend_Deca({
+  variable: "--font-lexend-deca",
   subsets: ["latin"],
 });
 
@@ -17,7 +22,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${inter.className} ${inter.variable} antialiased min-h-screen flex flex-col`}
+        className={`${lexendDeca.className} ${lexendDeca.variable} antialiased min-h-screen flex flex-col`}
       >
         <Header />
         <main className="flex-grow">{children}</main>

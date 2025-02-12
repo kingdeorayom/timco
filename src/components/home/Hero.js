@@ -11,7 +11,7 @@ const Hero = () => {
           <div className="space-y-6 max-w-4xl text-center md:text-start text-primary-foreground">
             <div className="space-y-10">
               <div className="space-y-6">
-                <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white">
+                <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold text-white">
                   TOPSURE INDUSTRIAL MACHINERIES AND CONTROLS CORPORATION
                 </h1>
                 <p className="text-white md:text-xl">
@@ -21,20 +21,21 @@ const Hero = () => {
                   machinery and control systems, all under one roof.
                 </p>
               </div>
-              <div className="space-y-3 md:space-y-0 flex flex-col md:flex-row md:space-x-4">
+              {/* <div className="space-y-3 md:space-y-0 flex flex-col md:flex-row md:space-x-4">
                 <Link
                   href="/services"
-                  className="bg-[#ff7920] text-white font-bold py-2 px-4 rounded-md md:rounded-full hover:opacity-90 transition-all duration-300 ease-in-out"
+                  className="bg-timco-blue text-white font-bold py-2 px-4 rounded-md md:rounded-full hover:opacity-90 transition-all duration-300 ease-in-out"
+                  // className="bg-timco-blue hover:bg-white border hover:border-timco-dark-blue text-white hover:text-timco-slate font-bold px-4 rounded-full transition-all duration-300 ease-in-out flex items-center h-10"
                 >
                   See our services
                 </Link>
                 <Link
                   href="/about"
-                  className="bg-transparent border-white border text-white hover:bg-white hover:text-[#1d3456] font-semibold py-2 px-4 rounded-md md:rounded-full transition-all duration-300 ease-in-out"
+                  className="bg-transparent border-white border font-bold text-white hover:bg-white hover:text-timco-slate py-2 px-4 rounded-md md:rounded-full transition-all duration-300 ease-in-out"
                 >
                   Learn more
                 </Link>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

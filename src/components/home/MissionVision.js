@@ -11,8 +11,8 @@ const MissionVision = () => {
           />
           <div className="absolute inset-0 bg-slate-900 bg-opacity-75" />
           <div className="relative z-10 text-center px-5 space-y-6">
-            <h2 className="text-4xl font-bold">Our Mission</h2>
-            <p className="max-w-2xl mx-auto text-lg">
+            <h2 className="text-5xl font-bold">Our Mission</h2>
+            <p className="max-w-2xl mx-auto text-xl">
               TIMCO will exceed the customer’s expectations by providing
               reliable and cost-effective solutions through strong business
               associations, quality product solutions, dedicated employees,
@@ -39,8 +39,8 @@ const MissionVision = () => {
           />
           <div className="absolute inset-0 bg-slate-900 bg-opacity-75" />
           <div className="relative z-10 text-center px-5 space-y-6">
-            <h2 className="text-4xl font-bold">Our Vision</h2>
-            <p className="max-w-2xl mx-auto text-lg">
+            <h2 className="text-5xl font-bold">Our Vision</h2>
+            <p className="max-w-2xl mx-auto text-xl">
               To be the preferred supplier of metal and steel fabrication
               solutions.
             </p>

@@ -4,7 +4,7 @@ import React from "react";
 const Banner = () => {
   return (
     <section className="py-16">
-      <div className="mx-auto bg-[#ff7920] grid lg:grid-cols-2">
+      <div className="mx-auto bg-timco-dark-blue grid lg:grid-cols-2">
         <div>
           <Image
             src="/mission.jpg"
@@ -14,11 +14,11 @@ const Banner = () => {
             className="object-fit"
           />
         </div>
-        <div className="space-y-8 p-10">
-          <h2 className="text-4xl font-bold">
+        <div className="space-y-8 p-10 text-white">
+          <h2 className="text-6xl font-bold">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
           </h2>
-          <p>
+          <p className="text-xl">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem
             exercitationem pariatur nulla obcaecati reprehenderit, labore iure
             architecto voluptatibus nemo officia dignissimos commodi molestiae,

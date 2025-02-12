@@ -7,34 +7,34 @@ const MachinesEquipment = () => {
     <section className="px-5 pt-16">
       <div className="max-w-screen-2xl mx-auto space-y-16">
         <div className="space-y-4">
-          <h3 className="text-center text-[#ff7920] font-bold">
+          <h3 className="text-center text-timco-red font-bold text-lg">
             What TIMCO offers
           </h3>
-          <h2 className="text-3xl font-bold text-center">
+          <h2 className="text-4xl font-bold text-center">
             Machines and Equipment
           </h2>
         </div>
 
         <ul className="grid grid-flow-col text-center border-b border-gray-200 text-gray-500">
-          <li className="flex justify-center border-b-4 text-[#ff7920] border-[#ff7920] py-4 cursor-pointer transition-all duration-200 ease-in-out font-bold">
+          <li className="flex justify-center border-b-4 text-timco-red border-timco-red py-4 cursor-pointer transition-all duration-200 ease-in-out font-bold">
             Lathe Machine
           </li>
-          <li className="flex justify-center border-b-4 border-transparent hover:text-[#ff7920] hover:border-[#ff7920] py-4 cursor-pointer transition-all duration-200 ease-in-out">
+          <li className="flex justify-center border-b-4 border-transparent hover:text-timco-red hover:border-timco-red py-4 cursor-pointer transition-all duration-200 ease-in-out">
             Shearing Machine
           </li>
-          <li className="flex justify-center border-b-4 border-transparent hover:text-[#ff7920] hover:border-[#ff7920] py-4 cursor-pointer transition-all duration-200 ease-in-out">
+          <li className="flex justify-center border-b-4 border-transparent hover:text-timco-red hover:border-timco-red py-4 cursor-pointer transition-all duration-200 ease-in-out">
             Drill Press
           </li>
-          <li className="flex justify-center border-b-4 border-transparent hover:text-[#ff7920] hover:border-[#ff7920] py-4 cursor-pointer transition-all duration-200 ease-in-out">
+          <li className="flex justify-center border-b-4 border-transparent hover:text-timco-red hover:border-timco-red py-4 cursor-pointer transition-all duration-200 ease-in-out">
             Radial Drill
           </li>
-          <li className="flex justify-center border-b-4 border-transparent hover:text-[#ff7920] hover:border-[#ff7920] py-4 cursor-pointer transition-all duration-200 ease-in-out">
+          <li className="flex justify-center border-b-4 border-transparent hover:text-timco-red hover:border-timco-red py-4 cursor-pointer transition-all duration-200 ease-in-out">
             Milling Machine
           </li>
-          <li className="flex justify-center border-b-4 border-transparent hover:text-[#ff7920] hover:border-[#ff7920] py-4 cursor-pointer transition-all duration-200 ease-in-out">
+          <li className="flex justify-center border-b-4 border-transparent hover:text-timco-red hover:border-timco-red py-4 cursor-pointer transition-all duration-200 ease-in-out">
             Hyrdraulic Bending Machine
           </li>
-          <li className="flex justify-center border-b-4 border-transparent hover:text-[#ff7920] hover:border-[#ff7920] py-4 cursor-pointer transition-all duration-200 ease-in-out">
+          <li className="flex justify-center border-b-4 border-transparent hover:text-timco-red hover:border-timco-red py-4 cursor-pointer transition-all duration-200 ease-in-out">
             TIG Welding Machine
           </li>
         </ul>
@@ -47,7 +47,7 @@ const MachinesEquipment = () => {
                 alt="Test"
                 width={1920}
                 height={1080}
-                className="object-cover h-96 w-full"
+                className="object-cover h-96 w-full rounded-2xl"
               />
             </div>
             <div className="space-y-8">
@@ -61,10 +61,18 @@ const MachinesEquipment = () => {
                 systems, they ensure consistent results and minimize downtime,
                 making them a valuable asset in any manufacturing environment.
               </p>
+              {/* <div className="py-2">
+                <Link
+                  href="/clients"
+                  className="bg-timco-orange hover:bg-white border border-timco-orange hover:border-timco-orange text-white hover:text-timco-slate font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out"
+                >
+                  See our clients
+                </Link>
+              </div> */}
               <div className="py-2">
                 <Link
                   href="/clients"
-                  className="bg-[#ff7920] hover:bg-white border border-[#ff7920] hover:border-[#ff7920] text-white hover:text-[#1d3456] font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out"
+                  className="hover:bg-timco-red bg-white border hover:border-timco-red border-timco-red hover:text-white text-timco-red font-semibold py-2 px-4 rounded-full transition-all duration-300 ease-in-out"
                 >
                   See our clients
                 </Link>

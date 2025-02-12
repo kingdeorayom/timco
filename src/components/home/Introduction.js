@@ -6,14 +6,14 @@ const Introduction = () => {
     <section className="bg-[#F8F9FA] px-5 py-16">
       <div className="max-w-screen-2xl mx-auto space-y-16">
         <div className="space-y-4">
-          <h3 className="text-center text-[#ff7920] font-bold">
+          <h3 className="text-center text-timco-red font-bold text-lg">
             For Commercial & Residential Services
           </h3>
-          <h2 className="text-3xl font-bold text-center">
+          <h2 className="text-4xl font-bold text-center">
             High Quality Metal and Steel Fabrication Solutions
           </h2>
         </div>
-        <div className="bg-white shadow-lg rounded-xl grid lg:grid-cols-3 gap-8 lg:gap-0">
+        <div className="bg-white hover:shadow-lg rounded-2xl grid lg:grid-cols-3 gap-8 lg:gap-0 duration-300 ease-in-out transition-all">
           <div>
             <div>
               <Image
@@ -21,10 +21,10 @@ const Introduction = () => {
                 alt="Test"
                 width={1920}
                 height={1080}
-                className="object-fit"
+                className="object-fit rounded-tl-2xl"
               />
             </div>
-            <div className="p-6 space-y-4">
+            <div className="p-10 space-y-4">
               <h2 className="text-2xl font-bold">Corporation</h2>
               <p className="text-gray-600">
                 <strong>TIMCO</strong> is a leading provider of comprehensive
@@ -38,10 +38,10 @@ const Introduction = () => {
                 operations, enhance productivity, and achieve their business
                 objectives.
               </p>
-              <div className="py-2">
+              <div className="py-5">
                 <Link
                   href="#"
-                  className="bg-[#ff7920] hover:bg-white border border-[#ff7920] hover:border-[#ff7920] text-white hover:text-[#1d3456] font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out"
+                  className="hover:bg-timco-red bg-white border hover:border-timco-red border-timco-slate hover:text-white text-timco-slate font-semibold py-2 px-4 rounded-full transition-all duration-300 ease-in-out"
                 >
                   Learn more
                 </Link>
@@ -58,7 +58,7 @@ const Introduction = () => {
                 className="object-fit"
               />
             </div>
-            <div className="p-6 space-y-4 border-r border-l">
+            <div className="p-10 space-y-4 border-r border-l">
               <h2 className="text-2xl font-bold">
                 Metal and Steel Fabrication
               </h2>
@@ -75,10 +75,10 @@ const Introduction = () => {
                 your custom fabrication needs are met with precision and
                 efficiency.
               </p>
-              <div className="py-2">
+              <div className="py-5">
                 <Link
                   href="#"
-                  className="bg-[#ff7920] hover:bg-white border border-[#ff7920] hover:border-[#ff7920] text-white hover:text-[#1d3456] font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out"
+                  className="hover:bg-timco-red bg-white border hover:border-timco-red border-timco-slate hover:text-white text-timco-slate font-semibold py-2 px-4 rounded-full transition-all duration-300 ease-in-out"
                 >
                   Learn more
                 </Link>
@@ -92,10 +92,10 @@ const Introduction = () => {
                 alt="Test"
                 width={1920}
                 height={1080}
-                className="object-fit"
+                className="object-fit rounded-tr-2xl"
               />
             </div>
-            <div className="p-6 space-y-4">
+            <div className="p-10 space-y-4">
               <h2 className="text-2xl font-bold">Engineering Services</h2>
               <p className="text-gray-600">
                 <strong>TIMCO</strong>'s team of highly skilled engineers
@@ -109,10 +109,10 @@ const Introduction = () => {
                 structural analysis, our engineers are dedicated to delivering
                 reliable, cost-effective, and sustainable results.
               </p>
-              <div className="py-2">
+              <div className="py-5">
                 <Link
                   href="#"
-                  className="bg-[#ff7920] hover:bg-white border border-[#ff7920] hover:border-[#ff7920] text-white hover:text-[#1d3456] font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out"
+                  className="hover:bg-timco-red bg-white border hover:border-timco-red border-timco-slate hover:text-white text-timco-slate font-semibold py-2 px-4 rounded-full transition-all duration-300 ease-in-out"
                 >
                   Learn more
                 </Link>

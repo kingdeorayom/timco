@@ -20,7 +20,7 @@ export default function ServicesPage() {
             magnam minus magni similique quidem animi sunt? Quis quisquam nulla
             pariatur doloremque tempora!
           </p>
-          <button className="bg-[#ff7920] hover:bg-white border border-[#ff7920] hover:border-[#ff7920] text-white hover:text-[#1d3456] font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out">
+          <button className="bg-timco-orange hover:bg-white border border-timco-orange hover:border-timco-orange text-white hover:text-timco-slate font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out">
             Check our services
           </button>
         </div>
@@ -193,7 +193,7 @@ export default function ServicesPage() {
               9015 AQUINO COMPOUND ALMA MANZO SUBDIVISION, SAN ANTONIO BINAN
               LAGUNA
             </p>
-            <button className="bg-[#ff7920] hover:bg-white border border-[#ff7920] hover:border-[#ff7920] text-white hover:text-[#1d3456] font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out">
+            <button className="bg-timco-orange hover:bg-white border border-timco-orange hover:border-timco-orange text-white hover:text-timco-slate font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out">
               Visit Us
             </button>
           </div>
@@ -201,7 +201,7 @@ export default function ServicesPage() {
             <div className="h-12 w-12 bg-slate-200 rounded-md" />
             <h3 className="font-semibold text-lg">LANDLINE NUMBER</h3>
             <p>775-34-92</p>
-            <button className="bg-[#ff7920] hover:bg-white border border-[#ff7920] hover:border-[#ff7920] text-white hover:text-[#1d3456] font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out">
+            <button className="bg-timco-orange hover:bg-white border border-timco-orange hover:border-timco-orange text-white hover:text-timco-slate font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out">
               Check our services
             </button>
           </div>
@@ -212,7 +212,7 @@ export default function ServicesPage() {
               +63 917 870 675 <br />
               +63 915 891 8418
             </p>
-            <button className="bg-[#ff7920] hover:bg-white border border-[#ff7920] hover:border-[#ff7920] text-white hover:text-[#1d3456] font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out">
+            <button className="bg-timco-orange hover:bg-white border border-timco-orange hover:border-timco-orange text-white hover:text-timco-slate font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out">
               Check our services
             </button>
           </div>
@@ -220,7 +220,7 @@ export default function ServicesPage() {
             <div className="h-12 w-12 bg-slate-200 rounded-md" />
             <h3 className="font-semibold text-lg">E-MAIL ADDRESS</h3>
             <p>sales@timcoph.com</p>
-            <button className="bg-[#ff7920] hover:bg-white border border-[#ff7920] hover:border-[#ff7920] text-white hover:text-[#1d3456] font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out">
+            <button className="bg-timco-orange hover:bg-white border border-timco-orange hover:border-timco-orange text-white hover:text-timco-slate font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out">
               Check our services
             </button>
           </div>
@@ -228,7 +228,7 @@ export default function ServicesPage() {
             <div className="h-12 w-12 bg-slate-200 rounded-md" />
             <h3 className="font-semibold text-lg">SOCIAL MEDIA</h3>
             <p>@timcocorp</p>
-            <button className="bg-[#ff7920] hover:bg-white border border-[#ff7920] hover:border-[#ff7920] text-white hover:text-[#1d3456] font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out">
+            <button className="bg-timco-orange hover:bg-white border border-timco-orange hover:border-timco-orange text-white hover:text-timco-slate font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out">
               Check our services
             </button>
           </div>
@@ -262,7 +262,7 @@ export default function ServicesPage() {
             neque fugiat optio, aut aliquid. Nobis suscipit repudiandae odio
             enim sequi eos.
           </p>
-          <button className="bg-[#ff7920] hover:bg-white border border-[#ff7920] hover:border-[#ff7920] text-white hover:text-[#1d3456] font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out">
+          <button className="bg-timco-orange hover:bg-white border border-timco-orange hover:border-timco-orange text-white hover:text-timco-slate font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out">
             Check our services
           </button>
         </div>

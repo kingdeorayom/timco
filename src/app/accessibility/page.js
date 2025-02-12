@@ -1,9 +1,8 @@
-import Image from "next/image";
 import Link from "next/link";
 
 export default function AccessibilityPage() {
   return (
-    <section className="max-w-screen-2xl px-5 py-12 mx-auto space-y-16">
+    <section className="max-w-screen-xl px-5 py-12 mx-auto space-y-16">
       <h1 className="text-4xl font-bold">Accessibility</h1>
 
       <div className="bg-[#F8F9FA] border-t space-y-4 p-10">
@@ -13,7 +12,7 @@ export default function AccessibilityPage() {
           accessible to everyone. We are dedicated to inclusivity, ensuring our
           platform meets diverse needs and empowers all users.
         </p>
-        <button className="bg-[#1d3456] text-white hover:text-[#1d3456] hover:bg-white border border-[#1d3456] font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out">
+        <button className="bg-timco-slate text-white hover:text-timco-slate hover:bg-white border border-timco-slate font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out">
           Contact Us
         </button>
       </div>
@@ -35,7 +34,7 @@ export default function AccessibilityPage() {
             conformance testing to maximize conformance to{" "}
             <Link
               href="https://www.w3.org/TR/WCAG22/"
-              className="text-blue-700 hover:underline"
+              className="text-timco-blue hover:underline"
             >
               Web Content Accessibility Guidelines (WCAG) 2.2 Level AA Success
               Criteria.
@@ -64,10 +63,10 @@ export default function AccessibilityPage() {
             For users looking to use a screen reader, we recommend the NVDA
             (NonVisual Desktop Access) Screen Reader, a free and open-source
             screen reader for Windows. To learn more or download NVDA, please
-            visit the following link:
+            visit the following link:{" "}
             <Link
               href="https://www.nvaccess.org/download/"
-              className="text-blue-700 hover:underline"
+              className="text-timco-blue hover:underline"
             >
               Download NVDA Screen Reader
             </Link>
@@ -92,7 +91,7 @@ export default function AccessibilityPage() {
           </p>
         </div>
 
-        <div className="bg-[#F8F9FA] space-y-5 p-6">
+        <div className="bg-[#F8F9FA] space-y-5 p-10 rounded-2xl">
           <h3 className="text-3xl font-bold">Support</h3>
           <div className="space-y-4">
             <p>
@@ -117,7 +116,7 @@ export default function AccessibilityPage() {
         <h3 className="text-3xl font-bold">Assistive Technologies</h3>
 
         <div className="grid md:grid-cols-3 gap-8 px-10">
-          <div className="bg-white border p-6 transition-all duration-300 ease-in-out space-y-4 rounded-xl shadow-lg hover:shadow-xl">
+          <div className="bg-white border p-6 transition-all duration-300 ease-in-out space-y-4 rounded-2xl shadow-xl">
             <h4 className="font-semibold text-2xl">
               NVDA (Non-Visual Desktop Access)
             </h4>
@@ -126,14 +125,14 @@ export default function AccessibilityPage() {
               use Windows computers and various applications.
             </p>
           </div>
-          <div className="bg-white border p-6 transition-all duration-300 ease-in-out space-y-4 rounded-xl shadow-lg hover:shadow-xl">
+          <div className="bg-white border p-6 transition-all duration-300 ease-in-out space-y-4 rounded-2xl shadow-xl">
             <h4 className="font-semibold text-2xl">Windows Magnifier</h4>
             <p>
               Magnifier makes part or all of your screen bigger so you can see
               words and images better.
             </p>
           </div>
-          <div className="bg-white border p-6 transition-all duration-300 ease-in-out space-y-4 rounded-xl shadow-lg hover:shadow-xl">
+          <div className="bg-white border p-6 transition-all duration-300 ease-in-out space-y-4 rounded-2xl shadow-xl">
             <h4 className="font-semibold text-2xl">Read & Write</h4>
             <p>
               Read&Write is particularly useful for supporting special

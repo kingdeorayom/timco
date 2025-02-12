@@ -45,7 +45,7 @@ export default function ClientsPage() {
               magnam minus magni similique quidem animi sunt? Quis quisquam
               nulla pariatur doloremque tempora!
             </p>
-            <button className="bg-[#ff7920] text-white font-bold py-2 px-4 rounded-full">
+            <button className="bg-timco-orange text-white font-bold py-2 px-4 rounded-full">
               Check our services
             </button>
           </div>
@@ -55,7 +55,7 @@ export default function ClientsPage() {
       <div className="bg-[#1D3546] h-6 md:hidden" />
 
       <div className="space-y-4">
-        <h3 className="text-center text-[#ff7920] font-bold">
+        <h3 className="text-center text-timco-red font-bold">
           Trust and Worth
         </h3>
         <h2 className="text-3xl font-bold text-center">Our Clients</h2>

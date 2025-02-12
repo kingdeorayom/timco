@@ -1,9 +1,8 @@
-import Image from "next/image";
 import Link from "next/link";
 
 export default function PrivacyPolicyPage() {
   return (
-    <section className="max-w-screen-2xl px-5 py-12 mx-auto space-y-16">
+    <section className="max-w-screen-xl px-5 py-12 mx-auto space-y-16">
       <div className="space-y-4">
         <h1 className="text-4xl font-bold">
           Privacy Policy for TIMCO (Topsure Industrial Machineries and Controls
@@ -11,7 +10,7 @@ export default function PrivacyPolicyPage() {
         </h1>
         <p>Effective Date: February 07, 2025</p>
       </div>
-      <div className="space-y-5 p-6 bg-[#F8F9FA]">
+      <div className="bg-[#F8F9FA] space-y-5 p-10 rounded-2xl">
         <h3 className="text-3xl font-bold">
           Please read the Privacy Policy carefully before using this website
         </h3>

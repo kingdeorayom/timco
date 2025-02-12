@@ -8,8 +8,21 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        "timco-red": {
+          DEFAULT: "var(--timco-red)",
+        },
+        "timco-blue": {
+          DEFAULT: "var(--timco-blue)",
+        },
+        "timco-dark-blue": {
+          DEFAULT: "var(--timco-dark-blue)",
+        },
+        "timco-slate": {
+          DEFAULT: "var(--timco-slate)",
+        },
+        "timco-orange": {
+          DEFAULT: "var(--timco-orange)",
+        },
       },
       keyframes: {
         marquee: {

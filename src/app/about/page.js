@@ -27,7 +27,7 @@ export default function AboutPage() {
           <div>
             <Link
               href="/services"
-              className="bg-[#ff7920] hover:bg-white border border-[#ff7920] hover:border-white text-white hover:text-[#1d3456] font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out"
+              className="bg-timco-orange hover:bg-white border border-timco-orange hover:border-white text-white hover:text-timco-slate font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out"
             >
               Check our services
             </Link>
@@ -213,7 +213,7 @@ export default function AboutPage() {
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 384 512"
-                className="h-7 w-7 fill-[#ff7920]"
+                className="h-7 w-7 fill-timco-orange"
               >
                 <path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z" />
               </svg>
@@ -228,7 +228,7 @@ export default function AboutPage() {
               <Link
                 href="https://maps.app.goo.gl/aXckmT7CCNyUxVCPA"
                 target="_blank"
-                className="hover:bg-[#ff7920] bg-white border hover:border-[#ff7920] border-slate-500 hover:text-white text-[#1d3456] font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out"
+                className="hover:bg-timco-orange bg-white border hover:border-timco-orange border-slate-500 hover:text-white text-timco-slate font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out"
               >
                 Visit our site
               </Link>
@@ -239,7 +239,7 @@ export default function AboutPage() {
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 512 512"
-                className="h-7 w-7 fill-[#ff7920]"
+                className="h-7 w-7 fill-timco-orange"
               >
                 <path d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z" />
               </svg>
@@ -250,7 +250,7 @@ export default function AboutPage() {
             <div className="pt-2 pb-1">
               <Link
                 href="tel:7753492"
-                className="hover:bg-[#ff7920] bg-white border hover:border-[#ff7920] border-slate-500 hover:text-white text-[#1d3456] font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out"
+                className="hover:bg-timco-orange bg-white border hover:border-timco-orange border-slate-500 hover:text-white text-timco-slate font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out"
               >
                 Call Us
               </Link>
@@ -261,7 +261,7 @@ export default function AboutPage() {
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 384 512"
-                className="h-7 w-7 fill-[#ff7920]"
+                className="h-7 w-7 fill-timco-orange"
               >
                 <path d="M16 64C16 28.7 44.7 0 80 0L304 0c35.3 0 64 28.7 64 64l0 384c0 35.3-28.7 64-64 64L80 512c-35.3 0-64-28.7-64-64L16 64zM144 448c0 8.8 7.2 16 16 16l64 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-64 0c-8.8 0-16 7.2-16 16zM304 64L80 64l0 320 224 0 0-320z" />
               </svg>
@@ -275,7 +275,7 @@ export default function AboutPage() {
             <div className="pt-2 pb-1">
               <Link
                 href="tel:0917870675"
-                className="hover:bg-[#ff7920] bg-white border hover:border-[#ff7920] border-slate-500 hover:text-white text-[#1d3456] font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out"
+                className="hover:bg-timco-orange bg-white border hover:border-timco-orange border-slate-500 hover:text-white text-timco-slate font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out"
               >
                 Send us a message
               </Link>
@@ -286,7 +286,7 @@ export default function AboutPage() {
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 512 512"
-                className="h-7 w-7 fill-[#ff7920]"
+                className="h-7 w-7 fill-timco-orange"
               >
                 <path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48L48 64zM0 176L0 384c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-208L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z" />
               </svg>
@@ -297,7 +297,7 @@ export default function AboutPage() {
             <div className="pt-2 pb-1">
               <Link
                 href="mailto:sales@timcoph.com"
-                className="hover:bg-[#ff7920] bg-white border hover:border-[#ff7920] border-slate-500 hover:text-white text-[#1d3456] font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out"
+                className="hover:bg-timco-orange bg-white border hover:border-timco-orange border-slate-500 hover:text-white text-timco-slate font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out"
               >
                 Send us an e-mail
               </Link>
@@ -308,7 +308,7 @@ export default function AboutPage() {
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 512 512"
-                className="h-7 w-7 fill-[#ff7920]"
+                className="h-7 w-7 fill-timco-orange"
               >
                 <path d="M256 64C150 64 64 150 64 256s86 192 192 192c17.7 0 32 14.3 32 32s-14.3 32-32 32C114.6 512 0 397.4 0 256S114.6 0 256 0S512 114.6 512 256l0 32c0 53-43 96-96 96c-29.3 0-55.6-13.2-73.2-33.9C320 371.1 289.5 384 256 384c-70.7 0-128-57.3-128-128s57.3-128 128-128c27.9 0 53.7 8.9 74.7 24.1c5.7-5 13.1-8.1 21.3-8.1c17.7 0 32 14.3 32 32l0 80 0 32c0 17.7 14.3 32 32 32s32-14.3 32-32l0-32c0-106-86-192-192-192zm64 192a64 64 0 1 0 -128 0 64 64 0 1 0 128 0z" />
               </svg>
@@ -319,7 +319,7 @@ export default function AboutPage() {
             <div className="pt-2 pb-1">
               <Link
                 href="#"
-                className="hover:bg-[#ff7920] bg-white border hover:border-[#ff7920] border-slate-500 hover:text-white text-[#1d3456] font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out"
+                className="hover:bg-timco-orange bg-white border hover:border-timco-orange border-slate-500 hover:text-white text-timco-slate font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out"
               >
                 Follow Us
               </Link>
@@ -355,7 +355,7 @@ export default function AboutPage() {
           <div className="py-2">
             <Link
               href="/services"
-              className="hover:bg-[#ff7920] bg-white border hover:border-[#ff7920] border-slate-500 hover:text-white text-[#1d3456] font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out"
+              className="hover:bg-timco-orange bg-white border hover:border-timco-orange border-slate-500 hover:text-white text-timco-slate font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out"
             >
               Check our services
             </Link>

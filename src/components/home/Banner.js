@@ -14,8 +14,8 @@ const Banner = () => {
             className="object-fit"
           />
         </div>
-        <div className="space-y-8 p-10 text-white">
-          <h2 className="text-6xl font-bold">
+        <div className="space-y-8 px-10 py-20 text-white">
+          <h2 className="text-4xl xl:text-6xl font-bold">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
           </h2>
           <p className="text-xl">

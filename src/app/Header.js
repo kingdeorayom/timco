@@ -5,12 +5,13 @@ import React from "react";
 const Header = () => {
   return (
     <header className="sticky top-0 z-50">
-      {/* <div className="bg-timco-orange">
+      {/* <div className="bg-timco-dark-blue">
         <p className="text-white text-center">
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
         </p>
       </div> */}
       <div className="bg-white py-6">
+        {/* <div className="bg-white py-6 shadow-md transition-shadow duration-300 ease-in-out"> */}
         <div className="max-w-screen-2xl px-5 mx-auto flex justify-between text-white">
           <div className="flex items-center space-x-8">
             <Link href="/" className="hover:opacity-90">

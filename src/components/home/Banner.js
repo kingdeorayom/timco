@@ -16,13 +16,17 @@ const Banner = () => {
         </div>
         <div className="space-y-8 px-10 py-20 text-white">
           <h2 className="text-4xl xl:text-6xl font-bold">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Interested in learning more about products and solutions from TIMCO?
           </h2>
           <p className="text-xl">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem
-            exercitationem pariatur nulla obcaecati reprehenderit, labore iure
-            architecto voluptatibus nemo officia dignissimos commodi molestiae,
-            eveniet neque hic voluptate sunt consequuntur! Dolore?
+            We offer a wide range of industrial machinery and metal fabrication
+            solutions tailored to meet your specific needs. From standard
+            equipment to custom designs, we have the expertise and capabilities
+            to deliver exceptional results.
+          </p>
+          <p className="text-xl">
+            Contact us today to explore our comprehensive product offerings and
+            discover how we can contribute to your success.
           </p>
         </div>
       </div>

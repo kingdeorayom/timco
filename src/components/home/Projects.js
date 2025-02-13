@@ -23,13 +23,13 @@ const Projects = () => {
                 width={1500}
                 height={1500}
                 alt={index}
-                className="border-4 border-white shadow-lg h-72 w-72"
+                className="h-72 w-72 rounded-2xl"
               />
-              <h4 className="font-semibold text-lg">Conveyor Belt</h4>
+              <h4 className="font-semibold text-xl">Conveyor Belt</h4>
             </div>
           ))}
         </div>
-        <div className="group">
+        <div className="group hover:-translate-y-1 transition-all duration-300 ease-in-out">
           <Link
             href="/projects"
             className="text-timco-red transition-all duration-300 ease-in-out flex items-center justify-center group-hover:text-timco-slate font-bold"

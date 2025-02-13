@@ -12,7 +12,7 @@ export default function AccessibilityPage() {
           accessible to everyone. We are dedicated to inclusivity, ensuring our
           platform meets diverse needs and empowers all users.
         </p>
-        <button className="bg-timco-slate text-white hover:text-timco-slate hover:bg-white border border-timco-slate font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out">
+        <button className="bg-timco-slate text-white hover:text-timco-slate hover:bg-white border-2 border-timco-slate font-bold py-2 px-4 rounded-md transition-all duration-300 ease-in-out">
           Contact Us
         </button>
       </div>

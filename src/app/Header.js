@@ -21,11 +21,11 @@ const Header = () => {
                   width={720}
                   height={1080}
                   alt="Timco"
-                  className="w-40"
+                  className="w-36 md:w-40"
                 />
               </div>
             </Link>
-            <nav>
+            <nav className="hidden md:block">
               <ul className="flex space-x-8">
                 <li>
                   <Link
@@ -66,13 +66,22 @@ const Header = () => {
               </ul>
             </nav>
           </div>
-          <div className="flex justify-center items-center">
+          <div className="justify-center items-center hidden md:flex">
             <Link
               href="/about#contact-us"
-              className="hover:bg-timco-blue bg-white border-2 border-timco-slate hover:border-timco-blue hover:text-white text-timco-slate font-bold px-4 rounded-full transition-all duration-300 ease-in-out flex items-center h-10"
+              className="hover:bg-timco-dark-blue bg-white border-2 border-timco-slate hover:border-timco-dark-blue hover:text-white text-timco-slate font-bold px-4 rounded-md transition-all duration-300 ease-in-out flex items-center h-10"
             >
               Contact Us
             </Link>
+          </div>
+          <div className="flex justify-center items-center cursor-pointer md:hidden hover:opacity-85 transition-all duration-300 ease-in-out">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 448 512"
+              className="fill-timco-dark-blue h-7 w-7"
+            >
+              <path d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z" />
+            </svg>
           </div>
         </div>
       </div>

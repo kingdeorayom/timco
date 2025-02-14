@@ -4,7 +4,7 @@ import React from "react";
 
 const Ender = () => {
   return (
-    <section className="max-w-screen-2xl mx-auto space-y-16 py-10  p-20 rounded-2xl mt-20 mb-20">
+    <section className="max-w-screen-2xl mx-auto space-y-16 py-10 p-20 rounded-2xl mt-20 mb-20">
       <div className="grid lg:grid-cols-2 gap-4 lg:gap-10 xl:gap-16">
         <div>
           <Image
@@ -17,44 +17,24 @@ const Ender = () => {
         </div>
         <div className="space-y-8">
           <h2 className="text-5xl font-bold">
-            Do you have questions or inquiries?
+            Interested in learning more about products and solutions from TIMCO?
           </h2>
           <p className="text-[#575757]">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat cum
-            nesciunt corrupti quia ipsam officiis nihil esse accusantium sit
-            consequatur, sapiente ullam pariatur ipsa eius atque, magni neque a
-            ea?
+            We offer a wide range of industrial machinery and metal fabrication
+            solutions tailored to meet your specific needs. From standard
+            equipment to custom designs, we have the expertise and capabilities
+            to deliver exceptional results.
           </p>
-          {/* <div>
-              <Link
-                href="/clients"
-                className="bg-timco-orange hover:bg-white border border-timco-orange hover:border-timco-orange text-white hover:text-timco-slate font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out"
-              >
-                See our clients
-              </Link>
-            </div> */}
-          {/* <div className="py-2">
-              <Link
-                href="/clients"
-                className="hover:bg-timco-red bg-white border hover:border-timco-red border-timco-slate hover:text-white text-timco-slate font-semibold py-2 px-4 rounded-full transition-all duration-300 ease-in-out"
-              >
-                See our clients
-              </Link>
-            </div> */}
-          {/* <div className="py-2">
-              <Link
-                href="/clients"
-                className="hover:bg-timco-red bg-white border hover:border-timco-red border-timco-red hover:text-white text-timco-red font-semibold py-2 px-4 rounded-full transition-all duration-300 ease-in-out"
-              >
-                See our clients
-              </Link>
-            </div> */}
+          <p className="text-[#575757]">
+            Contact us today to explore our comprehensive product offerings and
+            discover how we can contribute to your success.
+          </p>
           <div className="group hover:-translate-y-1 transition-all duration-300 ease-in-out">
             <Link
-              href="/clients"
+              href="/services"
               className="text-timco-red transition-all duration-300 ease-in-out flex items-center group-hover:text-timco-slate font-bold"
             >
-              See our clients{" "}
+              Check our services{" "}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 448 512"

@@ -5,7 +5,7 @@ import React from "react";
 const MissionVision = () => {
   return (
     <>
-      <section className="max-w-screen-2xl px-5 pt-16 pb-8 mx-auto space-y-16">
+      <div className="max-w-screen-2xl px-5 pt-16 pb-8 mx-auto space-y-16">
         <div className="grid lg:grid-cols-2 gap-4 lg:gap-10 xl:gap-16">
           <div className="flex items-center">
             <div className="space-y-8">
@@ -31,9 +31,9 @@ const MissionVision = () => {
             />
           </div>
         </div>
-      </section>
+      </div>
 
-      <section className="max-w-screen-2xl px-5 pt-16 pb-8 mx-auto space-y-16">
+      <div className="max-w-screen-2xl px-5 pt-16 pb-8 mx-auto space-y-16">
         <div className="grid lg:grid-cols-2 gap-4 lg:gap-10 xl:gap-16">
           <div>
             <Image
@@ -56,7 +56,7 @@ const MissionVision = () => {
             </div>
           </div>
         </div>
-      </section>
+      </div>
     </>
     // <section className="max-w-screen-2xl px-5 py-10 mx-auto space-y-16">
     //   <div className="grid md:grid-cols-2 rounded-2xl overflow-hidden">

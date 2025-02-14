@@ -24,7 +24,7 @@ export default function AboutPage() {
           honed our expertise, strengthened our commitment, and solidified our
           position as a leader in the industry.
         </p>
-        <div>
+        <div className="py-8">
           <Image
             src="/mission.jpg"
             alt="Test"
@@ -48,26 +48,27 @@ export default function AboutPage() {
           </div>
           <div className="space-y-8">
             <h2 className="text-5xl font-bold text-timco-dark-blue">
-              A history of firsts that put customers first.
+              A history of firsts that put{" "}
+              <span className="text-timco-red">customers first</span>.
             </h2>
             <p>
               Our growth reflects our dedication to meeting the evolving needs
               of our clients.
             </p>
             <div className="space-y-10 py-4">
-              <p className="border-l-4 border-timco-dark-blue ps-8 xl:ps-10">
+              <p className="border-l-4 border-dotted border-timco-dark-blue ps-8 xl:ps-10">
                 <strong>2005 Foundation.</strong> TIMCO was established by Mr.
                 Ronnel Mendoza, a mechanical engineer who pioneered in the metal
                 industry since the early 90s. With years of expertise, the
                 company has built a reputation for quality and precision.
               </p>
-              <p className="border-l-4 border-timco-dark-blue ps-8 xl:ps-10">
+              <p className="border-l-4 border-dotted border-timco-dark-blue ps-8 xl:ps-10">
                 <strong>2017 Strategic Growth.</strong> To better serve our
                 clients, TIMCO has relocated and expanded its operations in
                 Binan City, Laguna—positioning itself in a strategic location
                 for manufacturing and industrial growth.
               </p>
-              <p className="border-l-4 border-timco-dark-blue ps-8 xl:ps-10">
+              <p className="border-l-4 border-dotted border-timco-dark-blue ps-8 xl:ps-10">
                 <strong>2020 Future Expansion.</strong> With increasing demand
                 and a growing client base, TIMCO is set to expand this year. Our
                 new plant and office will enhance our capacity to accommodate
@@ -82,9 +83,7 @@ export default function AboutPage() {
         <div className="grid lg:grid-cols-2 gap-4 lg:gap-10 xl:gap-16">
           <div className="flex items-center">
             <div className="space-y-8">
-              <h2 className="text-5xl font-bold text-timco-dark-blue">
-                Our Mission
-              </h2>
+              <h2 className="text-5xl font-bold">Our Mission</h2>
               <p className="text-[#575757]">
                 TIMCO will exceed the customer’s expectations by providing
                 reliable and cost-effective solutions through strong business
@@ -116,9 +115,7 @@ export default function AboutPage() {
           </div>
           <div className="flex items-center">
             <div className="space-y-8">
-              <h2 className="text-5xl font-bold text-timco-dark-blue">
-                Our Vision
-              </h2>
+              <h2 className="text-5xl font-bold">Our Vision</h2>
               <p className="text-[#575757]">
                 To be the preferred supplier of metal and steel fabrication
                 solutions.
@@ -131,8 +128,10 @@ export default function AboutPage() {
       <section className="max-w-screen-xl mx-auto py-16 space-y-12 text-center">
         <div className="space-y-4">
           <h2 className="text-5xl font-bold text-timco-dark-blue">
-            Driven by innovation and excellence, our founders have built a
-            legacy of quality, dedication, and industry leadership.
+            Driven by{" "}
+            <span className="text-timco-red">innovation and excellence</span>,
+            our founders have built a legacy of quality, dedication, and
+            industry leadership.
           </h2>
         </div>
         <div className="grid md:grid-cols-2 gap-8 py-10">
@@ -142,7 +141,7 @@ export default function AboutPage() {
               <h3 className="font-bold text-xl text-timco-dark-blue">
                 RONNEL MENDOZA
               </h3>
-              <p className="text-slate-600">President</p>
+              <p className="text-[#575757] text-lg">President</p>
             </div>
           </div>
           <div className="flex justify-center items-center flex-col space-y-16">
@@ -151,7 +150,7 @@ export default function AboutPage() {
               <h3 className="font-bold text-xl text-timco-dark-blue">
                 JUSTINE MENDOZA
               </h3>
-              <p className="text-slate-600">Vice President</p>
+              <p className="text-[#575757] text-lg">Vice President</p>
             </div>
           </div>
         </div>

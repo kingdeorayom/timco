@@ -39,7 +39,7 @@ const MachinesEquipment = () => {
           </li>
         </ul> */}
 
-        <ul className="flex space-x-4 text-center border-b border-gray-200 text-gray-500 overflow-x-auto whitespace-nowrap scrollbar-hide">
+        {/* <ul className="flex space-x-4 text-center border-b border-gray-200 text-gray-500 overflow-x-auto whitespace-nowrap scrollbar-hide">
           <li className="flex-shrink-0 px-4 py-4 border-b-4 text-timco-dark-blue border-timco-dark-blue cursor-pointer transition-all duration-200 ease-in-out font-bold">
             Lathe Machine
           </li>
@@ -59,6 +59,30 @@ const MachinesEquipment = () => {
             Hydraulic Bending Machine
           </li>
           <li className="flex-shrink-0 px-4 py-4 border-b-4 border-transparent hover:text-timco-dark-blue hover:border-timco-dark-blue cursor-pointer transition-all duration-200 ease-in-out">
+            TIG Welding Machine
+          </li>
+        </ul> */}
+
+        <ul className="flex text-center border-b border-gray-200 text-gray-500 overflow-x-auto whitespace-nowrap scrollbar-hide">
+          <li className="flex-1 px-4 py-4 border-b-4 text-timco-dark-blue border-timco-dark-blue cursor-pointer transition-all duration-200 ease-in-out font-bold">
+            Lathe Machine
+          </li>
+          <li className="flex-1 px-4 py-4 border-b-4 border-transparent hover:text-timco-dark-blue hover:border-timco-dark-blue cursor-pointer transition-all duration-200 ease-in-out">
+            Shearing Machine
+          </li>
+          <li className="flex-1 px-4 py-4 border-b-4 border-transparent hover:text-timco-dark-blue hover:border-timco-dark-blue cursor-pointer transition-all duration-200 ease-in-out">
+            Drill Press
+          </li>
+          <li className="flex-1 px-4 py-4 border-b-4 border-transparent hover:text-timco-dark-blue hover:border-timco-dark-blue cursor-pointer transition-all duration-200 ease-in-out">
+            Radial Drill
+          </li>
+          <li className="flex-1 px-4 py-4 border-b-4 border-transparent hover:text-timco-dark-blue hover:border-timco-dark-blue cursor-pointer transition-all duration-200 ease-in-out">
+            Milling Machine
+          </li>
+          <li className="flex-1 px-4 py-4 border-b-4 border-transparent hover:text-timco-dark-blue hover:border-timco-dark-blue cursor-pointer transition-all duration-200 ease-in-out">
+            Hydraulic Bending Machine
+          </li>
+          <li className="flex-1 px-4 py-4 border-b-4 border-transparent hover:text-timco-dark-blue hover:border-timco-dark-blue cursor-pointer transition-all duration-200 ease-in-out">
             TIG Welding Machine
           </li>
         </ul>

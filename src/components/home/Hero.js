@@ -8,7 +8,8 @@ const Hero = () => {
         <div className="space-y-10">
           <h1 className="text-5xl lg:text-6xl font-semibold text-timco-dark-blue">
             TOPSURE INDUSTRIAL MACHINERIES AND CONTROLS CORPORATION
-            {/* Topsure Industrial Machineries and Controls Corporation */}
+            {/* <span className="text-timco-red">TOPSURE</span> INDUSTRIAL
+            MACHINERIES AND CONTROLS CORPORATION */}
           </h1>
           <p className="md:text-xl">
             Your single source for industrial machinery, controls, metal

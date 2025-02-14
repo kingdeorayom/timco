@@ -55,19 +55,19 @@ export default function AboutPage() {
               of our clients.
             </p>
             <div className="space-y-10 py-4">
-              <p className="border-l-4 border-timco-dark-blue ps-8 xl:ps-4">
+              <p className="border-l-4 border-timco-dark-blue ps-8 xl:ps-10">
                 <strong>2005 Foundation.</strong> TIMCO was established by Mr.
                 Ronnel Mendoza, a mechanical engineer who pioneered in the metal
                 industry since the early 90s. With years of expertise, the
                 company has built a reputation for quality and precision.
               </p>
-              <p className="border-l-4 border-timco-dark-blue ps-8 xl:ps-4">
+              <p className="border-l-4 border-timco-dark-blue ps-8 xl:ps-10">
                 <strong>2017 Strategic Growth.</strong> To better serve our
                 clients, TIMCO has relocated and expanded its operations in
                 Binan City, Laguna—positioning itself in a strategic location
                 for manufacturing and industrial growth.
               </p>
-              <p className="border-l-4 border-timco-dark-blue ps-8 xl:ps-4">
+              <p className="border-l-4 border-timco-dark-blue ps-8 xl:ps-10">
                 <strong>2020 Future Expansion.</strong> With increasing demand
                 and a growing client base, TIMCO is set to expand this year. Our
                 new plant and office will enhance our capacity to accommodate
@@ -164,6 +164,8 @@ export default function AboutPage() {
         </p>
       </section>
 
+      <Ender />
+
       <section className="max-w-screen-xl mx-auto space-y-12 text-center">
         <div className="space-y-8">
           <h2 className="text-5xl font-bold text-timco-dark-blue">
@@ -176,7 +178,7 @@ export default function AboutPage() {
           </p>
         </div>
         <div className="grid md:grid-cols-3 gap-8 py-8">
-          <div className="p-6 space-y-6 flex flex-col items-center">
+          <div className="p-6 pb-10 space-y-6 flex flex-col items-center bg-slate-50 hover:bg-slate-100 transition-all duration-300 ease-in-out rounded-2xl">
             <div className="h-14 w-14 flex items-center justify-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -218,7 +220,7 @@ export default function AboutPage() {
             </div>
           </div>
 
-          <div className="p-6 space-y-6 flex flex-col items-center">
+          <div className="p-6 pb-10 space-y-6 flex flex-col items-center bg-slate-50 hover:bg-slate-100 transition-all duration-300 ease-in-out rounded-2xl">
             <div className="h-14 w-14 flex items-center justify-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -257,7 +259,7 @@ export default function AboutPage() {
             </div>
           </div>
 
-          <div className="p-6 space-y-6 flex flex-col items-center">
+          <div className="p-6 pb-10 space-y-6 flex flex-col items-center bg-slate-50 hover:bg-slate-100 transition-all duration-300 ease-in-out rounded-2xl">
             <div className="h-14 w-14 flex items-center justify-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -299,7 +301,7 @@ export default function AboutPage() {
             </div>
           </div>
 
-          <div className="p-6 space-y-6 flex flex-col items-center">
+          <div className="p-6 pb-10 space-y-6 flex flex-col items-center bg-slate-50 hover:bg-slate-100 transition-all duration-300 ease-in-out rounded-2xl">
             <div className="h-14 w-14 flex items-center justify-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -338,7 +340,7 @@ export default function AboutPage() {
             </div>
           </div>
 
-          <div className="p-6 space-y-6 flex flex-col items-center">
+          <div className="p-6 pb-10 space-y-6 flex flex-col items-center bg-slate-50 hover:bg-slate-100 transition-all duration-300 ease-in-out rounded-2xl">
             <div className="h-14 w-14 flex items-center justify-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -378,8 +380,6 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
-
-      <Ender />
     </div>
   );
 }

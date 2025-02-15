@@ -5,9 +5,9 @@ export default function ClientsPage() {
   return (
     <section className="max-w-screen-2xl px-5 pt-16 pb-16 mx-auto space-y-16">
       <div className="space-y-16">
-        <h2 className="text-4xl md:text-6xl font-bold text-timco-dark-blue">
+        <h1 className="text-4xl md:text-6xl font-bold text-timco-dark-blue">
           <span className="text-timco-red">Trusted</span> by Industry Leaders
-        </h2>
+        </h1>
         <div className="flex flex-wrap items-center justify-center gap-10 px-8">
           <div className="bg-timco-white rounded-2xl">
             <Image
@@ -120,7 +120,7 @@ export default function ClientsPage() {
             />
           </div>
         </div>
-        <div className="p-10 bg-timco-off-white rounded-2xl space-y-8">
+        <div className="p-8 bg-timco-off-white rounded-2xl">
           <p>
             Our clients come from various industries, including manufacturing,
             construction, and engineering, all benefiting from our
@@ -128,6 +128,67 @@ export default function ClientsPage() {
             and see why companies continue to choose TIMCO as their trusted
             provider.
           </p>
+        </div>
+      </div>
+
+      <div className="grid lg:grid-cols-2">
+        <div className="flex items-center justify-center">
+          <Image
+            src={`/clients/gardenia.png`}
+            width={1500}
+            height={1500}
+            alt="Gardenia"
+            className="h-64 w-64"
+          />
+        </div>
+        <div className="space-y-8">
+          <h2 className="font-bold text-4xl text-timco-dark-blue text-center">
+            GARDENIA BAKERIES PHIL. INC.
+          </h2>
+          <div className="flex flex-wrap gap-4 p-4">
+            <div className="bg-timco-off-white rounded-full px-4 py-2 w-fit">
+              <p>Fabrication of Conveyors</p>
+            </div>
+            <div className="bg-timco-off-white rounded-full px-4 py-2 w-fit">
+              <p>Perforated Lockers</p>
+            </div>
+            <div className="bg-timco-off-white rounded-full px-4 py-2 w-fit">
+              <p>Cooling Racks</p>
+            </div>
+            <div className="bg-timco-off-white rounded-full px-4 py-2 w-fit">
+              <p>Proofing Racks</p>
+            </div>
+            <div className="bg-timco-off-white rounded-full px-4 py-2 w-fit">
+              <p>Toastline Chimneys</p>
+            </div>
+            <div className="bg-timco-off-white rounded-full px-4 py-2 w-fit">
+              <p>Hydraulic Pusher</p>
+            </div>
+            <div className="bg-timco-off-white rounded-full px-4 py-2 w-fit">
+              <p>Container Vans</p>
+            </div>
+            <div className="bg-timco-off-white rounded-full px-4 py-2 w-fit">
+              <p>Stainless Steel Silo</p>
+            </div>
+            <div className="bg-timco-off-white rounded-full px-4 py-2 w-fit">
+              <p>Pipings</p>
+            </div>
+            <div className="bg-timco-off-white rounded-full px-4 py-2 w-fit">
+              <p>Humidifier and Spraying Systems</p>
+            </div>
+            <div className="bg-timco-off-white rounded-full px-4 py-2 w-fit">
+              <p>Dough Tub</p>
+            </div>
+            <div className="bg-timco-off-white rounded-full px-4 py-2 w-fit">
+              <p>Spiral Cooler</p>
+            </div>
+            <div className="bg-timco-off-white rounded-full px-4 py-2 w-fit">
+              <p>Loader Conveyor</p>
+            </div>
+            <div className="bg-timco-off-white rounded-full px-4 py-2 w-fit">
+              <p>Stainless Steel Cabinet and Tables</p>
+            </div>
+          </div>
         </div>
       </div>
     </section>

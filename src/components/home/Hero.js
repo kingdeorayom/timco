@@ -3,12 +3,14 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <section className="max-w-screen-2xl mx-auto px-5 sm:px-8 md:px-12 lg:px-16 xl:px-20 pt-16 pb-8">
-      <div className="grid xl:grid-cols-2 gap-y-16">
+    <section className="max-w-screen-2xl mx-auto px-5 sm:px-8 md:px-12 lg:px-16 xl:px-20 pt-4 pb-4 sm:pt-16 sm:pb-8">
+      <div className="grid xl:grid-cols-2 gap-10">
         {/* Left Side (Text Content) */}
         <div className="space-y-10">
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-semibold text-timco-dark-blue">
-            TOPSURE INDUSTRIAL MACHINERIES AND CONTROLS CORPORATION
+            <span className="text-timco-red">TOPSURE</span> INDUSTRIAL
+            MACHINERIES AND CONTROLS CORPORATION
+            {/* TOPSURE INDUSTRIAL MACHINERIES AND CONTROLS CORPORATION */}
           </h1>
           <p className="text-base sm:text-lg md:text-xl text-gray-700">
             Your single source for industrial machinery, controls, metal

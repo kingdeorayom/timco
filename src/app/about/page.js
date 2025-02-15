@@ -1,5 +1,4 @@
 import Ender from "@/components/home/Ender";
-import MissionVision from "@/components/home/MissionVision";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -165,7 +164,10 @@ export default function AboutPage() {
 
       <Ender />
 
-      <section className="max-w-screen-xl mx-auto space-y-12 text-center">
+      <section
+        id="contact-us"
+        className="max-w-screen-xl mx-auto space-y-12 text-center"
+      >
         <div className="space-y-8">
           <h2 className="text-5xl font-bold text-timco-dark-blue">
             Contact Us

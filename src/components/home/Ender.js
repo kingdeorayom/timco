@@ -4,7 +4,7 @@ import React from "react";
 
 const Ender = () => {
   return (
-    <section className="max-w-screen-2xl mx-auto space-y-16 py-10 p-20 rounded-2xl mt-20 mb-20">
+    <section className="max-w-screen-2xl mx-auto space-y-16 py-10 p-8 md:p-20 rounded-2xl">
       <div className="grid lg:grid-cols-2 gap-4 lg:gap-10 xl:gap-16">
         <div>
           <Image

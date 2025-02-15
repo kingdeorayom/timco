@@ -237,7 +237,7 @@ export default function ServicesPage() {
 
       <div className="grid lg:grid-cols-2 gap-10 bg-timco-off-white p-12 rounded-lg">
         <div>
-          <Image
+          <img
             src="/mission.jpg"
             alt="Test"
             width={1920}

@@ -116,7 +116,7 @@ export default function ProjectsPage() {
         </div>
 
         {/* <div className="py-8">
-          <Image
+          <img
             src="/mission.jpg"
             alt="Test"
             width={1920}

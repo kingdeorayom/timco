@@ -9,7 +9,7 @@ export default function ClientsPage() {
         </h1>
         <div className="flex flex-wrap items-center justify-center gap-16 px-8">
           <div className="bg-timco-white rounded-2xl">
-            <Image
+            <img
               src="/clients/bsbs.png"
               width={1500}
               height={1500}
@@ -18,7 +18,7 @@ export default function ClientsPage() {
             />
           </div>
           <div className="bg-timco-white rounded-2xl">
-            <Image
+            <img
               src="/clients/ccp.png"
               width={1500}
               height={1500}
@@ -27,7 +27,7 @@ export default function ClientsPage() {
             />
           </div>
           <div className="bg-timco-white rounded-2xl">
-            <Image
+            <img
               src="/clients/doxo.png"
               width={1500}
               height={1500}
@@ -37,7 +37,7 @@ export default function ClientsPage() {
           </div>
 
           <div className="bg-timco-white rounded-2xl">
-            <Image
+            <img
               src="/clients/ekpi.png"
               width={1500}
               height={1500}
@@ -46,7 +46,7 @@ export default function ClientsPage() {
             />
           </div>
           <div className="bg-timco-white rounded-2xl">
-            <Image
+            <img
               src="/clients/gardenia.png"
               width={1500}
               height={1500}
@@ -55,7 +55,7 @@ export default function ClientsPage() {
             />
           </div>
           <div className="bg-timco-white rounded-2xl">
-            <Image
+            <img
               src="/clients/hstc.png"
               width={1500}
               height={1500}
@@ -65,7 +65,7 @@ export default function ClientsPage() {
           </div>
 
           <div className="bg-timco-white rounded-2xl">
-            <Image
+            <img
               src="/clients/leslies.png"
               width={1500}
               height={1500}
@@ -74,7 +74,7 @@ export default function ClientsPage() {
             />
           </div>
           <div className="bg-timco-white rounded-2xl">
-            <Image
+            <img
               src="/clients/mpi.png"
               width={1500}
               height={1500}
@@ -83,7 +83,7 @@ export default function ClientsPage() {
             />
           </div>
           <div className="bg-timco-white rounded-2xl">
-            <Image
+            <img
               src="/clients/nutrimax.png"
               width={1500}
               height={1500}
@@ -92,7 +92,7 @@ export default function ClientsPage() {
             />
           </div>
           <div className="bg-timco-white rounded-2xl">
-            <Image
+            <img
               src="/clients/pfbp.png"
               width={1500}
               height={1500}
@@ -101,7 +101,7 @@ export default function ClientsPage() {
             />
           </div>
           <div className="bg-timco-white rounded-2xl">
-            <Image
+            <img
               src="/clients/pps.png"
               width={1500}
               height={1500}
@@ -110,7 +110,7 @@ export default function ClientsPage() {
             />
           </div>
           {/* <div className="bg-timco-white rounded-2xl">
-            <Image
+            <img
               src="/clients/smdc.png"
               width={1500}
               height={1500}
@@ -132,7 +132,7 @@ export default function ClientsPage() {
 
       <div className="grid lg:grid-cols-2 gap-16 lg:gap-0">
         <div className="flex items-center justify-center">
-          <Image
+          <img
             src={`/clients/gardenia.png`}
             width={1500}
             height={1500}
@@ -193,7 +193,7 @@ export default function ClientsPage() {
 
       <div className="grid lg:grid-cols-2 gap-16 lg:gap-0">
         <div className="flex items-center justify-center">
-          <Image
+          <img
             src={`/clients/hstc.png`}
             width={1500}
             height={1500}
@@ -224,7 +224,7 @@ export default function ClientsPage() {
 
       <div className="grid lg:grid-cols-2 gap-16 lg:gap-0">
         <div className="flex items-center justify-center">
-          <Image
+          <img
             src={`/clients/doxo.png`}
             width={1500}
             height={1500}
@@ -255,7 +255,7 @@ export default function ClientsPage() {
 
       <div className="grid lg:grid-cols-2 gap-16 lg:gap-0">
         <div className="flex items-center justify-center">
-          <Image
+          <img
             src={`/clients/mpi.png`}
             width={1500}
             height={1500}
@@ -286,7 +286,7 @@ export default function ClientsPage() {
 
       <div className="grid lg:grid-cols-2 gap-16 lg:gap-0">
         <div className="flex items-center justify-center">
-          <Image
+          <img
             src={`/clients/pps.png`}
             width={1500}
             height={1500}
@@ -314,7 +314,7 @@ export default function ClientsPage() {
 
       <div className="grid lg:grid-cols-2 gap-16 lg:gap-0">
         <div className="flex items-center justify-center">
-          <Image
+          <img
             src={`/clients/ekpi.png`}
             width={1500}
             height={1500}
@@ -345,7 +345,7 @@ export default function ClientsPage() {
 
       <div className="grid lg:grid-cols-2 gap-16 lg:gap-0">
         <div className="flex items-center justify-center">
-          <Image
+          <img
             src={`/clients/nutrimax.png`}
             width={1500}
             height={1500}
@@ -385,7 +385,7 @@ export default function ClientsPage() {
 
       <div className="grid lg:grid-cols-2 gap-16 lg:gap-0">
         <div className="flex items-center justify-center">
-          <Image
+          <img
             src={`/clients/leslies.png`}
             width={1500}
             height={1500}
@@ -413,7 +413,7 @@ export default function ClientsPage() {
 
       <div className="grid lg:grid-cols-2 gap-16 lg:gap-0">
         <div className="flex items-center justify-center">
-          <Image
+          <img
             src={`/clients/pfbp.png`}
             width={1500}
             height={1500}
@@ -450,7 +450,7 @@ export default function ClientsPage() {
 
       <div className="grid lg:grid-cols-2 gap-16 lg:gap-0">
         <div className="flex items-center justify-center">
-          <Image
+          <img
             src={`/clients/ccp.png`}
             width={1500}
             height={1500}
@@ -475,7 +475,7 @@ export default function ClientsPage() {
 
       <div className="grid lg:grid-cols-2 gap-16 lg:gap-0">
         <div className="flex items-center justify-center">
-          <Image
+          <img
             src={`/clients/bsbs.png`}
             width={1500}
             height={1500}

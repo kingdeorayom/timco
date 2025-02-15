@@ -14,7 +14,7 @@ const Header = () => {
           <div className="flex items-center space-x-8">
             <Link href="/" className="hover:opacity-90">
               <div className="bg-timco-white px-1 rounded-sm">
-                <Image
+                <img
                   src={"/timco.png"}
                   width={720}
                   height={1080}
@@ -102,7 +102,7 @@ const Header = () => {
               <div className="flex items-center justify-between mt-1">
                 <Link href="/" className="hover:opacity-90">
                   <div className="bg-timco-white px-1 rounded-sm">
-                    <Image
+                    <img
                       src={"/timco.png"}
                       width={720}
                       height={1080}

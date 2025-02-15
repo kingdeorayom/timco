@@ -110,7 +110,7 @@ const Projects = () => {
 
         {/* <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-20">
           <div className="flex flex-col justify-center items-center space-y-6">
-            <Image
+            <img
               src={`/projects/done/50t-multi-point-bar-spreader.jpg`}
               width={1500}
               height={1500}
@@ -122,7 +122,7 @@ const Projects = () => {
             </h4>
           </div>
           <div className="flex flex-col justify-center items-center space-y-6">
-            <Image
+            <img
               src={`/projects/done/dust-collector.jpg`}
               width={1500}
               height={1500}
@@ -134,7 +134,7 @@ const Projects = () => {
             </h4>
           </div>
           <div className="flex flex-col justify-center items-center space-y-6">
-            <Image
+            <img
               src={`/projects/done/50t-multi-point-bar-spreader.jpg`}
               width={1500}
               height={1500}
@@ -146,7 +146,7 @@ const Projects = () => {
             </h4>
           </div>
           <div className="flex flex-col justify-center items-center space-y-6">
-            <Image
+            <img
               src={`/projects/done/50t-multi-point-bar-spreader.jpg`}
               width={1500}
               height={1500}
@@ -158,7 +158,7 @@ const Projects = () => {
             </h4>
           </div>
           <div className="flex flex-col justify-center items-center space-y-6">
-            <Image
+            <img
               src={`/projects/done/50t-multi-point-bar-spreader.jpg`}
               width={1500}
               height={1500}
@@ -170,7 +170,7 @@ const Projects = () => {
             </h4>
           </div>
           <div className="flex flex-col justify-center items-center space-y-6">
-            <Image
+            <img
               src={`/projects/done/50t-multi-point-bar-spreader.jpg`}
               width={1500}
               height={1500}
@@ -182,7 +182,7 @@ const Projects = () => {
             </h4>
           </div>
           <div className="flex flex-col justify-center items-center space-y-6">
-            <Image
+            <img
               src={`/projects/done/50t-multi-point-bar-spreader.jpg`}
               width={1500}
               height={1500}

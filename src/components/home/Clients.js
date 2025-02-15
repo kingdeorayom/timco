@@ -7,7 +7,7 @@ const Clients = () => {
       <section className="max-w-screen-2xl px-5 pt-16 pb-16 mx-auto space-y-16">
         <div className="grid xl:grid-cols-2 gap-16 xl:gap-16">
           <div className="flex flex-col items-center justify-center">
-            <Image
+            <img
               src="/mission.jpg"
               alt="Test"
               width={1920}
@@ -19,7 +19,7 @@ const Clients = () => {
             <h2 className="text-5xl font-bold">Trusted by Industry Leaders</h2>
             <div className="flex flex-wrap items-center justify-center gap-8">
               <div className="bg-timco-white rounded-2xl">
-                <Image
+                <img
                   src="/clients/bsbs.png"
                   width={1500}
                   height={1500}
@@ -28,7 +28,7 @@ const Clients = () => {
                 />
               </div>
               <div className="bg-timco-white rounded-2xl">
-                <Image
+                <img
                   src="/clients/ccp.png"
                   width={1500}
                   height={1500}
@@ -37,7 +37,7 @@ const Clients = () => {
                 />
               </div>
               <div className="bg-timco-white rounded-2xl">
-                <Image
+                <img
                   src="/clients/doxo.png"
                   width={1500}
                   height={1500}
@@ -47,7 +47,7 @@ const Clients = () => {
               </div>
 
               <div className="bg-timco-white rounded-2xl">
-                <Image
+                <img
                   src="/clients/ekpi.png"
                   width={1500}
                   height={1500}
@@ -56,7 +56,7 @@ const Clients = () => {
                 />
               </div>
               <div className="bg-timco-white rounded-2xl">
-                <Image
+                <img
                   src="/clients/gardenia.png"
                   width={1500}
                   height={1500}
@@ -65,7 +65,7 @@ const Clients = () => {
                 />
               </div>
               <div className="bg-timco-white rounded-2xl">
-                <Image
+                <img
                   src="/clients/hstc.png"
                   width={1500}
                   height={1500}
@@ -75,7 +75,7 @@ const Clients = () => {
               </div>
 
               <div className="bg-timco-white rounded-2xl">
-                <Image
+                <img
                   src="/clients/leslies.png"
                   width={1500}
                   height={1500}
@@ -84,7 +84,7 @@ const Clients = () => {
                 />
               </div>
               <div className="bg-timco-white rounded-2xl">
-                <Image
+                <img
                   src="/clients/mpi.png"
                   width={1500}
                   height={1500}
@@ -93,7 +93,7 @@ const Clients = () => {
                 />
               </div>
               <div className="bg-timco-white rounded-2xl">
-                <Image
+                <img
                   src="/clients/nutrimax.png"
                   width={1500}
                   height={1500}
@@ -102,7 +102,7 @@ const Clients = () => {
                 />
               </div>
               <div className="bg-timco-white rounded-2xl">
-                <Image
+                <img
                   src="/clients/pfbp.png"
                   width={1500}
                   height={1500}
@@ -111,7 +111,7 @@ const Clients = () => {
                 />
               </div>
               <div className="bg-timco-white rounded-2xl">
-                <Image
+                <img
                   src="/clients/pps.png"
                   width={1500}
                   height={1500}
@@ -120,7 +120,7 @@ const Clients = () => {
                 />
               </div>
               <div className="bg-timco-white rounded-2xl">
-                <Image
+                <img
                   src="/clients/smdc.png"
                   width={1500}
                   height={1500}

@@ -38,7 +38,7 @@ const Hero = () => {
 
         {/* Right Side (Image) */}
         <div>
-          <Image
+          <img
             src="/mission.jpg"
             alt="Industrial Machinery"
             width={1920}

@@ -16,7 +16,7 @@ const Introduction = () => {
         <div className="grid lg:grid-cols-3 gap-4 lg:gap-16">
           <div>
             <div>
-              <Image
+              <img
                 src="/mission.jpg"
                 alt="Test"
                 width={1920}
@@ -57,7 +57,7 @@ const Introduction = () => {
           </div>
           <div>
             <div>
-              <Image
+              <img
                 src="/mission.jpg"
                 alt="Test"
                 width={1920}
@@ -101,7 +101,7 @@ const Introduction = () => {
           </div>
           <div>
             <div>
-              <Image
+              <img
                 src="/mission.jpg"
                 alt="Test"
                 width={1920}

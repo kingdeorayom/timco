@@ -17,7 +17,7 @@ const MissionVision = () => {
         </div>
 
         <div>
-          <Image
+          <img
             src="/mission.jpg"
             alt="Test"
             width={1920}
@@ -28,7 +28,7 @@ const MissionVision = () => {
       </div>
       <div className="grid lg:grid-cols-2 gap-4 lg:gap-10 xl:gap-16">
         <div>
-          <Image
+          <img
             src="/mission.jpg"
             alt="Test"
             width={1920}
@@ -65,7 +65,7 @@ const MissionVision = () => {
     //       </div>
 
     //       <div>
-    //         <Image
+    //         <img
     //           src="/mission.jpg"
     //           alt="Test"
     //           width={1920}
@@ -79,7 +79,7 @@ const MissionVision = () => {
     //   <div className="max-w-screen-2xl px-5 pt-16 pb-8 mx-auto space-y-16">
     //     <div className="grid lg:grid-cols-2 gap-4 lg:gap-10 xl:gap-16">
     //       <div>
-    //         <Image
+    //         <img
     //           src="/mission.jpg"
     //           alt="Test"
     //           width={1920}

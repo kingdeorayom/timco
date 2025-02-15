@@ -7,7 +7,7 @@ const Ender = () => {
     <section className="max-w-screen-2xl mx-auto space-y-16 py-10 p-8 md:p-20 rounded-2xl">
       <div className="grid lg:grid-cols-2 gap-4 lg:gap-10 xl:gap-16">
         <div>
-          <Image
+          <img
             src="/mission.jpg"
             alt="Test"
             width={1920}

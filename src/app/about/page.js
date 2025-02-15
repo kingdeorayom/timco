@@ -24,7 +24,7 @@ export default function AboutPage() {
           position as a leader in the industry.
         </p>
         <div className="py-8">
-          <Image
+          <img
             src="/mission.jpg"
             alt="Test"
             width={1920}
@@ -37,7 +37,7 @@ export default function AboutPage() {
       <section className="px-5 pt-20 pb-16 mx-auto">
         <div className="grid lg:grid-cols-2 gap-4 lg:gap-10 xl:gap-16">
           <div className="flex justify-center">
-            <Image
+            <img
               src="/mission.jpg"
               alt="Test"
               width={1920}
@@ -93,7 +93,7 @@ export default function AboutPage() {
           </div>
 
           <div>
-            <Image
+            <img
               src="/mission.jpg"
               alt="Test"
               width={1920}
@@ -104,7 +104,7 @@ export default function AboutPage() {
         </div>
         <div className="grid lg:grid-cols-2 gap-4 lg:gap-10 xl:gap-16">
           <div>
-            <Image
+            <img
               src="/mission.jpg"
               alt="Test"
               width={1920}

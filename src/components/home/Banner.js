@@ -6,7 +6,7 @@ const Banner = () => {
     <section className="py-16">
       <div className="mx-auto bg-timco-dark-blue grid lg:grid-cols-2">
         <div>
-          <Image
+          <img
             src="/mission.jpg"
             alt="Test"
             width={1920}

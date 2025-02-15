@@ -113,7 +113,7 @@ const MachinesEquipment = () => {
               {/* <div className="py-2">
                 <Link
                   href="/clients"
-                  className="bg-timco-orange hover:bg-white border border-timco-orange hover:border-timco-orange text-white hover:text-timco-slate font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out"
+                  className="bg-timco-orange hover:bg-timco-white border border-timco-orange hover:border-timco-orange text-timco-white hover:text-timco-slate font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out"
                 >
                   See our clients
                 </Link>
@@ -121,7 +121,7 @@ const MachinesEquipment = () => {
               {/* <div className="py-2">
                 <Link
                   href="/clients"
-                  className="hover:bg-timco-red bg-white border-2 hover:border-timco-red border-timco-red hover:text-white text-timco-red font-semibold py-2 px-4 rounded-full transition-all duration-300 ease-in-out"
+                  className="hover:bg-timco-red bg-timco-white border-2 hover:border-timco-red border-timco-red hover:text-timco-white text-timco-red font-semibold py-2 px-4 rounded-full transition-all duration-300 ease-in-out"
                 >
                   See our clients
                 </Link>

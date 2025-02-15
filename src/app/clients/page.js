@@ -1,18 +1,126 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function ClientsPage() {
   return (
-    <section className="max-w-screen-2xl px-5 py-12 mx-auto space-y-16">
-      <div className="grid lg:grid-cols-2 gap-4 lg:gap-10 xl:gap-16">
-        <div className="space-y-8  md:order-last order-first">
-          <h1 className="text-5xl font-bold">Trusted by Industry Leaders</h1>
-          <p>
-            At <strong>TIMCO</strong>, we are honored to work with a diverse
-            range of clients who trust us for our expertise, reliability, and
-            commitment to excellence. From small businesses to large-scale
-            enterprises, our partnerships are built on a foundation of quality
-            craftsmanship and outstanding service.
-          </p>
+    <section className="max-w-screen-2xl px-5 pt-16 pb-16 mx-auto space-y-16">
+      <div className="space-y-16">
+        <h2 className="text-4xl md:text-6xl font-bold text-timco-dark-blue">
+          <span className="text-timco-red">Trusted</span> by Industry Leaders
+        </h2>
+        <div className="flex flex-wrap items-center justify-center gap-10 px-8">
+          <div className="bg-timco-white rounded-2xl">
+            <Image
+              src="/clients/bsbs.png"
+              width={1500}
+              height={1500}
+              alt="Big Smile Bread Station"
+              className="h-32 w-32"
+            />
+          </div>
+          <div className="bg-timco-white rounded-2xl">
+            <Image
+              src="/clients/ccp.png"
+              width={1500}
+              height={1500}
+              alt="CCP"
+              className="h-32 w-32"
+            />
+          </div>
+          <div className="bg-timco-white rounded-2xl">
+            <Image
+              src="/clients/doxo.png"
+              width={1500}
+              height={1500}
+              alt="Doxo"
+              className="h-32 w-32"
+            />
+          </div>
+
+          <div className="bg-timco-white rounded-2xl">
+            <Image
+              src="/clients/ekpi.png"
+              width={1500}
+              height={1500}
+              alt="EKPI"
+              className="h-32 w-32"
+            />
+          </div>
+          <div className="bg-timco-white rounded-2xl">
+            <Image
+              src="/clients/gardenia.png"
+              width={1500}
+              height={1500}
+              alt="Gardenia"
+              className="h-32 w-32"
+            />
+          </div>
+          <div className="bg-timco-white rounded-2xl">
+            <Image
+              src="/clients/hstc.png"
+              width={1500}
+              height={1500}
+              alt="Herma Shipping and Transport Corporation"
+              className="h-32 w-32"
+            />
+          </div>
+
+          <div className="bg-timco-white rounded-2xl">
+            <Image
+              src="/clients/leslies.png"
+              width={1500}
+              height={1500}
+              alt="Leslie's"
+              className="h-32 w-32"
+            />
+          </div>
+          <div className="bg-timco-white rounded-2xl">
+            <Image
+              src="/clients/mpi.png"
+              width={1500}
+              height={1500}
+              alt="Mix Plant, Inc."
+              className="h-32 w-32"
+            />
+          </div>
+          <div className="bg-timco-white rounded-2xl">
+            <Image
+              src="/clients/nutrimax.png"
+              width={1500}
+              height={1500}
+              alt="Nutrimax"
+              className="h-32 w-32"
+            />
+          </div>
+          <div className="bg-timco-white rounded-2xl">
+            <Image
+              src="/clients/pfbp.png"
+              width={1500}
+              height={1500}
+              alt="Philfoods Fresh-Baked Products, Inc."
+              className="h-32 w-32"
+            />
+          </div>
+          <div className="bg-timco-white rounded-2xl">
+            <Image
+              src="/clients/pps.png"
+              width={1500}
+              height={1500}
+              alt="PPS"
+              className="h-32 w-32"
+            />
+          </div>
+          <div className="bg-timco-white rounded-2xl">
+            <Image
+              src="/clients/smdc.png"
+              width={1500}
+              height={1500}
+              alt="Snow Mountain Dairy Corporation"
+              className="h-32 w-32"
+            />
+          </div>
+        </div>
+        <div className="p-10 bg-timco-off-white rounded-2xl space-y-8">
           <p>
             Our clients come from various industries, including manufacturing,
             construction, and engineering, all benefiting from our
@@ -20,89 +128,6 @@ export default function ClientsPage() {
             and see why companies continue to choose TIMCO as their trusted
             provider.
           </p>
-          <div className="bg-[#1D3546] h-6 hidden md:block" />
-        </div>
-        <div className="md:order-first order-last">
-          <Image
-            src="/mission.jpg"
-            alt="Test"
-            width={1920}
-            height={1080}
-            className="object-fit"
-          />
-        </div>
-        {/* <div className="relative w-full h-[500px] flex items-center justify-center text-white md:order-first order-last">
-          <div
-            className="absolute inset-0 bg-cover bg-center"
-            style={{ backgroundImage: "url('/mission.jpg')" }}
-          />
-          <div className="absolute inset-0 bg-slate-900 bg-opacity-75" />
-          <div className="relative z-10 text-center px-5 space-y-8">
-            <h2 className="text-5xl font-bold">20 Years of Advancements</h2>
-            <p className="max-w-2xl mx-auto">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
-              repudiandae velit saepe aut assumenda? Molestias optio debitis,
-              magnam minus magni similique quidem animi sunt? Quis quisquam
-              nulla pariatur doloremque tempora!
-            </p>
-            <button className="bg-timco-orange text-white font-bold py-2 px-4 rounded-full">
-              Check our services
-            </button>
-          </div>
-        </div> */}
-      </div>
-
-      <div className="bg-[#1D3546] h-6 md:hidden" />
-
-      <div className="space-y-4">
-        <h3 className="text-center text-timco-red font-bold">
-          Trust and Worth
-        </h3>
-        <h2 className="text-3xl font-bold text-center">Our Clients</h2>
-      </div>
-
-      <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque, earum
-        atque perferendis fugiat porro vitae iste ullam voluptatibus tenetur sed
-        similique quaerat nam impedit enim excepturi? Similique nobis inventore
-        optio? Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-        Nesciunt dolor, voluptas, incidunt exercitationem cupiditate quas quos
-        voluptate modi accusantium, ipsum velit inventore? Obcaecati incidunt
-        molestiae molestias quo ipsum! Tempora, natus.
-      </p>
-
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10 justify-center items-center">
-        <div className="space-y-16">
-          <div className="flex items-center justify-center">
-            <Image
-              src={`/clients/gardenia.png`}
-              width={1500}
-              height={1500}
-              alt="Gardenia"
-              className="border-4 border-white shadow-xl h-72 w-72"
-            />
-          </div>
-          <div className="space-y-8">
-            <h2 className="font-bold text-2xl text-[#1D3546]">
-              GARDENIA BAKERIES PHIL. INC.
-            </h2>
-            <ul className="list-disc pl-5 space-y-2">
-              <li>Fabrication of Conveyors</li>
-              <li>Perforated Lockers</li>
-              <li>Cooling Racks</li>
-              <li>Proofing Racks</li>
-              <li>Toastline Chimneys</li>
-              <li>Hydraulic Pusher</li>
-              <li>Container Vans</li>
-              <li>Stainless Steel Silo</li>
-              <li>Pipings</li>
-              <li>Humidifier and Spraying Systems</li>
-              <li>Dough Tub</li>
-              <li>Spiral Cooler</li>
-              <li>Loader Conveyor</li>
-              <li>Stainless Steel Cabinet and Tables</li>
-            </ul>
-          </div>
         </div>
       </div>
     </section>

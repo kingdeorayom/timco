@@ -22,7 +22,7 @@ const Hero = () => {
             <div className="space-y-3 md:space-y-0 flex flex-col md:flex-row md:space-x-4">
               <Link
                 href="/services"
-                className="bg-timco-dark-blue text-white font-bold py-4 px-6 rounded-md hover:opacity-85 transition-all duration-300 ease-in-out text-center"
+                className="bg-timco-dark-blue text-timco-white font-bold py-4 px-6 rounded-md hover:opacity-85 transition-all duration-300 ease-in-out text-center"
               >
                 See our services
               </Link>

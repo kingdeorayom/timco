@@ -9,11 +9,11 @@ const Header = () => {
 
   return (
     <header className="sticky top-0 z-50">
-      <div className="bg-white py-6">
+      <div className="bg-timco-white py-6">
         <div className="max-w-screen-2xl px-5 mx-auto flex justify-between items-center">
           <div className="flex items-center space-x-8">
             <Link href="/" className="hover:opacity-90">
-              <div className="bg-white px-1 rounded-sm">
+              <div className="bg-timco-white px-1 rounded-sm">
                 <Image
                   src={"/timco.png"}
                   width={720}
@@ -25,32 +25,55 @@ const Header = () => {
             </Link>
             <nav className="hidden md:block">
               <ul className="flex space-x-8">
-                {["services", "projects", "clients", "about"].map((item) => (
-                  <li key={item}>
-                    <Link
-                      href={`/${item}`}
-                      aria-label={`Go to ${item} page`}
-                      className="transition-all duration-100 ease-in-out text-[#575757] hover:border-b-4 hover:border-b-timco-blue hover:pb-2"
-                    >
-                      {item.charAt(0).toUpperCase() + item.slice(1)}
-                    </Link>
-                  </li>
-                ))}
+                <li>
+                  <Link
+                    href="/services"
+                    aria-label="Go to Services page"
+                    className="transition-all duration-100 ease-in-out text-timco-content hover:border-b-4 hover:border-b-timco-blue hover:pb-2"
+                  >
+                    Services
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/projects"
+                    aria-label="Go to Projects page"
+                    className="transition-all duration-100 ease-in-out text-timco-content hover:border-b-4 hover:border-b-timco-blue hover:pb-2"
+                  >
+                    Projects
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/clients"
+                    aria-label="Go to Clients page"
+                    className="transition-all duration-100 ease-in-out text-timco-content hover:border-b-4 hover:border-b-timco-blue hover:pb-2"
+                  >
+                    Clients
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/about"
+                    aria-label="Go to About page"
+                    className="transition-all duration-100 ease-in-out text-timco-content hover:border-b-4 hover:border-b-timco-blue hover:pb-2"
+                  >
+                    Company
+                  </Link>
+                </li>
               </ul>
             </nav>
           </div>
 
-          {/* Contact Button (Desktop) */}
           <div className="hidden md:flex">
             <Link
               href="/about#contact-us"
-              className="hover:bg-timco-dark-blue bg-white border-2 border-timco-slate hover:border-timco-dark-blue hover:text-white text-timco-slate font-bold px-4 rounded-md transition-all duration-300 ease-in-out flex items-center h-10"
+              className="hover:bg-timco-dark-blue bg-timco-white border-2 border-timco-slate hover:border-timco-dark-blue hover:text-timco-white text-timco-slate font-bold px-4 rounded-md transition-all duration-300 ease-in-out flex items-center h-10"
             >
               Contact Us
             </Link>
           </div>
 
-          {/* Mobile Menu Button */}
           <div
             className="flex md:hidden cursor-pointer hover:opacity-85 transition-all duration-300 ease-in-out"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -64,28 +87,21 @@ const Header = () => {
             </svg>
           </div>
 
-          {/* Mobile Navigation Overlay with Animation */}
           <div
             className={`fixed inset-0 bg-black bg-opacity-50 transition-opacity duration-300 ${
               isMenuOpen ? "opacity-100 visible" : "opacity-0 invisible"
             }`}
             onClick={() => setIsMenuOpen(false)}
           >
-            {/* <div
-              className={`fixed top-0 right-0 w-full h-full bg-white shadow-lg p-5 transform transition-transform duration-300 ${
-                isMenuOpen ? "translate-x-0" : "translate-x-full"
-              }`}
-              onClick={(e) => e.stopPropagation()}
-            > */}
             <div
-              className={`fixed inset-0 w-full h-full bg-white shadow-lg p-5 transition-all duration-300 ease-in-out transform ${
+              className={`fixed inset-0 w-full h-full bg-timco-white shadow-lg p-5 transition-all duration-300 ease-in-out transform ${
                 isMenuOpen ? "opacity-100 visible" : "opacity-0 invisible"
               }`}
               onClick={(e) => e.stopPropagation()}
             >
               <div className="flex items-center justify-between mt-1">
                 <Link href="/" className="hover:opacity-90">
-                  <div className="bg-white px-1 rounded-sm">
+                  <div className="bg-timco-white px-1 rounded-sm">
                     <Image
                       src={"/timco.png"}
                       width={720}
@@ -109,13 +125,10 @@ const Header = () => {
               <nav className="mt-10">
                 <ul className="flex flex-col space-y-7 text-lg text-gray-700">
                   {["services", "projects", "clients", "about"].map((item) => (
-                    <li
-                      key={item}
-                      // className="flex items-center justify-between"
-                    >
+                    <li key={item}>
                       <Link
                         href={`/${item}`}
-                        className="group transition-all duration-100 ease-in-out text-[#575757] hover:font-bold hover:text-timco-dark-blue flex items-center justify-between text-xl"
+                        className="group transition-all duration-100 ease-in-out text-timco-content hover:font-bold hover:text-timco-dark-blue flex items-center justify-between text-xl"
                         onClick={() => setIsMenuOpen(false)}
                       >
                         {/* <span className="border-b-4 border-b-white hover:border-b-timco-blue "> */}
@@ -134,7 +147,7 @@ const Header = () => {
                   <li className="pt-4">
                     <Link
                       href="/about#contact-us"
-                      className="block bg-timco-dark-blue text-white px-4 py-2 rounded-md text-center hover:bg-white border-2 border-timco-dark-blue transition-all duration-300 ease-in-out hover:text-timco-dark-blue font-semibold"
+                      className="block bg-timco-dark-blue text-timco-white px-4 py-2 rounded-md text-center hover:bg-timco-white border-2 border-timco-dark-blue transition-all duration-300 ease-in-out hover:text-timco-dark-blue font-semibold"
                       onClick={() => setIsMenuOpen(false)}
                     >
                       Contact Us

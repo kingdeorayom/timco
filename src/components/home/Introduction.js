@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Introduction = () => {
   return (
-    <section className="bg-white px-5 pt-16 pb-4">
+    <section className="bg-timco-white px-5 pt-16 pb-4">
       <div className="max-w-screen-2xl mx-auto space-y-16">
         <div className="space-y-4">
           <h3 className="text-center text-timco-red font-bold text-lg">
@@ -26,13 +26,13 @@ const Introduction = () => {
             </div>
             <div className="py-5 space-y-4">
               <h2 className="text-3xl font-bold">Corporation</h2>
-              <p className="text-[#575757]">
+              <p className="text-timco-content">
                 <strong>TIMCO</strong> is a leading provider of comprehensive
                 industrial solutions. We specialize in the design, engineering,
                 fabrication, and implementation of cutting-edge machinery,
                 control systems, and metal structures.
               </p>
-              {/* <p className="text-[#575757]">
+              {/* <p className="text-timco-content">
                 With a commitment to innovation and quality, we serve a diverse
                 range of industries, empowering our clients to optimize their
                 operations, enhance productivity, and achieve their business
@@ -69,14 +69,14 @@ const Introduction = () => {
               <h2 className="text-3xl font-bold">
                 Metal and Steel Fabrication
               </h2>
-              <p className="text-[#575757]">
+              <p className="text-timco-content">
                 Our state-of-the-art metal and steel fabrication facilities are
                 equipped to handle projects of any scale and complexity. From
                 precision cutting and welding to complex assembly and finishing,
                 we employ advanced techniques and adhere to stringent quality
                 standards to deliver superior results.
               </p>
-              {/* <p className="text-[#575757]">
+              {/* <p className="text-timco-content">
                 Our experienced craftsmen work with a variety of materials,
                 including steel, stainless steel, and aluminum, ensuring that
                 your custom fabrication needs are met with precision and
@@ -111,14 +111,14 @@ const Introduction = () => {
             </div>
             <div className="py-5 space-y-4">
               <h2 className="text-3xl font-bold">Engineering Services</h2>
-              <p className="text-[#575757]">
+              <p className="text-timco-content">
                 <strong>TIMCO</strong>'s team of highly skilled engineers
                 provides a full spectrum of engineering services, including
                 design, analysis, consulting, and project management. We
                 leverage our expertise and industry best practices to develop
                 innovative solutions that address your unique challenges.
               </p>
-              {/* <p className="text-[#575757]">
+              {/* <p className="text-timco-content">
                 Whether you require process optimization, automation design, or
                 structural analysis, our engineers are dedicated to delivering
                 reliable, cost-effective, and sustainable results.

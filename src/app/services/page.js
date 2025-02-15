@@ -6,7 +6,7 @@ export default function ServicesPage() {
       <h1 className="text-4xl font-bold">
         TOPSURE INDUSTRIAL MACHINERIES AND CONTROLS CORPORATION
       </h1>
-      <div className="relative w-full h-[500px] flex items-center justify-center text-white">
+      <div className="relative w-full h-[500px] flex items-center justify-center text-timco-white">
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{ backgroundImage: "url('/mission.jpg')" }}
@@ -20,7 +20,7 @@ export default function ServicesPage() {
             magnam minus magni similique quidem animi sunt? Quis quisquam nulla
             pariatur doloremque tempora!
           </p>
-          <button className="bg-timco-orange hover:bg-white border border-timco-orange hover:border-timco-orange text-white hover:text-timco-slate font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out">
+          <button className="bg-timco-orange hover:bg-timco-white border border-timco-orange hover:border-timco-orange text-timco-white hover:text-timco-slate font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out">
             Check our services
           </button>
         </div>
@@ -49,7 +49,7 @@ export default function ServicesPage() {
         <div className="bg-[#1D3546] h-6" />
 
         <div className="grid md:grid-cols-3 gap-8">
-          <div className="bg-white border p-6 transition-all duration-300 ease-in-out space-y-4 rounded-xl shadow-lg hover:shadow-xl">
+          <div className="bg-timco-white border p-6 transition-all duration-300 ease-in-out space-y-4 rounded-xl shadow-lg hover:shadow-xl">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 448 512"
@@ -65,7 +65,7 @@ export default function ServicesPage() {
               and precision.
             </p>
           </div>
-          <div className="bg-white border p-6 transition-all duration-300 ease-in-out space-y-4 rounded-xl shadow-lg hover:shadow-xl">
+          <div className="bg-timco-white border p-6 transition-all duration-300 ease-in-out space-y-4 rounded-xl shadow-lg hover:shadow-xl">
             <div className="h-12 w-12 bg-slate-200 rounded-md" />
             <h3 className="font-semibold text-lg">2017 - Strategic Growth</h3>
             <p>
@@ -74,7 +74,7 @@ export default function ServicesPage() {
               location for manufacturing and industrial growth.
             </p>
           </div>
-          <div className="bg-white border p-6 transition-all duration-300 ease-in-out space-y-4 rounded-xl shadow-lg hover:shadow-xl">
+          <div className="bg-timco-white border p-6 transition-all duration-300 ease-in-out space-y-4 rounded-xl shadow-lg hover:shadow-xl">
             <div className="h-12 w-12 bg-slate-200 rounded-md" />
             <h3 className="font-semibold text-lg">2020 - Future Expansion</h3>
             <p>
@@ -88,7 +88,7 @@ export default function ServicesPage() {
       </div>
 
       <div className="grid md:grid-cols-2">
-        <div className="relative w-full h-[350px] flex items-center justify-center text-white">
+        <div className="relative w-full h-[350px] flex items-center justify-center text-timco-white">
           <div
             className="absolute inset-0 bg-cover bg-center"
             style={{ backgroundImage: "url('/mission-bg.jpg')" }}
@@ -104,19 +104,19 @@ export default function ServicesPage() {
             </p>
           </div>
         </div>
-        <div className="relative w-full h-[350px] flex items-center justify-center text-white">
+        <div className="relative w-full h-[350px] flex items-center justify-center text-timco-white">
           <div
             className="absolute inset-0 bg-cover bg-center"
             style={{ backgroundImage: "url('/mission.jpg')" }}
           />
         </div>
-        <div className="relative w-full h-[350px] flex items-center justify-center text-white">
+        <div className="relative w-full h-[350px] flex items-center justify-center text-timco-white">
           <div
             className="absolute inset-0 bg-cover bg-center"
             style={{ backgroundImage: "url('/vision.jpg')" }}
           />
         </div>
-        <div className="relative w-full h-[350px] flex items-center justify-center text-white">
+        <div className="relative w-full h-[350px] flex items-center justify-center text-timco-white">
           <div
             className="absolute inset-0 bg-cover bg-center"
             style={{ backgroundImage: "url('/vision-bg.jpg')" }}
@@ -134,7 +134,7 @@ export default function ServicesPage() {
 
       <div className="space-y-8">
         <h2 className="text-3xl font-bold">Visionaries Behind Our Success</h2>
-        <div className="space-y-12 bg-[#F8F9FA] p-10 rounded-lg">
+        <div className="space-y-12 bg-timco-off-white p-10 rounded-lg">
           <div className="space-y-4">
             <p>
               Driven by innovation and excellence, our founders have built a
@@ -150,21 +150,21 @@ export default function ServicesPage() {
           </div>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="flex justify-center items-center flex-col space-y-5">
-              <div className="bg-white rounded-full h-32 w-32 md:h-48 md:w-48 border-2 border-slate-600" />
+              <div className="bg-timco-white rounded-full h-32 w-32 md:h-48 md:w-48 border-2 border-slate-600" />
               <div className="text-center">
                 <h3 className="font-medium">RONNEL MENDOZA</h3>
                 <p className="text-slate-600">President</p>
               </div>
             </div>
             <div className="flex justify-center items-center flex-col space-y-5">
-              <div className="bg-white rounded-full h-32 w-32 md:h-48 md:w-48 border-2 border-slate-600" />
+              <div className="bg-timco-white rounded-full h-32 w-32 md:h-48 md:w-48 border-2 border-slate-600" />
               <div className="text-center">
                 <h3 className="font-medium">JUSTINE MENDOZA</h3>
                 <p className="text-slate-600">Vice President</p>
               </div>
             </div>
             <div className="flex justify-center items-center flex-col space-y-5">
-              <div className="bg-white rounded-full h-32 w-32 md:h-48 md:w-48 border-2 border-slate-600" />
+              <div className="bg-timco-white rounded-full h-32 w-32 md:h-48 md:w-48 border-2 border-slate-600" />
               <div className="text-center">
                 <h3 className="font-medium">CHRISTOPHER NAVARRO</h3>
                 <p className="text-slate-600">VP Business Development</p>
@@ -193,7 +193,7 @@ export default function ServicesPage() {
               9015 AQUINO COMPOUND ALMA MANZO SUBDIVISION, SAN ANTONIO BINAN
               LAGUNA
             </p>
-            <button className="bg-timco-orange hover:bg-white border border-timco-orange hover:border-timco-orange text-white hover:text-timco-slate font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out">
+            <button className="bg-timco-orange hover:bg-timco-white border border-timco-orange hover:border-timco-orange text-timco-white hover:text-timco-slate font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out">
               Visit Us
             </button>
           </div>
@@ -201,7 +201,7 @@ export default function ServicesPage() {
             <div className="h-12 w-12 bg-slate-200 rounded-md" />
             <h3 className="font-semibold text-lg">LANDLINE NUMBER</h3>
             <p>775-34-92</p>
-            <button className="bg-timco-orange hover:bg-white border border-timco-orange hover:border-timco-orange text-white hover:text-timco-slate font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out">
+            <button className="bg-timco-orange hover:bg-timco-white border border-timco-orange hover:border-timco-orange text-timco-white hover:text-timco-slate font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out">
               Check our services
             </button>
           </div>
@@ -212,7 +212,7 @@ export default function ServicesPage() {
               +63 917 870 675 <br />
               +63 915 891 8418
             </p>
-            <button className="bg-timco-orange hover:bg-white border border-timco-orange hover:border-timco-orange text-white hover:text-timco-slate font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out">
+            <button className="bg-timco-orange hover:bg-timco-white border border-timco-orange hover:border-timco-orange text-timco-white hover:text-timco-slate font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out">
               Check our services
             </button>
           </div>
@@ -220,7 +220,7 @@ export default function ServicesPage() {
             <div className="h-12 w-12 bg-slate-200 rounded-md" />
             <h3 className="font-semibold text-lg">E-MAIL ADDRESS</h3>
             <p>sales@timcoph.com</p>
-            <button className="bg-timco-orange hover:bg-white border border-timco-orange hover:border-timco-orange text-white hover:text-timco-slate font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out">
+            <button className="bg-timco-orange hover:bg-timco-white border border-timco-orange hover:border-timco-orange text-timco-white hover:text-timco-slate font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out">
               Check our services
             </button>
           </div>
@@ -228,14 +228,14 @@ export default function ServicesPage() {
             <div className="h-12 w-12 bg-slate-200 rounded-md" />
             <h3 className="font-semibold text-lg">SOCIAL MEDIA</h3>
             <p>@timcocorp</p>
-            <button className="bg-timco-orange hover:bg-white border border-timco-orange hover:border-timco-orange text-white hover:text-timco-slate font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out">
+            <button className="bg-timco-orange hover:bg-timco-white border border-timco-orange hover:border-timco-orange text-timco-white hover:text-timco-slate font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out">
               Check our services
             </button>
           </div>
         </div>
       </div>
 
-      <div className="grid lg:grid-cols-2 gap-10 bg-[#F8F9FA] p-12 rounded-lg">
+      <div className="grid lg:grid-cols-2 gap-10 bg-timco-off-white p-12 rounded-lg">
         <div>
           <Image
             src="/mission.jpg"
@@ -262,7 +262,7 @@ export default function ServicesPage() {
             neque fugiat optio, aut aliquid. Nobis suscipit repudiandae odio
             enim sequi eos.
           </p>
-          <button className="bg-timco-orange hover:bg-white border border-timco-orange hover:border-timco-orange text-white hover:text-timco-slate font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out">
+          <button className="bg-timco-orange hover:bg-timco-white border border-timco-orange hover:border-timco-orange text-timco-white hover:text-timco-slate font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out">
             Check our services
           </button>
         </div>

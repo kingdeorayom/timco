@@ -19,13 +19,13 @@ const Ender = () => {
           <h2 className="text-5xl font-bold">
             Interested in learning more about products and solutions from TIMCO?
           </h2>
-          <p className="text-[#575757]">
+          <p className="text-timco-content">
             We offer a wide range of industrial machinery and metal fabrication
             solutions tailored to meet your specific needs. From standard
             equipment to custom designs, we have the expertise and capabilities
             to deliver exceptional results.
           </p>
-          <p className="text-[#575757]">
+          <p className="text-timco-content">
             Contact us today to explore our comprehensive product offerings and
             discover how we can contribute to your success.
           </p>

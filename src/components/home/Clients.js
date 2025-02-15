@@ -5,8 +5,8 @@ const Clients = () => {
   return (
     <>
       <section className="max-w-screen-2xl px-5 pt-16 pb-16 mx-auto space-y-16">
-        <div className="grid lg:grid-cols-2 gap-4 lg:gap-10 xl:gap-16">
-          <div>
+        <div className="grid xl:grid-cols-2 gap-16 xl:gap-16">
+          <div className="flex flex-col items-center justify-center">
             <Image
               src="/mission.jpg"
               alt="Test"
@@ -17,45 +17,134 @@ const Clients = () => {
           </div>
           <div className="space-y-8">
             <h2 className="text-5xl font-bold">Trusted by Industry Leaders</h2>
-            <p className="text-[#575757]">
+            <div className="flex flex-wrap items-center justify-center gap-8">
+              <div className="bg-timco-white rounded-2xl">
+                <Image
+                  src="/clients/bsbs.png"
+                  width={1500}
+                  height={1500}
+                  alt="Big Smile Bread Station"
+                  className="h-24 w-24"
+                />
+              </div>
+              <div className="bg-timco-white rounded-2xl">
+                <Image
+                  src="/clients/ccp.png"
+                  width={1500}
+                  height={1500}
+                  alt="CCP"
+                  className="h-24 w-24"
+                />
+              </div>
+              <div className="bg-timco-white rounded-2xl">
+                <Image
+                  src="/clients/doxo.png"
+                  width={1500}
+                  height={1500}
+                  alt="Doxo"
+                  className="h-24 w-24"
+                />
+              </div>
+
+              <div className="bg-timco-white rounded-2xl">
+                <Image
+                  src="/clients/ekpi.png"
+                  width={1500}
+                  height={1500}
+                  alt="EKPI"
+                  className="h-24 w-24"
+                />
+              </div>
+              <div className="bg-timco-white rounded-2xl">
+                <Image
+                  src="/clients/gardenia.png"
+                  width={1500}
+                  height={1500}
+                  alt="Gardenia"
+                  className="h-24 w-24"
+                />
+              </div>
+              <div className="bg-timco-white rounded-2xl">
+                <Image
+                  src="/clients/hstc.png"
+                  width={1500}
+                  height={1500}
+                  alt="Herma Shipping and Transport Corporation"
+                  className="h-24 w-24"
+                />
+              </div>
+
+              <div className="bg-timco-white rounded-2xl">
+                <Image
+                  src="/clients/leslies.png"
+                  width={1500}
+                  height={1500}
+                  alt="Leslie's"
+                  className="h-24 w-24"
+                />
+              </div>
+              <div className="bg-timco-white rounded-2xl">
+                <Image
+                  src="/clients/mpi.png"
+                  width={1500}
+                  height={1500}
+                  alt="Mix Plant, Inc."
+                  className="h-24 w-24"
+                />
+              </div>
+              <div className="bg-timco-white rounded-2xl">
+                <Image
+                  src="/clients/nutrimax.png"
+                  width={1500}
+                  height={1500}
+                  alt="Nutrimax"
+                  className="h-24 w-24"
+                />
+              </div>
+              <div className="bg-timco-white rounded-2xl">
+                <Image
+                  src="/clients/pfbp.png"
+                  width={1500}
+                  height={1500}
+                  alt="Philfoods Fresh-Baked Products, Inc."
+                  className="h-24 w-24"
+                />
+              </div>
+              <div className="bg-timco-white rounded-2xl">
+                <Image
+                  src="/clients/pps.png"
+                  width={1500}
+                  height={1500}
+                  alt="PPS"
+                  className="h-24 w-24"
+                />
+              </div>
+              <div className="bg-timco-white rounded-2xl">
+                <Image
+                  src="/clients/smdc.png"
+                  width={1500}
+                  height={1500}
+                  alt="Snow Mountain Dairy Corporation"
+                  className="h-24 w-24"
+                />
+              </div>
+            </div>
+            <p className="text-timco-content">
               At <strong>TIMCO</strong>, we are honored to work with a diverse
               range of clients who trust us for our expertise, reliability, and
               commitment to excellence. From small businesses to large-scale
               enterprises, our partnerships are built on a foundation of quality
               craftsmanship and outstanding service.
             </p>
-            <p className="text-[#575757]">
+            <p className="text-timco-content">
               Our clients come from various industries, including manufacturing,
               construction, and engineering, all benefiting from our
               cost-effective and innovative solutions. Explore our valued
               partners and see why companies continue to choose TIMCO as their
               trusted provider.
             </p>
-            {/* <div>
-              <Link
-                href="/clients"
-                className="bg-timco-orange hover:bg-white border border-timco-orange hover:border-timco-orange text-white hover:text-timco-slate font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out"
-              >
-                See our clients
-              </Link>
-            </div> */}
-            {/* <div className="py-2">
-              <Link
-                href="/clients"
-                className="hover:bg-timco-red bg-white border hover:border-timco-red border-timco-slate hover:text-white text-timco-slate font-semibold py-2 px-4 rounded-full transition-all duration-300 ease-in-out"
-              >
-                See our clients
-              </Link>
-            </div> */}
-            {/* <div className="py-2">
-              <Link
-                href="/clients"
-                className="hover:bg-timco-red bg-white border hover:border-timco-red border-timco-red hover:text-white text-timco-red font-semibold py-2 px-4 rounded-full transition-all duration-300 ease-in-out"
-              >
-                See our clients
-              </Link>
-            </div> */}
-            <div className="group hover:-translate-y-1 transition-all duration-300 ease-in-out">
+
+            <div className="group hover:-translate-y-1 transition-all duration-300 ease-in-out flex items-center justify-center">
               <Link
                 href="/clients"
                 className="text-timco-red transition-all duration-300 ease-in-out flex items-center group-hover:text-timco-slate font-bold"
@@ -73,85 +162,6 @@ const Clients = () => {
           </div>
         </div>
       </section>
-
-      {/* <section className="max-w-screen-2xl px-5 mx-auto">
-        <div className="flex flex-wrap space-x-8 space-y-10 items-center justify-center">
-          <div className="bg-white shadow-lg rounded-2xl px-10">
-            <Image
-              src="/clients/gardenia.png"
-              width={1500}
-              height={1500}
-              alt="Gardenia"
-              className="h-32 w-32"
-            />
-          </div>
-          <div className="bg-white shadow-lg rounded-2xl px-10">
-            <Image
-              src="/clients/leslies.png"
-              width={1500}
-              height={1500}
-              alt="Gardenia"
-              className="h-32 w-32"
-            />
-          </div>
-          <div className="bg-white shadow-lg rounded-2xl px-10">
-            <Image
-              src="/clients/nutrimax.png"
-              width={1500}
-              height={1500}
-              alt="Gardenia"
-              className="h-32 w-32"
-            />
-          </div>
-
-          <div className="bg-white shadow-lg rounded-2xl px-10">
-            <Image
-              src="/clients/bsbs.png"
-              width={1500}
-              height={1500}
-              alt="Gardenia"
-              className="h-32 w-32"
-            />
-          </div>
-          <div className="bg-white shadow-lg rounded-2xl px-10">
-            <Image
-              src="/clients/ekpi.png"
-              width={1500}
-              height={1500}
-              alt="Gardenia"
-              className="h-32 w-32"
-            />
-          </div>
-          <div className="bg-white shadow-lg rounded-2xl px-10">
-            <Image
-              src="/clients/hstc.png"
-              width={1500}
-              height={1500}
-              alt="Gardenia"
-              className="h-32 w-32"
-            />
-          </div>
-
-          <div className="bg-white shadow-lg rounded-2xl px-10">
-            <Image
-              src="/clients/bsbs.png"
-              width={1500}
-              height={1500}
-              alt="Gardenia"
-              className="h-32 w-32"
-            />
-          </div>
-          <div className="bg-white shadow-lg rounded-2xl px-10">
-            <Image
-              src="/clients/ekpi.png"
-              width={1500}
-              height={1500}
-              alt="Gardenia"
-              className="h-32 w-32"
-            />
-          </div>
-        </div>
-      </section> */}
     </>
   );
 };

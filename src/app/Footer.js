@@ -4,13 +4,12 @@ import React from "react";
 
 const Footer = () => {
   return (
-    // <footer className="bg-[#1D3546]">
-    <footer className="bg-white">
-      <div className="max-w-screen-2xl px-5 mx-auto text-[#575757] py-12 xl:py-16 space-y-8">
+    <footer className="bg-timco-white">
+      <div className="max-w-screen-2xl px-5 mx-auto text-timco-content py-12 xl:py-16 space-y-8">
         <div className="grid lg:grid-cols-12 pb-8">
           <div className="space-y-8 col-span-3">
             <Link href="/" className="hover:opacity-90">
-              <div className="bg-white px-1 rounded-sm w-fit">
+              <div className="bg-timco-white px-1 rounded-sm w-fit">
                 <Image
                   src={"/timco.png"}
                   width={720}

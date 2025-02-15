@@ -14,7 +14,7 @@ const Banner = () => {
             className="object-fit"
           />
         </div>
-        <div className="space-y-8 px-10 py-20 text-white">
+        <div className="space-y-8 px-10 py-20 text-timco-white">
           <h2 className="text-4xl xl:text-6xl font-bold">
             Interested in learning more about products and solutions from TIMCO?
           </h2>

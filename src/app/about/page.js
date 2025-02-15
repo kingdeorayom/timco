@@ -48,7 +48,7 @@ export default function AboutPage() {
           <div className="space-y-8">
             <h2 className="text-5xl font-bold text-timco-dark-blue">
               A history of firsts that put{" "}
-              <span className="text-timco-red">customers first</span>.
+              <span className="text-timco-red">customers first</span>
             </h2>
             <p>
               Our growth reflects our dedication to meeting the evolving needs
@@ -83,7 +83,7 @@ export default function AboutPage() {
           <div className="flex items-center">
             <div className="space-y-8">
               <h2 className="text-5xl font-bold">Our Mission</h2>
-              <p className="text-[#575757]">
+              <p className="text-timco-content">
                 TIMCO will exceed the customer’s expectations by providing
                 reliable and cost-effective solutions through strong business
                 associations, quality product solutions, dedicated employees,
@@ -115,7 +115,7 @@ export default function AboutPage() {
           <div className="flex items-center">
             <div className="space-y-8">
               <h2 className="text-5xl font-bold">Our Vision</h2>
-              <p className="text-[#575757]">
+              <p className="text-timco-content">
                 To be the preferred supplier of metal and steel fabrication
                 solutions.
               </p>
@@ -135,21 +135,21 @@ export default function AboutPage() {
         </div>
         <div className="grid md:grid-cols-2 gap-8 py-10">
           <div className="flex justify-center items-center flex-col space-y-16">
-            <div className="bg-white rounded-full h-48 w-48 md:h-64 md:w-64 border-2 border-slate-600" />
+            <div className="bg-timco-white rounded-full h-48 w-48 md:h-64 md:w-64 border-2 border-slate-600" />
             <div className="text-center">
               <h3 className="font-bold text-xl text-timco-dark-blue">
                 RONNEL MENDOZA
               </h3>
-              <p className="text-[#575757] text-lg">President</p>
+              <p className="text-timco-content text-lg">President</p>
             </div>
           </div>
           <div className="flex justify-center items-center flex-col space-y-16">
-            <div className="bg-white rounded-full h-48 w-48 md:h-64 md:w-64 border-2 border-slate-600" />
+            <div className="bg-timco-white rounded-full h-48 w-48 md:h-64 md:w-64 border-2 border-slate-600" />
             <div className="text-center">
               <h3 className="font-bold text-xl text-timco-dark-blue">
                 JUSTINE MENDOZA
               </h3>
-              <p className="text-[#575757] text-lg">Vice President</p>
+              <p className="text-timco-content text-lg">Vice President</p>
             </div>
           </div>
         </div>
@@ -198,7 +198,7 @@ export default function AboutPage() {
               <Link
                 href="https://maps.app.goo.gl/aXckmT7CCNyUxVCPA"
                 target="_blank"
-                className="hover:bg-timco-darkfill-timco-dark-blue bg-white border-2 hover:border-timco-darkfill-timco-dark-blue border-slate-500 hover:text-white text-timco-slate font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out"
+                className="hover:bg-timco-darkfill-timco-dark-blue bg-timco-white border-2 hover:border-timco-darkfill-timco-dark-blue border-slate-500 hover:text-timco-white text-timco-slate font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out"
               >
                 Visit our site
               </Link>
@@ -237,7 +237,7 @@ export default function AboutPage() {
             {/* <div className="pt-2 pb-1">
               <Link
                 href="tel:7753492"
-                className="hover:bg-timco-darkfill-timco-dark-blue bg-white border-2 hover:border-timco-darkfill-timco-dark-blue border-slate-500 hover:text-white text-timco-slate font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out"
+                className="hover:bg-timco-darkfill-timco-dark-blue bg-timco-white border-2 hover:border-timco-darkfill-timco-dark-blue border-slate-500 hover:text-timco-white text-timco-slate font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out"
               >
                 Call Us
               </Link>
@@ -279,7 +279,7 @@ export default function AboutPage() {
             {/* <div className="pt-2 pb-1">
               <Link
                 href="tel:0917870675"
-                className="hover:bg-timco-darkfill-timco-dark-blue bg-white border-2 hover:border-timco-darkfill-timco-dark-blue border-slate-500 hover:text-white text-timco-slate font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out"
+                className="hover:bg-timco-darkfill-timco-dark-blue bg-timco-white border-2 hover:border-timco-darkfill-timco-dark-blue border-slate-500 hover:text-timco-white text-timco-slate font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out"
               >
                 Send us a message
               </Link>
@@ -318,7 +318,7 @@ export default function AboutPage() {
             {/* <div className="pt-2 pb-1">
               <Link
                 href="mailto:sales@timcoph.com"
-                className="hover:bg-timco-darkfill-timco-dark-blue bg-white border-2 hover:border-timco-darkfill-timco-dark-blue border-slate-500 hover:text-white text-timco-slate font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out"
+                className="hover:bg-timco-darkfill-timco-dark-blue bg-timco-white border-2 hover:border-timco-darkfill-timco-dark-blue border-slate-500 hover:text-timco-white text-timco-slate font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out"
               >
                 Send us an e-mail
               </Link>
@@ -357,7 +357,7 @@ export default function AboutPage() {
             {/* <div className="pt-2 pb-1">
               <Link
                 href="#"
-                className="hover:bg-timco-darkfill-timco-dark-blue bg-white border-2 hover:border-timco-darkfill-timco-dark-blue border-slate-500 hover:text-white text-timco-slate font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out"
+                className="hover:bg-timco-darkfill-timco-dark-blue bg-timco-white border-2 hover:border-timco-darkfill-timco-dark-blue border-slate-500 hover:text-timco-white text-timco-slate font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out"
               >
                 Follow Us
               </Link>

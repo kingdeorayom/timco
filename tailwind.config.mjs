@@ -23,6 +23,15 @@ export default {
         "timco-orange": {
           DEFAULT: "var(--timco-orange)",
         },
+        "timco-content": {
+          DEFAULT: "var(--timco-content)",
+        },
+        "timco-white": {
+          DEFAULT: "var(--timco-white)",
+        },
+        "timco-off-white": {
+          DEFAULT: "var(--timco-off-white)",
+        },
       },
       keyframes: {
         marquee: {

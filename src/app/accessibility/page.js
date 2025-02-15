@@ -5,16 +5,13 @@ export default function AccessibilityPage() {
     <section className="max-w-screen-xl px-5 py-12 mx-auto space-y-16">
       <h1 className="text-4xl font-bold">Accessibility</h1>
 
-      <div className="bg-[#F8F9FA] border-t space-y-4 p-10">
+      <div className="bg-timco-off-white border-t space-y-4 p-10">
         <h2 className="text-3xl font-bold">Committed to Accessibility</h2>
         <p>
           At <strong>TIMCO</strong>, we strive to make our digital experience
           accessible to everyone. We are dedicated to inclusivity, ensuring our
           platform meets diverse needs and empowers all users.
         </p>
-        <button className="bg-timco-slate text-white hover:text-timco-slate hover:bg-white border-2 border-timco-slate font-bold py-2 px-4 rounded-md transition-all duration-300 ease-in-out">
-          Contact Us
-        </button>
       </div>
 
       <div className="space-y-10">
@@ -91,7 +88,7 @@ export default function AccessibilityPage() {
           </p>
         </div>
 
-        <div className="bg-[#F8F9FA] space-y-5 p-10 rounded-2xl">
+        <div className="bg-timco-off-white space-y-5 p-10 rounded-2xl">
           <h3 className="text-3xl font-bold">Support</h3>
           <div className="space-y-4">
             <p>
@@ -116,7 +113,7 @@ export default function AccessibilityPage() {
         <h3 className="text-3xl font-bold">Assistive Technologies</h3>
 
         <div className="grid md:grid-cols-3 gap-8 px-10">
-          <div className="bg-white border p-6 transition-all duration-300 ease-in-out space-y-4 rounded-2xl shadow-xl">
+          <div className="bg-timco-white border p-6 transition-all duration-300 ease-in-out space-y-4 rounded-2xl shadow-xl">
             <h4 className="font-semibold text-2xl">
               NVDA (Non-Visual Desktop Access)
             </h4>
@@ -125,14 +122,14 @@ export default function AccessibilityPage() {
               use Windows computers and various applications.
             </p>
           </div>
-          <div className="bg-white border p-6 transition-all duration-300 ease-in-out space-y-4 rounded-2xl shadow-xl">
+          <div className="bg-timco-white border p-6 transition-all duration-300 ease-in-out space-y-4 rounded-2xl shadow-xl">
             <h4 className="font-semibold text-2xl">Windows Magnifier</h4>
             <p>
               Magnifier makes part or all of your screen bigger so you can see
               words and images better.
             </p>
           </div>
-          <div className="bg-white border p-6 transition-all duration-300 ease-in-out space-y-4 rounded-2xl shadow-xl">
+          <div className="bg-timco-white border p-6 transition-all duration-300 ease-in-out space-y-4 rounded-2xl shadow-xl">
             <h4 className="font-semibold text-2xl">Read & Write</h4>
             <p>
               Read&Write is particularly useful for supporting special

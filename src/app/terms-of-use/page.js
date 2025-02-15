@@ -10,7 +10,7 @@ export default function TermsOfUsePage() {
         </h1>
         <p>Effective Date: February 07, 2025</p>
       </div>
-      <div className="bg-[#F8F9FA] space-y-5 p-10 rounded-2xl">
+      <div className="bg-timco-off-white space-y-5 p-10 rounded-2xl">
         <h3 className="text-3xl font-bold">
           Please read these Terms of Use carefully before using this website
         </h3>

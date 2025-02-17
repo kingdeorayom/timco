@@ -20,110 +20,46 @@ export default function ProjectsPage() {
           exceptional service.
         </p>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 py-8">
-          <div className="grid gap-4">
-            <div>
-              <img
-                className="h-auto max-w-full rounded-lg"
-                src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image.jpg"
-                alt=""
-              />
-            </div>
-            <div>
-              <img
-                className="h-auto max-w-full rounded-lg"
-                src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-1.jpg"
-                alt=""
-              />
-            </div>
-            <div>
-              <img
-                className="h-auto max-w-full rounded-lg"
-                src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-2.jpg"
-                alt=""
-              />
-            </div>
-          </div>
-          <div className="grid gap-4">
-            <div>
-              <img
-                className="h-auto max-w-full rounded-lg"
-                src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-3.jpg"
-                alt=""
-              />
-            </div>
-            <div>
-              <img
-                className="h-auto max-w-full rounded-lg"
-                src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-4.jpg"
-                alt=""
-              />
-            </div>
-            <div>
-              <img
-                className="h-auto max-w-full rounded-lg"
-                src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-5.jpg"
-                alt=""
-              />
-            </div>
-          </div>
-          <div className="grid gap-4">
-            <div>
-              <img
-                className="h-auto max-w-full rounded-lg"
-                src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-6.jpg"
-                alt=""
-              />
-            </div>
-            <div>
-              <img
-                className="h-auto max-w-full rounded-lg"
-                src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-7.jpg"
-                alt=""
-              />
-            </div>
-            <div>
-              <img
-                className="h-auto max-w-full rounded-lg"
-                src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-8.jpg"
-                alt=""
-              />
-            </div>
-          </div>
-          <div className="grid gap-4">
-            <div>
-              <img
-                className="h-auto max-w-full rounded-lg"
-                src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-9.jpg"
-                alt=""
-              />
-            </div>
-            <div>
-              <img
-                className="h-auto max-w-full rounded-lg"
-                src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-10.jpg"
-                alt=""
-              />
-            </div>
-            <div>
-              <img
-                className="h-auto max-w-full rounded-lg"
-                src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-11.jpg"
-                alt=""
-              />
-            </div>
+        <div className="p-5">
+          <div className="columns-2 gap-5 sm:columns-2 sm:gap-8 md:columns-3 lg:columns-4 [&>img:not(:first-child)]:mt-8">
+            <img
+              className="h-auto max-w-full rounded-lg"
+              src="/projects/done/50t-multi-point-bar-spreader.jpg"
+              alt=""
+            />
+            <img
+              className="h-auto max-w-full rounded-lg"
+              src="/projects/done/fabrication-15t-ram-rod.jpg"
+              alt=""
+            />
+            <img
+              className="h-auto max-w-full rounded-lg"
+              src="/projects/done/fabrication-inner-outer-cap-conveyor.jpg"
+              alt=""
+            />
+
+            <img
+              className="h-auto max-w-full rounded-lg"
+              src="/projects/done/fabrication-roller-conveyor.jpg"
+              alt=""
+            />
+            <img
+              className="h-auto max-w-full rounded-lg"
+              src="/projects/done/fabrication-installation-overhead-water-tank.jpg"
+              alt=""
+            />
+            <img
+              className="h-auto max-w-full rounded-lg"
+              src="/projects/done/molasses-palm-oil-tank.jpg"
+              alt=""
+            />
+            <img
+              className="h-auto max-w-full rounded-lg"
+              src="/projects/done/dust-collector.jpg"
+              alt=""
+            />
           </div>
         </div>
-
-        {/* <div className="py-8">
-          <img
-            src="/mission.jpg"
-            alt="Test"
-            width={1920}
-            height={1080}
-            className="object-fit rounded-2xl"
-          />
-        </div> */}
       </section>
     </div>
   );

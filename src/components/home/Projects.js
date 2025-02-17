@@ -13,187 +13,47 @@ const Projects = () => {
           <h2 className="text-4xl font-bold text-center">Our Works</h2>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-          <div className="grid gap-4">
-            <div>
-              <img
-                className="h-auto max-w-full rounded-lg"
-                src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image.jpg"
-                alt=""
-              />
-            </div>
-            <div>
-              <img
-                className="h-auto max-w-full rounded-lg"
-                src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-1.jpg"
-                alt=""
-              />
-            </div>
-            <div>
-              <img
-                className="h-auto max-w-full rounded-lg"
-                src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-2.jpg"
-                alt=""
-              />
-            </div>
-          </div>
-          <div className="grid gap-4">
-            <div>
-              <img
-                className="h-auto max-w-full rounded-lg"
-                src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-3.jpg"
-                alt=""
-              />
-            </div>
-            <div>
-              <img
-                className="h-auto max-w-full rounded-lg"
-                src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-4.jpg"
-                alt=""
-              />
-            </div>
-            <div>
-              <img
-                className="h-auto max-w-full rounded-lg"
-                src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-5.jpg"
-                alt=""
-              />
-            </div>
-          </div>
-          <div className="grid gap-4">
-            <div>
-              <img
-                className="h-auto max-w-full rounded-lg"
-                src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-6.jpg"
-                alt=""
-              />
-            </div>
-            <div>
-              <img
-                className="h-auto max-w-full rounded-lg"
-                src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-7.jpg"
-                alt=""
-              />
-            </div>
-            <div>
-              <img
-                className="h-auto max-w-full rounded-lg"
-                src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-8.jpg"
-                alt=""
-              />
-            </div>
-          </div>
-          <div className="grid gap-4">
-            <div>
-              <img
-                className="h-auto max-w-full rounded-lg"
-                src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-9.jpg"
-                alt=""
-              />
-            </div>
-            <div>
-              <img
-                className="h-auto max-w-full rounded-lg"
-                src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-10.jpg"
-                alt=""
-              />
-            </div>
-            <div>
-              <img
-                className="h-auto max-w-full rounded-lg"
-                src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-11.jpg"
-                alt=""
-              />
-            </div>
+        <div className="p-5">
+          <div className="columns-2 gap-5 sm:columns-2 sm:gap-8 md:columns-3 lg:columns-4 [&>img:not(:first-child)]:mt-8">
+            <img
+              className="h-auto max-w-full rounded-lg"
+              src="/projects/done/50t-multi-point-bar-spreader.jpg"
+              alt=""
+            />
+            <img
+              className="h-auto max-w-full rounded-lg"
+              src="/projects/done/fabrication-15t-ram-rod.jpg"
+              alt=""
+            />
+            <img
+              className="h-auto max-w-full rounded-lg"
+              src="/projects/done/fabrication-inner-outer-cap-conveyor.jpg"
+              alt=""
+            />
+
+            <img
+              className="h-auto max-w-full rounded-lg"
+              src="/projects/done/fabrication-roller-conveyor.jpg"
+              alt=""
+            />
+            <img
+              className="h-auto max-w-full rounded-lg"
+              src="/projects/done/fabrication-installation-overhead-water-tank.jpg"
+              alt=""
+            />
+            <img
+              className="h-auto max-w-full rounded-lg"
+              src="/projects/done/molasses-palm-oil-tank.jpg"
+              alt=""
+            />
+            <img
+              className="h-auto max-w-full rounded-lg"
+              src="/projects/done/dust-collector.jpg"
+              alt=""
+            />
           </div>
         </div>
 
-        {/* <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-20">
-          <div className="flex flex-col justify-center items-center space-y-6">
-            <img
-              src={`/projects/done/50t-multi-point-bar-spreader.jpg`}
-              width={1500}
-              height={1500}
-              alt="50T Multi-point Bar Spreader"
-              className="h-72 w-96 rounded-2xl object-cover"
-            />
-            <h4 className="font-semibold text-xl">
-              50T Multi-point Bar Spreader.jpg
-            </h4>
-          </div>
-          <div className="flex flex-col justify-center items-center space-y-6">
-            <img
-              src={`/projects/done/dust-collector.jpg`}
-              width={1500}
-              height={1500}
-              alt="50T Multi-point Bar Spreader"
-              className="h-72 w-96 rounded-2xl object-cover"
-            />
-            <h4 className="font-semibold text-xl">
-              50T Multi-point Bar Spreader.jpg
-            </h4>
-          </div>
-          <div className="flex flex-col justify-center items-center space-y-6">
-            <img
-              src={`/projects/done/50t-multi-point-bar-spreader.jpg`}
-              width={1500}
-              height={1500}
-              alt="50T Multi-point Bar Spreader"
-              className="h-72 w-96 rounded-2xl object-cover"
-            />
-            <h4 className="font-semibold text-xl">
-              50T Multi-point Bar Spreader.jpg
-            </h4>
-          </div>
-          <div className="flex flex-col justify-center items-center space-y-6">
-            <img
-              src={`/projects/done/50t-multi-point-bar-spreader.jpg`}
-              width={1500}
-              height={1500}
-              alt="50T Multi-point Bar Spreader"
-              className="h-72 w-96 rounded-2xl object-cover"
-            />
-            <h4 className="font-semibold text-xl">
-              50T Multi-point Bar Spreader.jpg
-            </h4>
-          </div>
-          <div className="flex flex-col justify-center items-center space-y-6">
-            <img
-              src={`/projects/done/50t-multi-point-bar-spreader.jpg`}
-              width={1500}
-              height={1500}
-              alt="50T Multi-point Bar Spreader"
-              className="h-72 w-96 rounded-2xl object-cover"
-            />
-            <h4 className="font-semibold text-xl">
-              50T Multi-point Bar Spreader.jpg
-            </h4>
-          </div>
-          <div className="flex flex-col justify-center items-center space-y-6">
-            <img
-              src={`/projects/done/50t-multi-point-bar-spreader.jpg`}
-              width={1500}
-              height={1500}
-              alt="50T Multi-point Bar Spreader"
-              className="h-72 w-96 rounded-2xl object-cover"
-            />
-            <h4 className="font-semibold text-xl">
-              50T Multi-point Bar Spreader.jpg
-            </h4>
-          </div>
-          <div className="flex flex-col justify-center items-center space-y-6">
-            <img
-              src={`/projects/done/50t-multi-point-bar-spreader.jpg`}
-              width={1500}
-              height={1500}
-              alt="50T Multi-point Bar Spreader"
-              className="h-72 w-96 rounded-2xl object-cover"
-            />
-            <h4 className="font-semibold text-xl">
-              50T Multi-point Bar Spreader.jpg
-            </h4>
-          </div>
-        </div> */}
         <div className="group hover:-translate-y-1 transition-all duration-300 ease-in-out">
           <Link
             href="/projects"

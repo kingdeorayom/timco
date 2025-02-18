@@ -20,44 +20,26 @@ export default function ProjectsPage() {
           exceptional service.
         </p>
 
+        <p className="text-xl text-balance">
+          The following is a list of projects that TIMCO has developed
+          throughout the years.
+        </p>
+
         <div className="p-5">
           <div className="columns-2 gap-5 sm:columns-2 sm:gap-8 md:columns-3 lg:columns-4 [&>img:not(:first-child)]:mt-8">
-            <img
+            {/* <img
               className="h-auto max-w-full rounded-lg"
-              src="/projects/done/50t-multi-point-bar-spreader.jpg"
+              src="/projects/p1.png"
               alt=""
-            />
-            <img
-              className="h-auto max-w-full rounded-lg"
-              src="/projects/done/fabrication-15t-ram-rod.jpg"
-              alt=""
-            />
-            <img
-              className="h-auto max-w-full rounded-lg"
-              src="/projects/done/fabrication-inner-outer-cap-conveyor.jpg"
-              alt=""
-            />
-
-            <img
-              className="h-auto max-w-full rounded-lg"
-              src="/projects/done/fabrication-roller-conveyor.jpg"
-              alt=""
-            />
-            <img
-              className="h-auto max-w-full rounded-lg"
-              src="/projects/done/fabrication-installation-overhead-water-tank.jpg"
-              alt=""
-            />
-            <img
-              className="h-auto max-w-full rounded-lg"
-              src="/projects/done/molasses-palm-oil-tank.jpg"
-              alt=""
-            />
-            <img
-              className="h-auto max-w-full rounded-lg"
-              src="/projects/done/dust-collector.jpg"
-              alt=""
-            />
+            /> */}
+            {Array.from({ length: 32 }).map((_, index) => (
+              <img
+                key={index + 1}
+                className="h-auto max-w-full rounded-lg"
+                src={`/projects/p${index + 1}.png`}
+                alt={index + 1}
+              />
+            ))}
           </div>
         </div>
       </section>

@@ -182,7 +182,10 @@ export default function AboutPage() {
           </p>
         </div>
         <div className="grid md:grid-cols-3 gap-8 py-8">
-          <div className="p-6 pb-10 space-y-6 flex flex-col items-center bg-slate-50 hover:bg-slate-100 transition-all duration-300 ease-in-out rounded-2xl">
+          <div
+            id="business-address"
+            className="p-6 pb-10 space-y-6 flex flex-col items-center bg-slate-50 hover:bg-slate-100 transition-all duration-300 ease-in-out rounded-2xl"
+          >
             <div className="h-14 w-14 flex items-center justify-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -224,7 +227,10 @@ export default function AboutPage() {
             </div>
           </div>
 
-          <div className="p-6 pb-10 space-y-6 flex flex-col items-center bg-slate-50 hover:bg-slate-100 transition-all duration-300 ease-in-out rounded-2xl">
+          <div
+            id="landline-number"
+            className="p-6 pb-10 space-y-6 flex flex-col items-center bg-slate-50 hover:bg-slate-100 transition-all duration-300 ease-in-out rounded-2xl"
+          >
             <div className="h-14 w-14 flex items-center justify-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -263,7 +269,10 @@ export default function AboutPage() {
             </div>
           </div>
 
-          <div className="p-6 pb-10 space-y-6 flex flex-col items-center bg-slate-50 hover:bg-slate-100 transition-all duration-300 ease-in-out rounded-2xl">
+          <div
+            id="mobile-numbers"
+            className="p-6 pb-10 space-y-6 flex flex-col items-center bg-slate-50 hover:bg-slate-100 transition-all duration-300 ease-in-out rounded-2xl"
+          >
             <div className="h-14 w-14 flex items-center justify-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -305,7 +314,10 @@ export default function AboutPage() {
             </div>
           </div>
 
-          <div className="p-6 pb-10 space-y-6 flex flex-col items-center bg-slate-50 hover:bg-slate-100 transition-all duration-300 ease-in-out rounded-2xl">
+          <div
+            id="email-address"
+            className="p-6 pb-10 space-y-6 flex flex-col items-center bg-slate-50 hover:bg-slate-100 transition-all duration-300 ease-in-out rounded-2xl"
+          >
             <div className="h-14 w-14 flex items-center justify-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -344,7 +356,10 @@ export default function AboutPage() {
             </div>
           </div>
 
-          <div className="p-6 pb-10 space-y-6 flex flex-col items-center bg-slate-50 hover:bg-slate-100 transition-all duration-300 ease-in-out rounded-2xl">
+          <div
+            id="social-media"
+            className="p-6 pb-10 space-y-6 flex flex-col items-center bg-slate-50 hover:bg-slate-100 transition-all duration-300 ease-in-out rounded-2xl"
+          >
             <div className="h-14 w-14 flex items-center justify-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"

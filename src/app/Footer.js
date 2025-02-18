@@ -169,31 +169,31 @@ const Footer = () => {
                 </h4>
                 <div className="flex flex-col space-y-3">
                   <Link
-                    href="/about"
+                    href="/about#business-address"
                     className="hover:text-timco-slate transition-all duration-300 ease-in-out"
                   >
                     Business Address
                   </Link>
                   <Link
-                    href="/about"
+                    href="/about#landline-number"
                     className="hover:text-timco-slate transition-all duration-300 ease-in-out"
                   >
                     Landline Number
                   </Link>
                   <Link
-                    href="/about"
+                    href="/about#mobile-numbers"
                     className="hover:text-timco-slate transition-all duration-300 ease-in-out"
                   >
                     Mobile Numbers
                   </Link>
                   <Link
-                    href="/about"
+                    href="/about#email-address"
                     className="hover:text-timco-slate transition-all duration-300 ease-in-out"
                   >
                     Email Address
                   </Link>
                   <Link
-                    href="/about"
+                    href="/about#social-media"
                     className="hover:text-timco-slate transition-all duration-300 ease-in-out"
                   >
                     Social Media

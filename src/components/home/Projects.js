@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -46,9 +45,26 @@ const Projects = () => {
               src="/projects/done/molasses-palm-oil-tank.jpg"
               alt=""
             />
+
             <img
               className="h-auto max-w-full rounded-lg"
               src="/projects/done/dust-collector.jpg"
+              alt=""
+            />
+            <img
+              className="h-auto max-w-full rounded-lg"
+              src="/projects/done/stainless-steel-filter-cage.jpg"
+              alt=""
+            />
+            <img
+              className="h-auto max-w-full rounded-lg"
+              src="/projects/done/4k-stainless-steel-silo.jpg"
+              alt=""
+            />
+
+            <img
+              className="h-auto max-w-full rounded-lg"
+              src="/projects/done/6ka-6kb-stainless-steel-silo.jpg"
               alt=""
             />
           </div>

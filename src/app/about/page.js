@@ -34,7 +34,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="px-5 pt-20 pb-16 mx-auto">
+      <section className="px-5 pt-20 pb-16 mx-auto" id="company-history">
         <div className="grid lg:grid-cols-2 gap-4 lg:gap-10 xl:gap-16">
           <div className="flex justify-center">
             <img
@@ -78,7 +78,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="space-y-16">
+      <section className="space-y-16" id="mission-vision">
         <div className="grid lg:grid-cols-2 gap-4 lg:gap-10 xl:gap-16">
           <div className="flex items-center">
             <div className="space-y-8">
@@ -124,7 +124,10 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="max-w-screen-xl mx-auto py-16 space-y-12 text-center">
+      <section
+        className="max-w-screen-xl mx-auto py-16 space-y-12 text-center"
+        id="meet-the-team"
+      >
         <div className="space-y-4">
           <h2 className="text-5xl font-bold text-timco-dark-blue">
             Driven by{" "}

@@ -91,71 +91,42 @@ const Footer = () => {
                 </h4>
                 <div className="flex flex-col space-y-3">
                   <Link
-                    href="/about"
+                    href="/services#fabrication"
                     className="hover:text-timco-slate transition-all duration-300 ease-in-out"
                   >
-                    About Us
+                    Fabrication
                   </Link>
                   <Link
-                    href="/about"
+                    href="/services#installation"
                     className="hover:text-timco-slate transition-all duration-300 ease-in-out"
                   >
-                    Company History
+                    Installation
                   </Link>
                   <Link
-                    href="/about"
+                    href="/services#designing"
                     className="hover:text-timco-slate transition-all duration-300 ease-in-out"
                   >
-                    Meet the Team
-                  </Link>
-                  <Link
-                    href="/about"
-                    className="hover:text-timco-slate transition-all duration-300 ease-in-out"
-                  >
-                    Mission and Vision
-                  </Link>
-                  <Link
-                    href="/about"
-                    className="hover:text-timco-slate transition-all duration-300 ease-in-out"
-                  >
-                    Contact Us
+                    Designing
                   </Link>
                 </div>
               </div>
+
               <div className="space-y-4">
                 <h4 className="font-semibold text-lg text-timco-slate">
                   Projects
                 </h4>
                 <div className="flex flex-col space-y-3">
                   <Link
-                    href="/about"
+                    href="/projects"
                     className="hover:text-timco-slate transition-all duration-300 ease-in-out"
                   >
-                    About Us
+                    Project Gallery
                   </Link>
                   <Link
-                    href="/about"
+                    href="/projects#completed"
                     className="hover:text-timco-slate transition-all duration-300 ease-in-out"
                   >
-                    Company History
-                  </Link>
-                  <Link
-                    href="/about"
-                    className="hover:text-timco-slate transition-all duration-300 ease-in-out"
-                  >
-                    Meet the Team
-                  </Link>
-                  <Link
-                    href="/about"
-                    className="hover:text-timco-slate transition-all duration-300 ease-in-out"
-                  >
-                    Mission and Vision
-                  </Link>
-                  <Link
-                    href="/about"
-                    className="hover:text-timco-slate transition-all duration-300 ease-in-out"
-                  >
-                    Contact Us
+                    Completed Projects
                   </Link>
                 </div>
               </div>
@@ -172,31 +143,26 @@ const Footer = () => {
                     About Us
                   </Link>
                   <Link
-                    href="/about"
+                    href="/about#company-history"
                     className="hover:text-timco-slate transition-all duration-300 ease-in-out"
                   >
                     Company History
                   </Link>
                   <Link
-                    href="/about"
+                    href="/about#meet-the-team"
                     className="hover:text-timco-slate transition-all duration-300 ease-in-out"
                   >
                     Meet the Team
                   </Link>
                   <Link
-                    href="/about"
+                    href="/about#mission-vision"
                     className="hover:text-timco-slate transition-all duration-300 ease-in-out"
                   >
                     Mission and Vision
                   </Link>
-                  <Link
-                    href="/about"
-                    className="hover:text-timco-slate transition-all duration-300 ease-in-out"
-                  >
-                    Contact Us
-                  </Link>
                 </div>
               </div>
+
               <div className="space-y-4">
                 <h4 className="font-semibold text-lg text-timco-slate">
                   Contact Us
@@ -206,31 +172,31 @@ const Footer = () => {
                     href="/about"
                     className="hover:text-timco-slate transition-all duration-300 ease-in-out"
                   >
-                    About Us
+                    Business Address
                   </Link>
                   <Link
                     href="/about"
                     className="hover:text-timco-slate transition-all duration-300 ease-in-out"
                   >
-                    Company History
+                    Landline Number
                   </Link>
                   <Link
                     href="/about"
                     className="hover:text-timco-slate transition-all duration-300 ease-in-out"
                   >
-                    Meet the Team
+                    Mobile Numbers
                   </Link>
                   <Link
                     href="/about"
                     className="hover:text-timco-slate transition-all duration-300 ease-in-out"
                   >
-                    Mission and Vision
+                    Email Address
                   </Link>
                   <Link
                     href="/about"
                     className="hover:text-timco-slate transition-all duration-300 ease-in-out"
                   >
-                    Contact Us
+                    Social Media
                   </Link>
                 </div>
               </div>

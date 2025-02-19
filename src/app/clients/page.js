@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function ClientsPage() {
   return (
     <section className="max-w-screen-2xl px-5 pt-16 pb-16 mx-auto space-y-16">

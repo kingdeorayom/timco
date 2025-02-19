@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 export default function AccessibilityPage() {
   return (
     <section className="max-w-screen-xl px-5 py-12 mx-auto space-y-16">
@@ -29,13 +27,13 @@ export default function AccessibilityPage() {
           <p>
             Our testing process involves automatic and manual accessibility
             conformance testing to maximize conformance to{" "}
-            <Link
+            <a
               href="https://www.w3.org/TR/WCAG22/"
               className="text-timco-blue hover:underline"
             >
               Web Content Accessibility Guidelines (WCAG) 2.2 Level AA Success
               Criteria.
-            </Link>
+            </a>
           </p>
         </div>
         <h3 className="text-3xl font-bold">Ultimate Goal</h3>
@@ -61,15 +59,15 @@ export default function AccessibilityPage() {
             (NonVisual Desktop Access) Screen Reader, a free and open-source
             screen reader for Windows. To learn more or download NVDA, please
             visit the following link:{" "}
-            <Link
+            <a
               href="https://www.nvaccess.org/download/"
               className="text-timco-blue hover:underline"
             >
               Download NVDA Screen Reader
-            </Link>
+            </a>
           </p>
         </div>
-        <h3 className="text-3xl font-bold">3rd Party Links and Software</h3>
+        <h3 className="text-3xl font-bold">3rd Party as and Software</h3>
         <div className="space-y-4">
           <p>
             Please note that <strong>TIMCO</strong> website may link to, or

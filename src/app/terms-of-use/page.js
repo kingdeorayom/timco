@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 export default function TermsOfUsePage() {
   return (
     <section className="max-w-screen-xl px-5 py-12 mx-auto space-y-16">
@@ -95,7 +93,7 @@ export default function TermsOfUsePage() {
             punitive 2 damages.
           </p>
         </div>
-        <h3 className="text-2xl font-bold">5. Links to Third-Party Websites</h3>
+        <h3 className="text-2xl font-bold">5. as to Third-Party Websites</h3>
         <div className="space-y-4">
           <p>
             The Website may contain links to third-party websites. TIMCO is not
@@ -125,12 +123,12 @@ export default function TermsOfUsePage() {
           <p>
             If you have any questions about these Terms, please contact us at
             the following contact information listed listed{" "}
-            <Link
+            <a
               href="/about#contact-us"
               className="text-blue-700 hover:underline"
             >
               here
-            </Link>
+            </a>
             .
           </p>
         </div>

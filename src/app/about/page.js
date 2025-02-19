@@ -1,7 +1,3 @@
-import Ender from "@/components/home/Ender";
-import Image from "next/image";
-import Link from "next/link";
-
 export default function AboutPage() {
   return (
     <div className="max-w-screen-2xl px-5 py-12 mx-auto space-y-16">
@@ -14,15 +10,6 @@ export default function AboutPage() {
             Committed to Innovation, Precision, and Customer Satisfaction
           </h1>
         </div>
-        <p className="text-xl text-balance">
-          For 20 years, <strong>TIMCO</strong> has been a trusted partner for
-          businesses seeking top-tier industrial machinery and metal
-          fabrication. We've built long-lasting relationships with our clients,
-          understanding their unique challenges and developing tailored
-          solutions that drive their success. Our two decades of experience have
-          honed our expertise, strengthened our commitment, and solidified our
-          position as a leader in the industry.
-        </p>
         <div className="py-8">
           <img
             src="/mission.jpg"
@@ -32,6 +19,16 @@ export default function AboutPage() {
             className="object-fit rounded-2xl"
           />
         </div>
+        <p className="text-xl text-balance">
+          For 20 years, <strong>TIMCO</strong> has been a trusted partner for
+          businesses seeking top-tier industrial machinery and metal
+          fabrication.
+          {/* We've built long-lasting relationships with our clients,
+          understanding their unique challenges and developing tailored
+          solutions that drive their success. Our two decades of experience have
+          honed our expertise, strengthened our commitment, and solidified our
+          position as a leader in the industry. */}
+        </p>
       </section>
 
       <section className="px-5 pt-20 pb-16 mx-auto" id="company-history">
@@ -83,7 +80,7 @@ export default function AboutPage() {
           <div className="flex items-center">
             <div className="space-y-8">
               <h2 className="text-5xl font-bold">Our Mission</h2>
-              <p className="text-timco-content">
+              <p>
                 TIMCO will exceed the customer’s expectations by providing
                 reliable and cost-effective solutions through strong business
                 associations, quality product solutions, dedicated employees,
@@ -115,7 +112,7 @@ export default function AboutPage() {
           <div className="flex items-center">
             <div className="space-y-8">
               <h2 className="text-5xl font-bold">Our Vision</h2>
-              <p className="text-timco-content">
+              <p>
                 To be the preferred supplier of metal and steel fabrication
                 solutions.
               </p>
@@ -165,7 +162,50 @@ export default function AboutPage() {
         </p>
       </section>
 
-      <Ender />
+      <section className="max-w-screen-2xl mx-auto space-y-16 py-10 p-8 md:p-20 rounded-2xl">
+        <div className="grid lg:grid-cols-2 gap-4 lg:gap-10 xl:gap-16">
+          <div>
+            <img
+              src="/mission.jpg"
+              alt="Test"
+              width={1920}
+              height={1080}
+              className="object-fit rounded-2xl"
+            />
+          </div>
+          <div className="space-y-8">
+            <h2 className="text-5xl font-bold">
+              Interested in learning more about products and solutions from
+              TIMCO?
+            </h2>
+            <p className="text-timco-content">
+              We offer a wide range of industrial machinery and metal
+              fabrication solutions tailored to meet your specific needs. From
+              standard equipment to custom designs, we have the expertise and
+              capabilities to deliver exceptional results.
+            </p>
+            <p className="text-timco-content">
+              Contact us today to explore our comprehensive product offerings
+              and discover how we can contribute to your success.
+            </p>
+            <div className="group hover:-translate-y-1 transition-all duration-300 ease-in-out">
+              <a
+                href="/services"
+                className="text-timco-red transition-all duration-300 ease-in-out flex items-center group-hover:text-timco-slate font-bold"
+              >
+                Check our services{" "}
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 448 512"
+                  className="fill-timco-red group-hover:fill-timco-slate h-4 w-4 ms-2 transition-all duration-300 ease-in-out"
+                >
+                  <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <section
         id="contact-us"
@@ -201,16 +241,16 @@ export default function AboutPage() {
               LAGUNA
             </p>
             {/* <div className="pt-2 pb-1">
-              <Link
+              <a
                 href="https://maps.app.goo.gl/aXckmT7CCNyUxVCPA"
                 target="_blank"
                 className="hover:bg-timco-darkfill-timco-dark-blue bg-timco-white border-2 hover:border-timco-darkfill-timco-dark-blue border-slate-500 hover:text-timco-white text-timco-slate font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out"
               >
                 Visit our site
-              </Link>
+              </a>
             </div> */}
             <div className="group hover:-translate-y-1 transition-all duration-300 ease-in-out">
-              <Link
+              <a
                 href="https://maps.app.goo.gl/aXckmT7CCNyUxVCPA"
                 target="_blank"
                 className="text-timco-red transition-all duration-300 ease-in-out flex items-center group-hover:text-timco-slate font-bold"
@@ -223,7 +263,7 @@ export default function AboutPage() {
                 >
                   <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
                 </svg>
-              </Link>
+              </a>
             </div>
           </div>
 
@@ -244,16 +284,16 @@ export default function AboutPage() {
             <p>775-34-92</p>
 
             {/* <div className="pt-2 pb-1">
-              <Link
+              <a
                 href="tel:7753492"
                 className="hover:bg-timco-darkfill-timco-dark-blue bg-timco-white border-2 hover:border-timco-darkfill-timco-dark-blue border-slate-500 hover:text-timco-white text-timco-slate font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out"
               >
                 Call Us
-              </Link>
+              </a>
             </div> */}
 
             <div className="group hover:-translate-y-1 transition-all duration-300 ease-in-out">
-              <Link
+              <a
                 href="tel:7753492"
                 className="text-timco-red transition-all duration-300 ease-in-out flex items-center group-hover:text-timco-slate font-bold"
               >
@@ -265,7 +305,7 @@ export default function AboutPage() {
                 >
                   <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
                 </svg>
-              </Link>
+              </a>
             </div>
           </div>
 
@@ -289,16 +329,16 @@ export default function AboutPage() {
             </p>
 
             {/* <div className="pt-2 pb-1">
-              <Link
+              <a
                 href="tel:0917870675"
                 className="hover:bg-timco-darkfill-timco-dark-blue bg-timco-white border-2 hover:border-timco-darkfill-timco-dark-blue border-slate-500 hover:text-timco-white text-timco-slate font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out"
               >
                 Send us a message
-              </Link>
+              </a>
             </div> */}
 
             <div className="group hover:-translate-y-1 transition-all duration-300 ease-in-out">
-              <Link
+              <a
                 href="tel:0917870675"
                 className="text-timco-red transition-all duration-300 ease-in-out flex items-center group-hover:text-timco-slate font-bold"
               >
@@ -310,7 +350,7 @@ export default function AboutPage() {
                 >
                   <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
                 </svg>
-              </Link>
+              </a>
             </div>
           </div>
 
@@ -331,16 +371,16 @@ export default function AboutPage() {
             <p>sales@timcoph.com</p>
 
             {/* <div className="pt-2 pb-1">
-              <Link
+              <a
                 href="mailto:sales@timcoph.com"
                 className="hover:bg-timco-darkfill-timco-dark-blue bg-timco-white border-2 hover:border-timco-darkfill-timco-dark-blue border-slate-500 hover:text-timco-white text-timco-slate font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out"
               >
                 Send us an e-mail
-              </Link>
+              </a>
             </div> */}
 
             <div className="group hover:-translate-y-1 transition-all duration-300 ease-in-out">
-              <Link
+              <a
                 href="mailto:sales@timcoph.com"
                 className="text-timco-red transition-all duration-300 ease-in-out flex items-center group-hover:text-timco-slate font-bold"
               >
@@ -352,7 +392,7 @@ export default function AboutPage() {
                 >
                   <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
                 </svg>
-              </Link>
+              </a>
             </div>
           </div>
 
@@ -373,16 +413,16 @@ export default function AboutPage() {
             <p>@timcocorp</p>
 
             {/* <div className="pt-2 pb-1">
-              <Link
+              <a
                 href="#"
                 className="hover:bg-timco-darkfill-timco-dark-blue bg-timco-white border-2 hover:border-timco-darkfill-timco-dark-blue border-slate-500 hover:text-timco-white text-timco-slate font-bold py-2 px-4 rounded-full transition-all duration-300 ease-in-out"
               >
                 Follow Us
-              </Link>
+              </a>
             </div> */}
 
             <div className="group hover:-translate-y-1 transition-all duration-300 ease-in-out">
-              <Link
+              <a
                 href="#"
                 className="text-timco-red transition-all duration-300 ease-in-out flex items-center group-hover:text-timco-slate font-bold"
               >
@@ -394,7 +434,7 @@ export default function AboutPage() {
                 >
                   <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
                 </svg>
-              </Link>
+              </a>
             </div>
           </div>
         </div>

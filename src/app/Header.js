@@ -1,8 +1,6 @@
 "use client";
 
-import Image from "next/image";
-import Link from "next/link";
-import React, { useState } from "react";
+import { useState } from "react";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -12,7 +10,7 @@ const Header = () => {
       <div className="bg-timco-white py-6">
         <div className="max-w-screen-2xl px-5 mx-auto flex justify-between items-center">
           <div className="flex items-center space-x-8">
-            <Link href="/" className="hover:opacity-90">
+            <a href="/" className="hover:opacity-90">
               <div className="bg-timco-white px-1 rounded-sm">
                 <img
                   src={"/timco.png"}
@@ -22,56 +20,56 @@ const Header = () => {
                   className="w-36 md:w-40"
                 />
               </div>
-            </Link>
+            </a>
             <nav className="hidden md:block">
               <ul className="flex space-x-8">
                 <li>
-                  <Link
+                  <a
                     href="/services"
                     aria-label="Go to Services page"
                     className="transition-all duration-100 ease-in-out text-timco-content hover:border-b-4 hover:border-b-timco-blue hover:pb-2"
                   >
                     Services
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link
+                  <a
                     href="/projects"
                     aria-label="Go to Projects page"
                     className="transition-all duration-100 ease-in-out text-timco-content hover:border-b-4 hover:border-b-timco-blue hover:pb-2"
                   >
                     Projects
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link
+                  <a
                     href="/clients"
                     aria-label="Go to Clients page"
                     className="transition-all duration-100 ease-in-out text-timco-content hover:border-b-4 hover:border-b-timco-blue hover:pb-2"
                   >
                     Clients
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link
+                  <a
                     href="/about"
                     aria-label="Go to About page"
                     className="transition-all duration-100 ease-in-out text-timco-content hover:border-b-4 hover:border-b-timco-blue hover:pb-2"
                   >
                     Company
-                  </Link>
+                  </a>
                 </li>
               </ul>
             </nav>
           </div>
 
           <div className="hidden md:flex">
-            <Link
+            <a
               href="/about#contact-us"
               className="hover:bg-timco-dark-blue bg-timco-white border-2 border-timco-slate hover:border-timco-dark-blue hover:text-timco-white text-timco-slate font-bold px-4 rounded-md transition-all duration-300 ease-in-out flex items-center h-10"
             >
               Contact Us
-            </Link>
+            </a>
           </div>
 
           <div
@@ -100,7 +98,7 @@ const Header = () => {
               onClick={(e) => e.stopPropagation()}
             >
               <div className="flex items-center justify-between mt-1">
-                <Link href="/" className="hover:opacity-90">
+                <a href="/" className="hover:opacity-90">
                   <div className="bg-timco-white px-1 rounded-sm">
                     <img
                       src={"/timco.png"}
@@ -110,7 +108,7 @@ const Header = () => {
                       className="w-36 md:w-40"
                     />
                   </div>
-                </Link>
+                </a>
                 <button onClick={() => setIsMenuOpen(false)}>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -126,7 +124,7 @@ const Header = () => {
                 <ul className="flex flex-col space-y-7 text-lg text-gray-700">
                   {["services", "projects", "clients", "about"].map((item) => (
                     <li key={item}>
-                      <Link
+                      <a
                         href={`/${item}`}
                         className="group transition-all duration-100 ease-in-out text-timco-content hover:font-bold hover:text-timco-dark-blue flex items-center justify-between text-xl"
                         onClick={() => setIsMenuOpen(false)}
@@ -141,17 +139,17 @@ const Header = () => {
                         >
                           <path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
                         </svg>
-                      </Link>
+                      </a>
                     </li>
                   ))}
                   <li className="pt-4">
-                    <Link
+                    <a
                       href="/about#contact-us"
                       className="block bg-timco-dark-blue text-timco-white px-4 py-2 rounded-md text-center hover:bg-timco-white border-2 border-timco-dark-blue transition-all duration-300 ease-in-out hover:text-timco-dark-blue font-semibold"
                       onClick={() => setIsMenuOpen(false)}
                     >
                       Contact Us
-                    </Link>
+                    </a>
                   </li>
                 </ul>
               </nav>

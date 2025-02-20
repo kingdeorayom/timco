@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: "Lexend Deca", serif;
+}
+
+@layer base {
+    :root {  
+      --timco-red: #d50032;
+      --timco-blue: #2538fe;
+      --timco-dark-blue: #071076;
+      --timco-slate: #1d3456;
+      --timco-orange: #ff7920;
+      --timco-content: #575757;
+      --timco-white: #ffffff;
+      --timco-off-white: #f8f9fa;
+    }  
+  }
+   

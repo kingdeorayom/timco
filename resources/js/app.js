@@ -4,9 +4,6 @@ $(document).ready(function () {
     $("#menuToggleButton, #closeMenuButton").click(function () {
         $("#mobileMenu").toggleClass("opacity-0 invisible");
     });
-});
-
-$(document).ready(function () {
     $("ul li").click(function () {
         $("ul li")
             .removeClass(

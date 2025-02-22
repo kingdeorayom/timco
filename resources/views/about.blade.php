@@ -14,7 +14,7 @@
     </div>
     <div class="py-8">
       <img
-        src="/images/mission.jpg"
+        src="/images/corporation.jpg"
         alt="Test"
         width="1920"
         height="1080"
@@ -31,7 +31,7 @@
     <div class="grid lg:grid-cols-2 gap-4 lg:gap-10 xl:gap-16">
       <div class="flex justify-center">
         <img
-          src="/images/mission.jpg"
+          src="/images/corporation.jpg"
           alt="Test"
           width="1920"
           height="1080"

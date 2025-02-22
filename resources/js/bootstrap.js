@@ -7,10 +7,15 @@
 import axios from "axios";
 import jQuery from "jquery";
 
+import { Fancybox } from "@fancyapps/ui";
+import "@fancyapps/ui/dist/fancybox/fancybox.css";
+
 window.$ = jQuery;
 
 window.axios = axios;
 window.axios.defaults.headers.common["X-Requested-With"] = "XMLHttpRequest";
+
+Fancybox.bind('[data-fancybox="gallery"]', {});
 
 /**
  * Echo exposes an expressive API for subscribing to channels and listening

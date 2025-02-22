@@ -107,7 +107,7 @@
                     class="h-32 w-32" />
             </div> -->
         </div>
-        <div class="p-8 bg-timco-off-white rounded-2xl">
+        <div class="p-8">
             <p>
                 Our clients come from various industries, including manufacturing,
                 construction, and engineering, all benefiting from our

@@ -28,9 +28,15 @@
         </p>
 
         <div class="p-5">
-            <div class="columns-2 gap-5 sm:columns-2 sm:gap-8 md:columns-3 lg:columns-4 [&>img:not(:first-child)]:mt-8">
+            <div class="grid grid-cols-3 gap-8">
                 @foreach(range(1, 32) as $index)
-                <img loading="lazy" class="h-auto max-w-full rounded-lg" src="{{ asset('images/projects/p' . $index . '.png') }}" alt="Image {{ $index }}">
+                <a
+                    class="h-auto block max-h-full rounded-lg"
+                    data-fancybox="gallery"
+                    data-src="{{ asset('images/projects/p' . $index . '.png') }}"
+                    data-caption="{{ 'Image ' . $index  }}">
+                    <img loading="lazy" class="h-auto max-w-full rounded-lg cursor-pointer hover:opacity-85 transition-all duration-100 ease-in-out" src="{{ asset('images/projects/p' . $index . '.png') }}" alt="Image {{ $index }}">
+                </a>
                 @endforeach
             </div>
         </div>

@@ -34,7 +34,7 @@
   </div>
 </section>
 
-<section class="bg-timco-white px-5 pt-16 pb-4">
+<section class="bg-timco-white px-5 pt-32 pb-16">
   <div class="max-w-screen-2xl mx-auto space-y-16">
     <div class="space-y-4">
       <h3 class="text-center text-timco-red font-bold text-lg">
@@ -48,11 +48,11 @@
       <div>
         <div>
           <img
-            src="/images/mission.jpg"
+            src="/images/corporation.jpg"
             alt="Test"
             width="1920"
             height="1080"
-            class="object-fit rounded-2xl" />
+            class="object-cover rounded-2xl h-72 w-auto" />
         </div>
         <div class="py-5 space-y-4">
           <h2 class="text-3xl font-bold">Corporation</h2>
@@ -81,11 +81,11 @@
       <div>
         <div>
           <img
-            src="/images/mission.jpg"
+            src="/images/metal-steel-fabrication.jpg"
             alt="Test"
             width="1920"
             height="1080"
-            class="object-fit rounded-2xl" />
+            class="object-cover rounded-2xl h-72 w-auto" />
         </div>
         <div class="py-5 space-y-4">
           <h2 class="text-3xl font-bold">
@@ -117,11 +117,11 @@
       <div>
         <div>
           <img
-            src="/images/mission.jpg"
+            src="/images/engineering-services.jpg"
             alt="Test"
             width="1920"
             height="1080"
-            class="object-fit rounded-2xl" />
+            class="object-cover rounded-2xl h-72 w-auto" />
         </div>
         <div class="py-5 space-y-4">
           <h2 class="text-3xl font-bold">Engineering Services</h2>
@@ -382,117 +382,118 @@
 </section>
 
 <section class="max-w-screen-2xl px-5 pt-16 pb-16 mx-auto space-y-16">
+  <h2 class="xl:hidden text-5xl font-bold">Trusted by Industry Leaders</h2>
   <div class="grid xl:grid-cols-2 gap-16 xl:gap-16">
-    <div class="flex flex-col items-center justify-center">
+    <!-- <div class="flex flex-col items-center justify-center">
       <img
         src="/images/mission.jpg"
         alt="Test"
         width="1920"
         height="1080"
         class="object-fit rounded-2xl" />
+    </div> -->
+    <div class="flex flex-wrap items-center justify-center gap-8">
+      <div class="bg-timco-white rounded-2xl">
+        <img
+          src="/images/clients/bsbs.png"
+          width="1500"
+          height="1500"
+          alt="Big Smile Bread Station"
+          class="h-24 w-24" />
+      </div>
+      <div class="bg-timco-white rounded-2xl">
+        <img
+          src="/images/clients/ccp.png"
+          width="1500"
+          height="1500"
+          alt="CCP"
+          class="h-24 w-24" />
+      </div>
+      <div class="bg-timco-white rounded-2xl">
+        <img
+          src="/images/clients/doxo.png"
+          width="1500"
+          height="1500"
+          alt="Doxo"
+          class="h-24 w-24" />
+      </div>
+
+      <div class="bg-timco-white rounded-2xl">
+        <img
+          src="/images/clients/ekpi.png"
+          width="1500"
+          height="1500"
+          alt="EKPI"
+          class="h-24 w-24" />
+      </div>
+      <div class="bg-timco-white rounded-2xl">
+        <img
+          src="/images/clients/gardenia.png"
+          width="1500"
+          height="1500"
+          alt="Gardenia"
+          class="h-24 w-24" />
+      </div>
+      <div class="bg-timco-white rounded-2xl">
+        <img
+          src="/images/clients/hstc.png"
+          width="1500"
+          height="1500"
+          alt="Herma Shipping and Transport Corporation"
+          class="h-24 w-24" />
+      </div>
+
+      <div class="bg-timco-white rounded-2xl">
+        <img
+          src="/images/clients/leslies.png"
+          width="1500"
+          height="1500"
+          alt="Leslie's"
+          class="h-24 w-24" />
+      </div>
+      <div class="bg-timco-white rounded-2xl">
+        <img
+          src="/images/clients/mpi.png"
+          width="1500"
+          height="1500"
+          alt="Mix Plant, Inc."
+          class="h-24 w-24" />
+      </div>
+      <div class="bg-timco-white rounded-2xl">
+        <img
+          src="/images/clients/nutrimax.png"
+          width="1500"
+          height="1500"
+          alt="Nutrimax"
+          class="h-24 w-24" />
+      </div>
+      <div class="bg-timco-white rounded-2xl">
+        <img
+          src="/images/clients/pfbp.png"
+          width="1500"
+          height="1500"
+          alt="Philfoods Fresh-Baked Products, Inc."
+          class="h-24 w-24" />
+      </div>
+      <div class="bg-timco-white rounded-2xl">
+        <img
+          src="/images/clients/pps.png"
+          width="1500"
+          height="1500"
+          alt="PPS"
+          class="h-24 w-24" />
+      </div>
+      <div class="bg-timco-white rounded-2xl">
+        <img
+          src="/images/clients/smdc.png"
+          width="1500"
+          height="1500"
+          alt="Snow Mountain Dairy Corporation"
+          class="h-24 w-24" />
+      </div>
     </div>
     <div class="space-y-8">
-      <h2 class="text-5xl font-bold">Trusted by Industry Leaders</h2>
-      <div class="flex flex-wrap items-center justify-center gap-8">
-        <div class="bg-timco-white rounded-2xl">
-          <img
-            src="/images/clients/bsbs.png"
-            width="1500"
-            height="1500"
-            alt="Big Smile Bread Station"
-            class="h-24 w-24" />
-        </div>
-        <div class="bg-timco-white rounded-2xl">
-          <img
-            src="/images/clients/ccp.png"
-            width="1500"
-            height="1500"
-            alt="CCP"
-            class="h-24 w-24" />
-        </div>
-        <div class="bg-timco-white rounded-2xl">
-          <img
-            src="/images/clients/doxo.png"
-            width="1500"
-            height="1500"
-            alt="Doxo"
-            class="h-24 w-24" />
-        </div>
-
-        <div class="bg-timco-white rounded-2xl">
-          <img
-            src="/images/clients/ekpi.png"
-            width="1500"
-            height="1500"
-            alt="EKPI"
-            class="h-24 w-24" />
-        </div>
-        <div class="bg-timco-white rounded-2xl">
-          <img
-            src="/images/clients/gardenia.png"
-            width="1500"
-            height="1500"
-            alt="Gardenia"
-            class="h-24 w-24" />
-        </div>
-        <div class="bg-timco-white rounded-2xl">
-          <img
-            src="/images/clients/hstc.png"
-            width="1500"
-            height="1500"
-            alt="Herma Shipping and Transport Corporation"
-            class="h-24 w-24" />
-        </div>
-
-        <div class="bg-timco-white rounded-2xl">
-          <img
-            src="/images/clients/leslies.png"
-            width="1500"
-            height="1500"
-            alt="Leslie's"
-            class="h-24 w-24" />
-        </div>
-        <div class="bg-timco-white rounded-2xl">
-          <img
-            src="/images/clients/mpi.png"
-            width="1500"
-            height="1500"
-            alt="Mix Plant, Inc."
-            class="h-24 w-24" />
-        </div>
-        <div class="bg-timco-white rounded-2xl">
-          <img
-            src="/images/clients/nutrimax.png"
-            width="1500"
-            height="1500"
-            alt="Nutrimax"
-            class="h-24 w-24" />
-        </div>
-        <div class="bg-timco-white rounded-2xl">
-          <img
-            src="/images/clients/pfbp.png"
-            width="1500"
-            height="1500"
-            alt="Philfoods Fresh-Baked Products, Inc."
-            class="h-24 w-24" />
-        </div>
-        <div class="bg-timco-white rounded-2xl">
-          <img
-            src="/images/clients/pps.png"
-            width="1500"
-            height="1500"
-            alt="PPS"
-            class="h-24 w-24" />
-        </div>
-        <div class="bg-timco-white rounded-2xl">
-          <img
-            src="/images/clients/smdc.png"
-            width="1500"
-            height="1500"
-            alt="Snow Mountain Dairy Corporation"
-            class="h-24 w-24" />
-        </div>
-      </div>
+      <h2 class="hidden xl:block text-5xl font-bold">Trusted by Industry Leaders</h2>
       <p class="text-timco-content">
         At <strong>TIMCO</strong>, we are honored to work with a diverse
         range of clients who trust us for our expertise, reliability, and

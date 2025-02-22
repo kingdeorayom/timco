@@ -127,7 +127,8 @@
     </div>
     <div class="grid md:grid-cols-2 gap-8 py-10">
       <div class="flex justify-center items-center flex-col space-y-16">
-        <div class="bg-timco-white rounded-full h-48 w-48 md:h-64 md:w-64 border-2 border-slate-600"></div>
+        <!-- <div class="bg-timco-white rounded-full h-48 w-48 md:h-64 md:w-64 border-2 border-slate-600"></div> -->
+        <img src="/images/ronnel-mendoza.png" alt="Ronnel Mendoza" class="rounded-full h-48 w-48 md:h-64 md:w-64 border-2 border-slate-600 object-fit" />
         <div class="text-center">
           <h3 class="font-bold text-xl text-timco-dark-blue">
             RONNEL MENDOZA
@@ -136,7 +137,8 @@
         </div>
       </div>
       <div class="flex justify-center items-center flex-col space-y-16">
-        <div class="bg-timco-white rounded-full h-48 w-48 md:h-64 md:w-64 border-2 border-slate-600"></div>
+        <!-- <div class="bg-timco-white rounded-full h-48 w-48 md:h-64 md:w-64 border-2 border-slate-600"></div> -->
+        <img src="/images/justine-mendoza.png" alt="Justine Mendoza" class="rounded-full h-48 w-48 md:h-64 md:w-64 border-2 border-slate-600 object-fit" />
         <div class="text-center">
           <h3 class="font-bold text-xl text-timco-dark-blue">
             JUSTINE MENDOZA
